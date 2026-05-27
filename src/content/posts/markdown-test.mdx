@@ -1,0 +1,123 @@
+---
+author: oohyees
+pubDatetime: 2026-05-27T17:00:00Z
+title: Markdown 渲染能力测试
+slug: markdown-rendering-test
+featured: false
+draft: false
+tags:
+  - 测试
+description: "测试博客对各种复杂 Markdown 和 MDX 语法的渲染效果。"
+---
+
+import ResponsiveTable from '@/components/ResponsiveTable.astro';
+
+## 目录
+
+本文测试 AstroPaper 对各种 Markdown 语法的渲染能力。
+
+## 代码块
+
+### 语法高亮（TypeScript）
+
+```ts
+interface Post {
+  title: string
+  slug: string
+  tags: string[]
+  draft: boolean
+}
+
+async function getPosts(): Promise<Post[]> {
+  const posts = await fetch("/api/posts")
+  return posts.json()
+}
+```
+
+### 代码 Diff 标注
+
+```ts diff
+async function getPosts(): Promise<Post[]> {
+- const posts = await fetch("/api/v1/posts")
++ const posts = await fetch("/api/v2/posts")
+  return posts.json()
+}
+```
+
+### 代码高亮标注
+
+```ts "getPosts" /fetch/
+async function getPosts(): Promise<Post[]> {
+  const posts = await fetch("/api/v2/posts")
+  return posts.json()
+}
+```
+
+## 表格（响应式）
+
+<ResponsiveTable>
+| 方案 | 托管平台 | 成本 | 适合人群 |
+|------|---------|------|---------|
+| Vercel + Astro | Vercel | 免费 | 开发者 |
+| GitHub Pages + Jekyll | GitHub Pages | 免费 | 极简主义者 |
+| WordPress | 虚拟主机 | ~¥200/年 | 非技术用户 |
+| Notion + Super | Super | ~$12/月 | 效率工具用户 |
+| Hashnode | Hashnode | 免费 | 不想折腾的人 |
+</ResponsiveTable>
+
+## 引用和嵌套
+
+> 代码写得越急，跑得越慢。
+>
+> — 某位不知名的程序员
+
+> 第一条引用
+>> 嵌套引用
+>>> 第三层嵌套
+
+## 列表
+
+### 无序列表
+
+- 前端：Astro、React、Vue
+- 后端：Node.js、Go、Rust
+- 部署：Vercel、Netlify、Docker
+
+### 有序列表
+
+1. 安装 Node.js
+2. 选择模板
+3. `pnpm dev` 启动
+4. 写文章
+5. `git push` 上线
+
+### 任务列表
+
+- [x] 搭建博客框架
+- [x] 配置中文
+- [x] 部署到 Vercel
+- [ ] 绑定自定义域名
+- [ ] 写够 10 篇文章
+
+## 分割线
+
+---
+
+## 内联样式
+
+- **粗体文字**
+- *斜体文字*
+- ~~删除线~~
+- `行内代码`
+- [链接文字](https://github.com/oohyees)
+- H~2~O 下标 和 x^2^ 上标（如不支持会显示原样）
+
+## 图片
+
+![占位图](https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&q=80)
+
+*图片来源：Unsplash*
+
+## 总结
+
+AstroPaper 的 Markdown 渲染能力覆盖了日常写作的绝大部分需求。代码 Diff 和 Highlight 是 Shiki 的独有功能，对技术博客非常实用。
