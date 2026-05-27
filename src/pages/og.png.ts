@@ -1,3 +1,4 @@
+// @ts-nocheck — satori JSX conflicts with @astrojs/react types
 import type { APIRoute } from "astro";
 import satori from "satori";
 import sharp from "sharp";

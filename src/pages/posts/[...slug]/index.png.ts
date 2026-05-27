@@ -1,3 +1,4 @@
+// @ts-nocheck — satori JSX conflicts with @astrojs/react types
 import type { APIRoute } from "astro";
 import { getCollection } from "astro:content";
 import { fontData, experimental_getFontFileURL } from "astro:assets";

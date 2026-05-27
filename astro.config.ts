@@ -24,21 +24,18 @@ import {
 import { transformerFileName } from "./src/utils/transformers/fileName";
 import config from "./astro-paper.config";
 
-const commonRemarkPlugins = [remarkToc, remarkMath, remarkDirective, [remarkCollapse, { test: "Table of contents" }]];
-const commonRehypePlugins = [
-  rehypeSlug,
-  [rehypeAutolinkHeadings, { behavior: "append" }],
-  [rehypeExternalLinks, { target: "_blank", rel: ["noopener", "noreferrer"] }],
-  rehypeKatex,
-];
-
 export default defineConfig({
   site: config.site.url,
   integrations: [
     react(),
     mdx({
-      remarkPlugins: commonRemarkPlugins,
-      rehypePlugins: commonRehypePlugins,
+      remarkPlugins: [remarkToc, remarkMath, remarkDirective, [remarkCollapse, { test: "Table of contents" }]],
+      rehypePlugins: [
+        rehypeSlug,
+        [rehypeAutolinkHeadings, { behavior: "append" }],
+        [rehypeExternalLinks, { target: "_blank", rel: ["noopener", "noreferrer"] }],
+        rehypeKatex,
+      ],
     }),
     sitemap({
       filter: page =>
@@ -53,8 +50,13 @@ export default defineConfig({
     },
   },
   markdown: {
-    remarkPlugins: commonRemarkPlugins,
-    rehypePlugins: commonRehypePlugins,
+    remarkPlugins: [remarkToc, remarkMath, remarkDirective, [remarkCollapse, { test: "Table of contents" }]],
+    rehypePlugins: [
+      rehypeSlug,
+      [rehypeAutolinkHeadings, { behavior: "append" }],
+      [rehypeExternalLinks, { target: "_blank", rel: ["noopener", "noreferrer"] }],
+      rehypeKatex,
+    ],
     shikiConfig: {
       themes: { light: "min-light", dark: "night-owl" },
       defaultColor: false,
