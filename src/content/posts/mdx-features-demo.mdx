@@ -1,0 +1,120 @@
+---
+author: oohyees
+pubDatetime: 2026-05-27T08:00:00Z
+title: MDX 功能演示：组件与数学公式
+slug: mdx-features-demo
+featured: false
+draft: false
+tags:
+  - 测试
+  - MDX
+description: "演示 MDX 的独有能力：嵌入 Astro 组件和 LaTeX 数学公式渲染。"
+---
+
+import ResponsiveTable from '@/components/ResponsiveTable.astro';
+
+## 1. Astro 组件嵌入
+
+这是 MDX 区别于普通 Markdown 的核心能力——在文章中嵌入 Astro 组件。下面是带斑马条纹的响应式表格：
+
+<ResponsiveTable variant="striped">
+| 方案 | 构建时间 | 首页 JS | Lighthouse |
+|------|---------|---------|------------|
+| Next.js | 45s | 87KB | 92 |
+| Gatsby | 120s | 120KB | 85 |
+| Astro | 8s | 0KB | 100 |
+| Hugo | 3s | 0KB | 100 |
+| Jekyll | 5s | 0KB | 99 |
+</ResponsiveTable>
+
+再试试无边框极简表格：
+
+<ResponsiveTable variant="minimal">
+| 语言 | 静态网站生成器 |
+|------|--------------|
+| JavaScript | Astro, Next.js, Gatsby |
+| Go | Hugo |
+| Ruby | Jekyll, Bridgetown |
+| Rust | Zola |
+| Python | Pelican, Lektor |
+</ResponsiveTable>
+
+## 2. LaTeX 数学公式
+
+### 行内公式
+
+爱因斯坦质能方程 $E = mc^2$ 可能是最著名的物理公式。欧拉公式 $e^{i\pi} + 1 = 0$ 则被誉为最优美的数学公式。
+
+### 块级公式
+
+傅里叶变换：
+
+$$
+\hat{f}(\xi) = \int_{-\infty}^{\infty} f(x) e^{-2\pi i \xi x} dx
+$$
+
+矩阵乘法：
+
+$$
+\begin{bmatrix}
+a & b \\
+c & d
+\end{bmatrix}
+\begin{bmatrix}
+x \\
+y
+\end{bmatrix}
+=
+\begin{bmatrix}
+ax + by \\
+cx + dy
+\end{bmatrix}
+$$
+
+Bayes 定理：
+
+$$
+P(A|B) = \frac{P(B|A) \cdot P(A)}{P(B)}
+$$
+
+### 多行公式
+
+$$
+\begin{aligned}
+\nabla \times \vec{\mathbf{B}} - \frac{1}{c} \frac{\partial\vec{\mathbf{E}}}{\partial t} &= \frac{4\pi}{c}\vec{\mathbf{j}} \\
+\nabla \cdot \vec{\mathbf{E}} &= 4\pi\rho \\
+\nabla \times \vec{\mathbf{E}} + \frac{1}{c} \frac{\partial\vec{\mathbf{B}}}{\partial t} &= \vec{\mathbf{0}} \\
+\nabla \cdot \vec{\mathbf{B}} &= 0
+\end{aligned}
+$$
+
+## 3. 代码块 + 数学结合
+
+算法复杂度分析中常用数学记号：
+
+```ts diff
+function fibonacci(n: number): number {
+- // O(2^n) — exponential
++ // O(n) with memoization
+- return n <= 1 ? n : fibonacci(n - 1) + fibonacci(n - 2);
++ const memo = new Map<number, number>();
++ function fib(k: number): number {
++   if (k <= 1) return k;
++   if (memo.has(k)) return memo.get(k)!;
++   const result = fib(k - 1) + fib(k - 2);
++   memo.set(k, result);
++   return result;
++ }
++ return fib(n);
+}
+```
+
+时间复杂度从 $O(2^n)$ 降到 $O(n)$，空间复杂度 $O(n)$。
+
+## 总结
+
+这就是 MDX 相比普通 Markdown 多出的核心能力：
+
+- **嵌入 Astro 组件**：响应式表格、自定义 UI 等，普通 `.md` 做不到
+- **LaTeX 数学公式**：`remark-math` + `rehype-katex` 渲染，支持行内和块级公式
+- **代码块增强**：Shiki 的 diff、highlight 语法在 `.mdx` 中同样可用
