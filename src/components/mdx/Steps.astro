@@ -1,9 +1,15 @@
----
-// Steps.astro — wraps children and passes index
----
-
-<ol class="my-6 space-y-4" style="counter-reset: step 0; list-style: none;">
-  {
-    Astro.props.children
-  }
+<ol class="my-6 space-y-4" style="list-style: none;">
+  <slot />
 </ol>
+
+<style is:global>
+  ol:has(.step-li) {
+    counter-reset: step-num 0;
+  }
+  .step-li {
+    counter-increment: step-num 1;
+  }
+  .step-num::after {
+    content: counter(step-num);
+  }
+</style>

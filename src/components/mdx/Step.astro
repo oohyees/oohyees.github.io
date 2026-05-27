@@ -1,22 +1,6 @@
----
-// Step.astro — each instance self-numbers via a data attr + global CSS
----
-
 <li class="step-li pl-12 relative">
   <span class="step-num absolute left-0 top-0 flex items-center justify-center size-8 rounded-full bg-accent text-accent-foreground text-sm font-bold"></span>
   <div class="text-sm">
     <slot />
   </div>
 </li>
-
-<style is:global>
-  ol {
-    counter-reset: step-num 0;
-  }
-  .step-li {
-    counter-increment: step-num 1;
-  }
-  .step-num::after {
-    content: counter(step-num);
-  }
-</style>
