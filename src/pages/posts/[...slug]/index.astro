@@ -203,6 +203,17 @@ const hasToc = tocHeadings.length >= 2;
     });
   })();
 
+  (function () {
+    var toc = document.querySelector(".toc-sidebar");
+    var comments = document.getElementById("comments-section");
+    if (toc && comments) {
+      var observer = new IntersectionObserver(function (entries) {
+        toc.classList.toggle("!opacity-0", entries[0].isIntersecting);
+      }, { rootMargin: "80px 0px 0px 0px" });
+      observer.observe(comments);
+    }
+  })();
+
   document.addEventListener("astro:after-swap", function () {
     window.scrollTo({ left: 0, top: 0, behavior: "instant" });
   });

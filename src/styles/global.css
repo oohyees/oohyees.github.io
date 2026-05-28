@@ -55,10 +55,11 @@
 @media (min-width: 1280px) {
   .toc-sidebar {
     position: fixed;
-    left: calc(50vw + 380px);
+    left: calc(50vw + 420px);
     top: 96px;
     width: 220px;
     max-height: calc(100vh - 120px);
     overflow-y: auto;
+    transition: opacity 0.25s;
   }
 }
