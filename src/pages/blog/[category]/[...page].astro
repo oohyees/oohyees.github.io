@@ -40,22 +40,26 @@ const nextCat = categoryOrder[(idx + 1) % categoryOrder.length];
   <Header />
 
   <main id="main-content" class="app-layout pb-4">
-    <!-- Title row with prev/next category arrows -->
-    <div class="flex items-baseline gap-3 mt-10 mb-2">
-      <a
-        href={getRelativeLocaleUrl(locale, `blog/${prevCat}`)}
-        class="text-muted-foreground hover:text-accent text-lg transition-colors"
-        aria-label={CATEGORIES[prevCat].label}
-      >&larr;</a>
+    <!-- Title row with fixed prev/next arrows, title centered -->
+    <div class="flex items-baseline mt-10 mb-2">
+      <div class="w-10 shrink-0">
+        <a
+          href={getRelativeLocaleUrl(locale, `blog/${prevCat}`)}
+          class="text-muted-foreground hover:text-accent text-lg transition-colors"
+          aria-label={CATEGORIES[prevCat].label}
+        >&larr;</a>
+      </div>
       <h1
-        class="text-2xl font-semibold sm:text-3xl"
+        class="flex-1 text-center text-2xl font-semibold sm:text-3xl"
         transition:name="category-title"
       >{info.label}</h1>
-      <a
-        href={getRelativeLocaleUrl(locale, `blog/${nextCat}`)}
-        class="text-muted-foreground hover:text-accent text-lg transition-colors"
-        aria-label={CATEGORIES[nextCat].label}
-      >&rarr;</a>
+      <div class="w-10 shrink-0 text-right">
+        <a
+          href={getRelativeLocaleUrl(locale, `blog/${nextCat}`)}
+          class="text-muted-foreground hover:text-accent text-lg transition-colors"
+          aria-label={CATEGORIES[nextCat].label}
+        >&rarr;</a>
+      </div>
     </div>
 
     <!-- Post count + archives link -->
