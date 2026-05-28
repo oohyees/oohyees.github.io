@@ -56,7 +56,7 @@ const navLinks = [
     </a>
 
     <!-- Desktop nav -->
-    <div class="hidden sm:flex items-center gap-0.5">
+    <div class="hidden lg:flex items-center gap-0.5">
       {navLinks.map(link => (
         <a
           href={getRelativeLocaleUrl(locale, link.path)}
@@ -102,7 +102,7 @@ const navLinks = [
     <!-- Mobile menu button -->
     <button
       id="menu-btn"
-      class="sm:hidden size-9 flex items-center justify-center rounded-md text-muted-foreground hover:text-foreground shrink-0"
+      class="lg:hidden size-9 flex items-center justify-center rounded-md text-muted-foreground hover:text-foreground shrink-0"
       aria-label={t.a11y.openMenu}
       aria-expanded="false"
       aria-controls="mobile-menu"
@@ -115,7 +115,7 @@ const navLinks = [
   <!-- Mobile menu -->
   <div
     id="mobile-menu"
-    class="sm:hidden hidden border-border border-b pb-4"
+    class="lg:hidden hidden border-border border-b pb-4"
   >
     <nav class="flex flex-col gap-0.5">
       {navLinks.map(link => (

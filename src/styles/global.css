@@ -42,6 +42,12 @@
   @apply text-accent font-medium;
 }
 
+/* Ensure nav links never wrap or render vertically */
+.app-layout nav a {
+  white-space: nowrap;
+  writing-mode: horizontal-tb;
+}
+
 :target {
   scroll-margin-block: 1rem;
 }
