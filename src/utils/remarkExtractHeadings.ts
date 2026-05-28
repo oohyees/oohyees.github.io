@@ -4,19 +4,20 @@
  */
 import { toString } from "mdast-util-to-string";
 import { visit } from "unist-util-visit";
-import { slugifyStr } from "./slugify";
+import GitHubSlugger from "github-slugger";
 
 const tocLabelPattern = /^(table\s+of\s+contents?|目\s*录)$/i;
 
 export const remarkExtractHeadings = (): any => {
   return (tree: any, file: any) => {
+    const slugger = new GitHubSlugger();
     const headings: { depth: number; text: string; id: string }[] = [];
 
     visit(tree, "heading", (node: any) => {
       if (node.depth === 2 || node.depth === 3) {
         const text = toString(node);
         if (tocLabelPattern.test(text)) return;
-        const id = slugifyStr(text);
+        const id = slugger.slug(text);
         headings.push({ depth: node.depth, text, id });
       }
     });

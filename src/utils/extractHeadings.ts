@@ -1,4 +1,4 @@
-import { slugifyStr } from "./slugify";
+import GitHubSlugger from "github-slugger";
 
 interface TocHeading {
   depth: number;
@@ -8,8 +8,11 @@ interface TocHeading {
 
 const tocLabelPattern = /^(table\s+of\s+contents?|目\s*录)$/i;
 
+const slugger = new GitHubSlugger();
+
 /** Parse ## and ### headings directly from raw markdown content. */
 export function extractHeadings(raw: string): TocHeading[] {
+  slugger.reset();
   const headings: TocHeading[] = [];
   const lines = raw.split("\n");
   for (const line of lines) {
@@ -17,10 +20,9 @@ export function extractHeadings(raw: string): TocHeading[] {
     if (match) {
       const depth = match[1].length;
       const text = match[2].trim();
-      // Strip markdown link syntax to get plain text for matching
       const plainText = text.replace(/\[([^\]]*)\]\([^)]*\)/g, "$1");
       if (tocLabelPattern.test(plainText)) continue;
-      headings.push({ depth, text, id: slugifyStr(plainText) });
+      headings.push({ depth, text, id: slugger.slug(plainText) });
     }
   }
   return headings;

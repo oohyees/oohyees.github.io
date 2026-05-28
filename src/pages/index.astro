@@ -5,7 +5,7 @@ import Layout from "@/layouts/Layout.astro";
 import Header from "@/components/Header.astro";
 import Footer from "@/components/Footer.astro";
 import Socials from "@/components/Socials.astro";
-import { getPostSlug } from "@/utils/getPostPaths";
+import { getPostUrl } from "@/utils/getPostPaths";
 import config from "@/config";
 import dayjs from "dayjs";
 
@@ -13,10 +13,6 @@ const locale = Astro.currentLocale ?? config.site.lang;
 const posts = await getCollection("posts");
 const publishedPosts = posts.filter(p => !p.data.draft);
 
-let totalWords = 0;
-for (const post of publishedPosts) {
-  totalWords += post.data.words || 0;
-}
 const siteBirthday = dayjs("2026-05-27");
 const daysOnline = dayjs().diff(siteBirthday, "day");
 ---
@@ -64,31 +60,6 @@ const daysOnline = dayjs().diff(siteBirthday, "day");
 
     <hr class="border-border" />
 
-    <!-- Education -->
-    <section class="py-8">
-      <h2 class="text-lg font-semibold mb-4">Education</h2>
-      <div class="space-y-4">
-        <div class="flex items-start gap-3">
-          <div class="mt-1.5 size-2 rounded-full bg-accent shrink-0"></div>
-          <div>
-            <p class="text-sm font-medium">学校名称</p>
-            <p class="text-xs text-muted-foreground">专业 · 学位</p>
-            <p class="text-xs text-muted-foreground mt-0.5">Sep 2022 — Present</p>
-          </div>
-        </div>
-        <div class="flex items-start gap-3">
-          <div class="mt-1.5 size-2 rounded-full bg-accent/50 shrink-0"></div>
-          <div>
-            <p class="text-sm font-medium">公司/实验室名称</p>
-            <p class="text-xs text-muted-foreground">职位</p>
-            <p class="text-xs text-muted-foreground mt-0.5">Jul 2024 — Present</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <hr class="border-border" />
-
     <!-- Blog Categories -->
     <section class="py-8">
       <h2 class="text-lg font-semibold mb-4">Blog</h2>
@@ -127,10 +98,6 @@ const daysOnline = dayjs().diff(siteBirthday, "day");
           <div class="text-xs text-muted-foreground mt-0.5">Posts</div>
         </div>
         <div class="rounded-lg border border-border px-3 py-3">
-          <div class="text-xl font-bold text-accent">{totalWords.toLocaleString()}</div>
-          <div class="text-xs text-muted-foreground mt-0.5">Words</div>
-        </div>
-        <div class="rounded-lg border border-border px-3 py-3">
           <a
             href={getRelativeLocaleUrl(locale, "rss.xml")}
             class="text-xl font-bold text-accent hover:underline"
@@ -158,7 +125,7 @@ const daysOnline = dayjs().diff(siteBirthday, "day");
               {publishedPosts.slice(0, 5).map(post => (
                 <li>
                   <a
-                    href={getRelativeLocaleUrl(locale, `posts/${getPostSlug(post.id, post.filePath)}`)}
+                    href={getPostUrl(post.id, post.filePath, locale)}
                     class="flex items-baseline gap-2 text-sm text-muted-foreground hover:text-accent py-1"
                   >
                     <span class="text-xs opacity-50 tabular-nums shrink-0 w-24">
