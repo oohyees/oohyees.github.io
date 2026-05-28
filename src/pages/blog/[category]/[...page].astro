@@ -47,7 +47,10 @@ const nextCat = categoryOrder[(idx + 1) % categoryOrder.length];
         class="text-muted-foreground hover:text-accent text-lg transition-colors"
         aria-label={CATEGORIES[prevCat].label}
       >&larr;</a>
-      <h1 class="text-2xl font-semibold sm:text-3xl">{info.label}</h1>
+      <h1
+        class="text-2xl font-semibold sm:text-3xl"
+        transition:name="category-title"
+      >{info.label}</h1>
       <a
         href={getRelativeLocaleUrl(locale, `blog/${nextCat}`)}
         class="text-muted-foreground hover:text-accent text-lg transition-colors"
@@ -62,7 +65,7 @@ const nextCat = categoryOrder[(idx + 1) % categoryOrder.length];
     </p>
 
     <!-- Post list -->
-    <ul>
+    <ul transition:animate="fade">
       {page.data.map(data => <Card {...data} />)}
     </ul>
   </main>

@@ -63,3 +63,10 @@
     transition: opacity 0.25s;
   }
 }
+
+/* Smooth view transitions between category pages */
+::view-transition-old(category-title),
+::view-transition-new(category-title) {
+  animation-duration: 200ms;
+  animation-timing-function: ease-out;
+}
