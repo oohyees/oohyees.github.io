@@ -23,6 +23,11 @@ const posts = defineCollection({
       timezone: z.string().optional(),
       minutesRead: z.number().optional(),
       words: z.number().optional(),
+      headings: z.array(z.object({
+        depth: z.number(),
+        text: z.string(),
+        id: z.string(),
+      })).optional(),
     }),
 });
 

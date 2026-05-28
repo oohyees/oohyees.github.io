@@ -22,6 +22,7 @@ import {
 import { transformerFileName } from "./src/utils/transformers/fileName";
 import { remarkDirectiveHandler } from "./src/utils/remarkDirectiveHandler";
 import { remarkReadingTime } from "./src/utils/remarkReadingTime";
+import { remarkExtractHeadings } from "./src/utils/remarkExtractHeadings";
 import config from "./astro-paper.config";
 
 export default defineConfig({
@@ -29,7 +30,7 @@ export default defineConfig({
   integrations: [
     react(),
     mdx({
-      remarkPlugins: [remarkReadingTime, remarkMath, remarkDirective, remarkDirectiveHandler],
+      remarkPlugins: [remarkExtractHeadings, remarkReadingTime, remarkMath, remarkDirective, remarkDirectiveHandler],
       rehypePlugins: [
         rehypeSlug,
         [rehypeAutolinkHeadings, { behavior: "append" }],
@@ -50,7 +51,7 @@ export default defineConfig({
     },
   },
   markdown: {
-    remarkPlugins: [remarkReadingTime, remarkMath, remarkDirective, remarkDirectiveHandler],
+    remarkPlugins: [remarkExtractHeadings, remarkReadingTime, remarkMath, remarkDirective, remarkDirectiveHandler],
     rehypePlugins: [
       rehypeSlug,
       [rehypeAutolinkHeadings, { behavior: "append" }],
