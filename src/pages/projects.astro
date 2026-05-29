@@ -8,7 +8,7 @@ import Footer from "@/components/Footer.astro";
 import config from "@/config";
 
 const page = await getEntry("pages", "projects");
-if (!page) throw new Error("Missing: projects.md in src/content/pages/");
+if (!page) throw new Error("Missing: projects.mdx in src/content/pages/");
 const { Content } = await render(page);
 ---
 

@@ -8,7 +8,7 @@ import Footer from "@/components/Footer.astro";
 import config from "@/config";
 
 const page = await getEntry("pages", "links");
-if (!page) throw new Error("Missing: links.md in src/content/pages/");
+if (!page) throw new Error("Missing: links.mdx in src/content/pages/");
 const { Content } = await render(page);
 ---
 

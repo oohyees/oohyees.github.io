@@ -10,7 +10,7 @@ import config from "@/config";
 const page = await getEntry("pages", "academic");
 
 if (!page) {
-  throw new Error("Missing: academic.md in src/content/pages/");
+  throw new Error("Missing: academic.mdx in src/content/pages/");
 }
 
 const { Content } = await render(page);

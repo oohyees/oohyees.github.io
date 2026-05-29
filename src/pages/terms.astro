@@ -8,7 +8,7 @@ import Footer from "@/components/Footer.astro";
 import config from "@/config";
 
 const page = await getEntry("pages", "terms");
-if (!page) throw new Error("Missing: terms.md in src/content/pages/");
+if (!page) throw new Error("Missing: terms.mdx in src/content/pages/");
 const { Content } = await render(page);
 ---
 
