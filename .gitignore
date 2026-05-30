@@ -25,4 +25,7 @@ pnpm-debug.log*
 
 # pagefind
 public/pagefind
+
+# generated calendar
+public/calendar/csbaoyan-ddl.ics
 .vercel
