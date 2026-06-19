@@ -37725,15 +37725,19 @@ DTEND:20260614T000000
 SUMMARY:DDL｜中国科学院｜中国科学院工业人工智能研究所
 DESCRIPTION:学校: 中国科学院\\n院系/项目: 中国科学院工业
  人工智能研究所\\n描述: 中国科学院工业人工智能研究所
- 首届“智造未来”暑期优秀大学生夏令营。面向计算机
- 、电子信息、控制工程、人工智能等相关专业的大三学
- 生（2027年毕业），在大学本科阶段学习成绩优秀，有较
- 好的科研潜力，对我所相关方向具有浓厚兴趣，预计可
- 获得所在高校推荐免试研究生资格。预计招收100名营员
- ，截止日期2026-6-13（可能调整）。\\n截止时间: 20260614T000
- 000 (Asia/Shanghai)\\n官网链接: https://mp.weixin.qq.com/s/RldIUi3tfAt
- C3DCyaUHiGg\\n标签: 研究院\\n数据源: camp2026\\n数据来源: http
- s://ddl.csbaoyan.top
+ 首届“智造未来”暑期优秀大学生夏令营，面向计算机
+ 、电子信息、控制工程、人工智能等相关专业2027届本科
+ 毕业生。申请者应在本科阶段学习成绩优秀，具有较好
+ 的科研潜力，对研究所相关方向有浓厚兴趣，并预计可
+ 获得所在高校推荐免试研究生资格。活动预计招收约100
+ 名营员，报名截止为2026年6月13日全天截止后的下一日零
+ 点。该研究所官网同步发布人事处招生通知，研究所地
+ 址位于江苏省南京市江宁区天泉路168号；具体活动时间
+ 、申请材料、入营审核、日程安排和营员待遇以研究所
+ 官方招生信息为准。\\n截止时间: 20260614T000000 (Asia/Shanghai
+ )\\n官网链接: https://mp.weixin.qq.com/s/RldIUi3tfAtC3DCyaUHiGg\\n标
+ 签: 研究院\\n数据源: camp2026\\n数据来源: https://ddl.csbaoyan.
+ top
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 URL:https://mp.weixin.qq.com/s/RldIUi3tfAtC3DCyaUHiGg
@@ -37801,41 +37805,46 @@ TRIGGER;VALUE=DATE-TIME:20260518T110000
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:591e5bf4d7d06345@oohyees.github.io
-DTSTART:20260730T233000
-DTEND:20260731T000000
-SUMMARY:DDL｜南京大学｜人工智能学院LAMDA实验室
-DESCRIPTION:学校: 南京大学\\n院系/项目: 人工智能学院LAMDA
- 实验室\\n描述: _No response_\\n截止时间: 20260731T000000 (Asia/Sh
- anghai)\\n官网链接: http://www.lamda.nju.edu.cn/recruit-2027/recruit-2
- 027.html\\n标签: 华五\\n数据源: camp2026\\n数据来源: https://dd
- l.csbaoyan.top
+UID:061c3b7cc1e8fe28@oohyees.github.io
+DTSTART:20260731T233000
+DTEND:20260801T000000
+SUMMARY:DDL｜南京大学｜LAMDA实验室
+DESCRIPTION:学校: 南京大学\\n院系/项目: LAMDA实验室\\n描述: 
+ LAMDA招收2027年秋季入学研究生（博士生、直博生、硕士
+ 生）。2027年拟招生导师20位，含周志华、俞扬、詹德川
+ 、黎铭、李宇峰、钱超等。LAMDA招收的学生均需取得南京
+ 大学人工智能学院的入学资格，最终须通过推免或考研
+ 获得学院博/硕士生入学资格。申请材料采用Microsoft CMT系
+ 统提交，包含个人简历、本科成绩单、一页纸"研究动机
+ 说明"等。\\n截止时间: 20260801T000000 (Asia/Shanghai)\\n官网链
+ 接: https://www.lamda.nju.edu.cn/recruit-2027/recruit-2027.html\\n标签:
+  华五\\n数据源: camp2026\\n数据来源: https://ddl.csbaoyan.top
 STATUS:CONFIRMED
 TRANSP:OPAQUE
-URL:http://www.lamda.nju.edu.cn/recruit-2027/recruit-2027.html
+URL:https://www.lamda.nju.edu.cn/recruit-2027/recruit-2027.html
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:提醒: DDL｜南京大学｜人工智能学院LAMDA实验室 
- 截止于 20260731T000000 (截止前 7 天)
-TRIGGER;VALUE=DATE-TIME:20260724T000000
+DESCRIPTION:提醒: DDL｜南京大学｜LAMDA实验室 截止于 20260801T
+ 000000 (截止前 7 天)
+TRIGGER;VALUE=DATE-TIME:20260725T000000
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:提醒: DDL｜南京大学｜人工智能学院LAMDA实验室 
- 截止于 20260731T000000 (截止前 3 天)
-TRIGGER;VALUE=DATE-TIME:20260728T000000
+DESCRIPTION:提醒: DDL｜南京大学｜LAMDA实验室 截止于 20260801T
+ 000000 (截止前 3 天)
+TRIGGER;VALUE=DATE-TIME:20260729T000000
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:提醒: DDL｜南京大学｜人工智能学院LAMDA实验室 
- 截止于 20260731T000000 (截止前 1 天)
-TRIGGER;VALUE=DATE-TIME:20260730T000000
+DESCRIPTION:提醒: DDL｜南京大学｜LAMDA实验室 截止于 20260801T
+ 000000 (截止前 1 天)
+TRIGGER;VALUE=DATE-TIME:20260731T000000
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:提醒: DDL｜南京大学｜人工智能学院LAMDA实验室 
- 截止于 20260731T000000 (截止前 6 小时)
-TRIGGER;VALUE=DATE-TIME:20260730T180000
+DESCRIPTION:提醒: DDL｜南京大学｜LAMDA实验室 截止于 20260801T
+ 000000 (截止前 6 小时)
+TRIGGER;VALUE=DATE-TIME:20260731T180000
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
@@ -37880,49 +37889,6 @@ ACTION:DISPLAY
 DESCRIPTION:提醒: DDL｜中国科学院｜计算技术研究所 截止于
   20260518T120000 (截止前 6 小时)
 TRIGGER;VALUE=DATE-TIME:20260518T060000
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:061c3b7cc1e8fe28@oohyees.github.io
-DTSTART:20260731T233000
-DTEND:20260801T000000
-SUMMARY:DDL｜南京大学｜LAMDA实验室
-DESCRIPTION:学校: 南京大学\\n院系/项目: LAMDA实验室\\n描述: 
- LAMDA招收2027年秋季入学研究生（博士生、直博生、硕士
- 生）。2027年拟招生导师20位，含周志华、俞扬、詹德川
- 、黎铭、李宇峰、钱超等。LAMDA招收的学生均需取得南京
- 大学人工智能学院的入学资格，最终须通过推免或考研
- 获得学院博/硕士生入学资格。申请材料采用Microsoft CMT系
- 统提交，包含个人简历、本科成绩单、一页纸"研究动机
- 说明"等。\\n截止时间: 20260801T000000 (Asia/Shanghai)\\n官网链
- 接: https://www.lamda.nju.edu.cn/recruit-2027/recruit-2027.html\\n标签:
-  华五\\n数据源: camp2026\\n数据来源: https://ddl.csbaoyan.top
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-URL:https://www.lamda.nju.edu.cn/recruit-2027/recruit-2027.html
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:提醒: DDL｜南京大学｜LAMDA实验室 截止于 20260801T
- 000000 (截止前 7 天)
-TRIGGER;VALUE=DATE-TIME:20260725T000000
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:提醒: DDL｜南京大学｜LAMDA实验室 截止于 20260801T
- 000000 (截止前 3 天)
-TRIGGER;VALUE=DATE-TIME:20260729T000000
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:提醒: DDL｜南京大学｜LAMDA实验室 截止于 20260801T
- 000000 (截止前 1 天)
-TRIGGER;VALUE=DATE-TIME:20260731T000000
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:提醒: DDL｜南京大学｜LAMDA实验室 截止于 20260801T
- 000000 (截止前 6 小时)
-TRIGGER;VALUE=DATE-TIME:20260731T180000
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
@@ -37973,15 +37939,85 @@ TRIGGER;VALUE=DATE-TIME:20260621T180000
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:2519fa13228f9382@oohyees.github.io
+DTSTART:20260620T233000
+DTEND:20260621T000000
+SUMMARY:DDL｜中国科学技术大学｜计算机科学与技术学院
+DESCRIPTION:学校: 中国科学技术大学\\n院系/项目: 计算机科
+ 学与技术学院\\n描述: 中国科学技术大学计算机科学与技
+ 术学院2026年暑期科学营，面向全国高校计算机类专业2027
+ 届优秀本科生。申请者需成绩优异，达到本科就读学校
+ 推荐免试要求，有较强研究能力，对学院现有研究生专
+ 业有浓厚兴趣并有志于在计算机学科领域继续深造。营
+ 员报名截止日期为2026年6月20日，录取名单约6月30日公布
+ ，科学营活动时间为7月15日-19日，线下举办并要求所有
+ 营员全程参加。网上报名通过中国科大研究生报考服务
+ 系统，学院现有研究生专业包括0812计算机科学与技术和0
+ 854电子信息（专业学位）。提交材料包括前两年半成绩
+ 单和专业排名信息、学习或科研类主要获奖证书、发表
+ 论文首页、英语六级证书等证明材料，以及打印签名的
+ 报名表；所有材料扫描为PDF上传系统，不需邮寄。学院
+ 专家组统一进行资格评审和择优遴选，入选名单通过系
+ 统公布；入选者参加时需携带所有提交材料原件及复印
+ 件并承诺全程参与，材料复核不实将取消营员资格。科
+ 学营期间提供伙食补贴和住宿。\\n截止时间: 20260621T000000
+  (Asia/Shanghai)\\n官网链接: https://cs.ustc.edu.cn/2026/0519/c22511a7
+ 41173/page.htm\\n标签: 华五\\n数据源: camp2026\\n数据来源: http
+ s://ddl.csbaoyan.top
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://cs.ustc.edu.cn/2026/0519/c22511a741173/page.htm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜中国科学技术大学｜计算机科学与技
+ 术学院 截止于 20260621T000000 (截止前 7 天)
+TRIGGER;VALUE=DATE-TIME:20260614T000000
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜中国科学技术大学｜计算机科学与技
+ 术学院 截止于 20260621T000000 (截止前 3 天)
+TRIGGER;VALUE=DATE-TIME:20260618T000000
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜中国科学技术大学｜计算机科学与技
+ 术学院 截止于 20260621T000000 (截止前 1 天)
+TRIGGER;VALUE=DATE-TIME:20260620T000000
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜中国科学技术大学｜计算机科学与技
+ 术学院 截止于 20260621T000000 (截止前 6 小时)
+TRIGGER;VALUE=DATE-TIME:20260620T180000
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:c833d9842933e1a6@oohyees.github.io
 DTSTART:20260622T232959
 DTEND:20260622T235959
 SUMMARY:DDL｜中国科学技术大学｜信息科学技术学院
 DESCRIPTION:学校: 中国科学技术大学\\n院系/项目: 信息科学
- 技术学院\\n描述: _No response_\\n截止时间: 20260622T235959 (Asia
- /Shanghai)\\n官网链接: https://sist.ustc.edu.cn/2026/0520/c5142a741203
- /page.htm\\n标签: 华五\\n数据源: camp2026\\n数据来源: https://d
- dl.csbaoyan.top
+ 技术学院\\n描述: 中国科学技术大学信息科学技术学院202
+ 6年信息科学营，面向全国高校信息类、数学类、物理类
+ 、机械类等相关专业的2027届优秀本科毕业生，申请者需
+ 有望取得推免资格，学习成绩优秀且专业成绩排名前15%
+ 。宣讲安排为6月13日9:30在中国科大研究生招生直播间进
+ 行；营员报名日期为2026年5月20日至6月22日，科学营活动
+ 时间为7月7日-9日，线下举办且要求所有营员必须参加。
+ 报名需登录中国科大研究生报考服务系统，选择“推免
+ 生预报名”并选择信息科学技术学院。学院相关招生专
+ 业包括电子科学与技术、信息与通信工程、控制科学与
+ 工程、电子信息专业学位，其中电子信息下设新一代电
+ 子信息技术、通信工程、生物医学工程、人工智能、控
+ 制工程等方向，对应6系电子工程与信息科学系和10系自
+ 动化系。申请材料包括报名登记表、前两年半成绩单、
+ 总成绩排名证明、英语水平证明、获奖/论文/专利等自愿
+ 材料，均需扫描为PDF上传系统，不需邮寄纸质材料。学
+ 院各系专家组将进行资格审核和综合素质测评。\\n截止
+ 时间: 20260622T235959 (Asia/Shanghai)\\n官网链接: https://sist.ustc.
+ edu.cn/2026/0520/c5142a741203/page.htm\\n标签: 华五\\n数据源: camp2
+ 026\\n数据来源: https://ddl.csbaoyan.top
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 URL:https://sist.ustc.edu.cn/2026/0520/c5142a741203/page.htm
@@ -38008,6 +38044,51 @@ ACTION:DISPLAY
 DESCRIPTION:提醒: DDL｜中国科学技术大学｜信息科学技术学
  院 截止于 20260622T235959 (截止前 6 小时)
 TRIGGER;VALUE=DATE-TIME:20260622T175959
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:5b4d244e5ed18d0e@oohyees.github.io
+DTSTART:20260621T233000
+DTEND:20260622T000000
+SUMMARY:DDL｜南方科技大学｜自动化与智能制造学院
+DESCRIPTION:学校: 南方科技大学\\n院系/项目: 自动化与智能
+ 制造学院\\n描述: 1. 活动时间：2026年7-8月（具体时间另
+ 行通知）\n\n2、活动形式：以课题组为单位，进行交流活
+ 动。导师与学生双向自由沟通，可直接与心仪导师一对
+ 一交流，充分展示学术潜力与研究方向。\n\n3、经费支持
+ ：各课题组将为异地学校学生提供部分差旅补贴（深圳
+ 地区高校学生原则上不提供）。具体报销规定请以各课
+ 题组为准。\n\n* 活动安排以最终公布为准，请大家持续
+ 关注；营员须按要求全程准时参加活动。\\n截止时间: 202
+ 60622T000000 (Asia/Shanghai)\\n官网链接: https://aim.sustech.edu.cn/Ar
+ ticle-detail-id-927-typeid-7.html\\n标签: 双非\\n数据源: camp2026\\
+ n数据来源: https://ddl.csbaoyan.top
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://aim.sustech.edu.cn/Article-detail-id-927-typeid-7.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜南方科技大学｜自动化与智能制造学
+ 院 截止于 20260622T000000 (截止前 7 天)
+TRIGGER;VALUE=DATE-TIME:20260615T000000
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜南方科技大学｜自动化与智能制造学
+ 院 截止于 20260622T000000 (截止前 3 天)
+TRIGGER;VALUE=DATE-TIME:20260619T000000
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜南方科技大学｜自动化与智能制造学
+ 院 截止于 20260622T000000 (截止前 1 天)
+TRIGGER;VALUE=DATE-TIME:20260621T000000
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜南方科技大学｜自动化与智能制造学
+ 院 截止于 20260622T000000 (截止前 6 小时)
+TRIGGER;VALUE=DATE-TIME:20260621T180000
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
@@ -38055,49 +38136,6 @@ ACTION:DISPLAY
 DESCRIPTION:提醒: DDL｜浙江大学｜信息与电子工程学院 截止
  于 20260626T000000 (截止前 6 小时)
 TRIGGER;VALUE=DATE-TIME:20260625T180000
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:1798c0909542fccd@oohyees.github.io
-DTSTART:20260619T233000
-DTEND:20260620T000000
-SUMMARY:DDL｜中国科学技术大学｜中国科学技术大学计算机
- 科学与技术学院  暑期科学营筹备组
-DESCRIPTION:学校: 中国科学技术大学\\n院系/项目: 中国科学
- 技术大学计算机科学与技术学院  暑期科学营筹备组\\n描
- 述: _No response_\\n截止时间: 20260620T000000 (Asia/Shanghai)\\n官
- 网链接: https://cs.ustc.edu.cn/2026/0519/c20160a741173/page.htm\\n标
- 签: 华五\\n数据源: camp2026\\n数据来源: https://ddl.csbaoyan.top
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-URL:https://cs.ustc.edu.cn/2026/0519/c20160a741173/page.htm
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:提醒: DDL｜中国科学技术大学｜中国科学技术大
- 学计算机科学与技术学院  暑期科学营筹备组 截止于 2026
- 0620T000000 (截止前 7 天)
-TRIGGER;VALUE=DATE-TIME:20260613T000000
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:提醒: DDL｜中国科学技术大学｜中国科学技术大
- 学计算机科学与技术学院  暑期科学营筹备组 截止于 2026
- 0620T000000 (截止前 3 天)
-TRIGGER;VALUE=DATE-TIME:20260617T000000
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:提醒: DDL｜中国科学技术大学｜中国科学技术大
- 学计算机科学与技术学院  暑期科学营筹备组 截止于 2026
- 0620T000000 (截止前 1 天)
-TRIGGER;VALUE=DATE-TIME:20260619T000000
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:提醒: DDL｜中国科学技术大学｜中国科学技术大
- 学计算机科学与技术学院  暑期科学营筹备组 截止于 2026
- 0620T000000 (截止前 6 小时)
-TRIGGER;VALUE=DATE-TIME:20260619T180000
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
@@ -38210,19 +38248,28 @@ DTSTART:20260623T233000
 DTEND:20260624T000000
 SUMMARY:DDL｜中国科学技术大学｜网络空间安全学院
 DESCRIPTION:学校: 中国科学技术大学\\n院系/项目: 网络空间
- 安全学院\\n描述: 2026年第一届"网信安全"科学营。学院研
- 究方向包括密码学及应用、网络安全（区块链、网络安
- 全协议、无线安全）、系统安全（软件安全、硬件安全
- ）、数据安全（信息隐藏、多媒体安全、隐私计算）、
- 应用安全（人工智能安全、社交网络内容安全、认知安
- 全、多模态感知安全）、量子信息安全等。营员报名：20
- 26年5月20日-6月23日；通知录取名单：2026年7月初；活动时
- 间：预计2026年7月15日开营，全部采用线下方式。招生专
- 业：0839网络空间安全、0854电子信息（085412网络与信息安
- 全）。面向信息类相关专业2027届优秀本科毕业生，专业
- 成绩排名前30%且预计获得推免资格。\\n截止时间: 20260624T
- 000000 (Asia/Shanghai)\\n官网链接: https://cybersec.ustc.edu.cn/2026/0
- 520/c23826a741220/page.htm\\n标签: 华五\\n数据源: camp2026\\n数据
+ 安全学院\\n描述: 中国科学技术大学网络空间安全学院202
+ 6年第一届“网信安全”科学营，学院研究方向包括密码
+ 学及应用、网络安全、系统安全、数据安全、应用安全
+ 、量子信息安全等，涵盖密码工程、区块链、网络安全
+ 协议、软件/硬件安全、信息隐藏、隐私计算、人工智能
+ 安全、社交网络内容安全、认知安全、多模态感知安全
+ 等方向。申请对象为信息类相关专业2027届优秀本科毕业
+ 生，要求学习成绩优秀，原则上专业成绩排名前30%，预
+ 计能获得推免资格，英语水平良好。营员报名时间为2026
+ 年5月20日至6月23日，录取名单7月初通知，活动预计2026年
+ 7月15日开营，具体日程另行通知；活动全部线下进行，
+ 要求营员全程参加。网上报名通过中国科大研究生报考
+ 服务系统“推免生预报名”选择网络空间安全学院。学
+ 院硕士招生专业包括0839网络空间安全和0854电子信息（085
+ 412网络与信息安全）。申请材料包括身份证、报名登记
+ 表、在读证明或学生证、前两年半成绩单和专业排名、
+ 个人简历、外语水平证明、科研/获奖/论文/专利等能力
+ 证明、个人材料汇总PDF等，报名阶段不需邮寄纸质材料
+ ，线下活动时需提交原件或扫描件。未能入营学生仍可
+ 继续联系导师并申请9月推免面试。\\n截止时间: 20260624T00
+ 0000 (Asia/Shanghai)\\n官网链接: https://cybersec.ustc.edu.cn/2026/052
+ 0/c23826a741220/page.htm\\n标签: 华五\\n数据源: camp2026\\n数据
  来源: https://ddl.csbaoyan.top
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -38258,17 +38305,23 @@ DTSTART:20260622T113000
 DTEND:20260622T120000
 SUMMARY:DDL｜北京师范大学｜人工智能学院
 DESCRIPTION:学校: 北京师范大学\\n院系/项目: 人工智能学院\
- \n描述: 人工智能学院2026年优秀大学生夏令营暨大模型创
- 新训练营。活动时间：2026年7月4日-7月8日，线下举办，
- 学院统一安排食宿。以业界需求为背景、以实际项目为
- 导向、以学生实践为主线，引导学生学习大模型相关知
- 识。申请条件：全国高校计算机科学与技术、智能科学
- 与技术、应用数学、软件工程、自动化、信息与通信工
- 程、物理等相关专业2027年7月毕业的在校本科生；学习成
- 绩排名前列、能获得所在学校的推免资格。报名系统：ht
- tps://xly.bnu.edu.cn/xly。\\n截止时间: 20260622T120000 (Asia/Shanghai
- )\\n官网链接: https://mp.weixin.qq.com/s/QlMRYIvMBJXRo9njtSOttw\\n标
- 签: 985\\n数据源: camp2026\\n数据来源: https://ddl.csbaoyan.top
+ \n描述: 北京师范大学人工智能学院2026年优秀大学生夏令
+ 营暨大模型创新训练营，活动时间为2026年7月4日-7月8日
+ ，线下举办，学院统一安排食宿。本次活动以业界需求
+ 为背景、以实际项目为导向、以学生实践为主线，引导
+ 学生学习大模型相关知识并提升解决实际问题的能力。
+ 申请对象为全国高校计算机科学与技术、智能科学与技
+ 术、应用数学、软件工程、自动化、信息与通信工程、
+ 物理等相关专业2027年7月毕业本科生，要求学习成绩排名
+ 前列、能够获得所在学校推免资格并能全程参加。申请
+ 材料包括申请表、个人自述、成绩单和排名、推荐信、
+ 英语水平证明，以及可选的程序设计能力、科研能力和
+ 获奖材料，需合并为PDF上传至北京师范大学夏令营申请
+ 系统；营员名单预计6月24日左右发布，活动不收取费用
+ ，统一提供昌平校园食宿和在营期间意外伤害险，交通
+ 费用自理。\\n截止时间: 20260622T120000 (Asia/Shanghai)\\n官网
+ 链接: https://mp.weixin.qq.com/s/QlMRYIvMBJXRo9njtSOttw\\n标签: 985\\n
+ 数据源: camp2026\\n数据来源: https://ddl.csbaoyan.top
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 URL:https://mp.weixin.qq.com/s/QlMRYIvMBJXRo9njtSOttw
@@ -38343,50 +38396,6 @@ TRIGGER;VALUE=DATE-TIME:20260615T180000
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:2519fa13228f9382@oohyees.github.io
-DTSTART:20260620T233000
-DTEND:20260621T000000
-SUMMARY:DDL｜中国科学技术大学｜计算机科学与技术学院
-DESCRIPTION:学校: 中国科学技术大学\\n院系/项目: 计算机科
- 学与技术学院\\n描述: 2026年暑期科学营。营员报名截止
- 日期：2026年6月20日；公布录取名单：6月30日左右；科学
- 营活动时间：7月15—19日，举办形式为线下，要求所有营
- 员必须参加所有线下活动。学院招生专业：0812计算机科
- 学与技术、0854电子信息（专业学位）。面向全国高校计
- 算机类专业2027届毕业的优秀本科生，达到本科就读学校
- 推荐免试要求的成绩。\\n截止时间: 20260621T000000 (Asia/Shang
- hai)\\n官网链接: https://cs.ustc.edu.cn/2026/0519/c22511a741173/page.h
- tm\\n标签: 华五\\n数据源: camp2026\\n数据来源: https://ddl.csba
- oyan.top
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-URL:https://cs.ustc.edu.cn/2026/0519/c22511a741173/page.htm
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:提醒: DDL｜中国科学技术大学｜计算机科学与技
- 术学院 截止于 20260621T000000 (截止前 7 天)
-TRIGGER;VALUE=DATE-TIME:20260614T000000
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:提醒: DDL｜中国科学技术大学｜计算机科学与技
- 术学院 截止于 20260621T000000 (截止前 3 天)
-TRIGGER;VALUE=DATE-TIME:20260618T000000
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:提醒: DDL｜中国科学技术大学｜计算机科学与技
- 术学院 截止于 20260621T000000 (截止前 1 天)
-TRIGGER;VALUE=DATE-TIME:20260620T000000
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:提醒: DDL｜中国科学技术大学｜计算机科学与技
- 术学院 截止于 20260621T000000 (截止前 6 小时)
-TRIGGER;VALUE=DATE-TIME:20260620T180000
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:c407b1550c4bda81@oohyees.github.io
 DTSTART:20260622T233000
 DTEND:20260623T000000
@@ -38425,134 +38434,2015 @@ TRIGGER;VALUE=DATE-TIME:20260622T180000
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:f913fd1e24819de4@oohyees.github.io
-DTSTART:20260505T113000
-DTEND:20260505T120000
-SUMMARY:DDL｜北京中关村学院｜北京中关村学院
-DESCRIPTION:学校: 北京中关村学院\\n院系/项目: 北京中关村
- 学院\\n描述: _No response_\\n截止时间: 20260505T120000 (Asia/Shang
- hai)\\n官网链接: https://www.bza.edu.cn/detail/acld06aavyiaa8lwsi69ofw
- txdund3k5\\n标签: 联培\\n数据源: camp2027\\n数据来源: https://d
- dl.csbaoyan.top
+UID:1ef2d8bc71b77854@oohyees.github.io
+DTSTART:20260615T163000
+DTEND:20260615T170000
+SUMMARY:DDL｜北京大学｜计算机学院
+DESCRIPTION:学校: 北京大学\\n院系/项目: 计算机学院\\n描述:
+  北京大学计算机学院2026年优秀大学生夏令营，面向计算
+ 机科学与技术学科优秀大学生，2026年7月4日-7日在线下举
+ 行，地点为北京大学燕园校区。活动内容包括学院总体
+ 概览、专题讲座、实验室参观、学院老师和在校研究生
+ 座谈、专业知识与技能测评等，拟招收约400人。营员对
+ 象为全国高校计算机、软件、智能、数学、物理等相关
+ 专业，及有志于从事计算机科学与技术研究的其它专业20
+ 27届本科生；申请者需所在院校具有推免资格，成绩优秀
+ 、综合素质高、对科研有浓厚兴趣，并满足英语四级525
+ 、六级450、专四/专八、PETS5、TOEFL100、GRE320、雅思6.5或相
+ 关英文学术论文等条件之一。报名时间为2026年6月1日至6
+ 月15日17:00，流程包括北大报名系统网报、上传不超过20M
+ 的申请材料PDF、填写问卷星，三步缺一不可。材料包括
+ 夏令营申请表、前五学期成绩单、个人陈述、英语水平
+ 证明、声明、论文/获奖/成果证明等。入营名单预计6月
+ 下旬在学院网站公布并短信/邮件通知，入营后需提交纸
+ 质材料和2封专家推荐信。活动不收费，交通住宿自理，
+ 学院提供校外营员用餐；经济困难营员可凭证明申请住
+ 宿和交通补助。\\n截止时间: 20260615T170000 (Asia/Shanghai)\\n
+ 官网链接: https://cs.pku.edu.cn/info/1051/5810.htm\\n标签: TOP2\\n
+ 数据源: camp2026\\n数据来源: https://ddl.csbaoyan.top
 STATUS:CONFIRMED
 TRANSP:OPAQUE
-URL:https://www.bza.edu.cn/detail/acld06aavyiaa8lwsi69ofwtxdund3k5
+URL:https://cs.pku.edu.cn/info/1051/5810.htm
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:提醒: DDL｜北京中关村学院｜北京中关村学院 截
- 止于 20260505T120000 (截止前 7 天)
-TRIGGER;VALUE=DATE-TIME:20260428T120000
+DESCRIPTION:提醒: DDL｜北京大学｜计算机学院 截止于 20260615
+ T170000 (截止前 7 天)
+TRIGGER;VALUE=DATE-TIME:20260608T170000
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:提醒: DDL｜北京中关村学院｜北京中关村学院 截
- 止于 20260505T120000 (截止前 3 天)
-TRIGGER;VALUE=DATE-TIME:20260502T120000
+DESCRIPTION:提醒: DDL｜北京大学｜计算机学院 截止于 20260615
+ T170000 (截止前 3 天)
+TRIGGER;VALUE=DATE-TIME:20260612T170000
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:提醒: DDL｜北京中关村学院｜北京中关村学院 截
- 止于 20260505T120000 (截止前 1 天)
-TRIGGER;VALUE=DATE-TIME:20260504T120000
+DESCRIPTION:提醒: DDL｜北京大学｜计算机学院 截止于 20260615
+ T170000 (截止前 1 天)
+TRIGGER;VALUE=DATE-TIME:20260614T170000
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:提醒: DDL｜北京中关村学院｜北京中关村学院 截
- 止于 20260505T120000 (截止前 6 小时)
-TRIGGER;VALUE=DATE-TIME:20260505T060000
+DESCRIPTION:提醒: DDL｜北京大学｜计算机学院 截止于 20260615
+ T170000 (截止前 6 小时)
+TRIGGER;VALUE=DATE-TIME:20260615T110000
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:fb285c6189362a97@oohyees.github.io
-DTSTART:20260623T232959
-DTEND:20260623T235959
-SUMMARY:DDL｜中国科学技术大学｜网络空间安全学院
-DESCRIPTION:学校: 中国科学技术大学\\n院系/项目: 网络空间
- 安全学院\\n描述: 2026年第一届“网信安全”科学营由中
- 国科学技术大学网络空间安全学院承办，学院有密码学
- 及应用（密码学、密码工程）、网络安全（区块链、网
- 络安全协议、无线安全）、系统安全（软件安全、硬件
- 安全）、数据安全（信息隐藏、多媒体安全、隐私计算
- ）、应用安全（人工智能安全、社交网络内容安全、认
- 知安全、多模态感知安全）、量子信息安全等研究方向
- ，承担多项国家自然科学基金重点项目、国家重点研发
- 计划项目和课题等，科研成果丰硕。学院积极与研究所
- 、国内外知名高校和企业在产教融合、产学合作、协同
- 育人开展合作，为国家培养大量急需网络安全高端人才
- 。本届科学营将充分利用校内外优秀教育资源，邀请相
- 关领域知名专家、学者，为营员安排开设丰富多彩的学
- 习交流等系列活动。\\n截止时间: 20260623T235959 (Asia/Shanghai
- )\\n官网链接: https://cybersec.ustc.edu.cn/2026/0520/c23826a741220/pag
- e.htm\\n标签: 华五\\n数据源: camp2027\\n数据来源: https://ddl.c
- sbaoyan.top
+UID:6c7808d4379de5bf@oohyees.github.io
+DTSTART:20260625T232959
+DTEND:20260625T235959
+SUMMARY:DDL｜中国科学技术大学｜人工智能与数据科学学院
+DESCRIPTION:学校: 中国科学技术大学\\n院系/项目: 人工智能
+ 与数据科学学院\\n描述: 中国科学技术大学人工智能与数
+ 据科学学院2026年暑期科学营，面向全国高校信息类、数
+ 学类等相关专业2027届优秀本科生。申请者需成绩优异、
+ 达到本科学校推免要求，具备较强研究能力，并对学院
+ 现有研究生专业及人工智能领域继续深造有浓厚兴趣。
+ 报名截止为2026年6月25日，录取营员名单预计6月30日左右
+ 公布，科学营活动时间为7月13日-15日，线下举行且要求
+ 营员全程参加。网上报名通过中国科大研究生报考服务
+ 系统选择“推免生预报名”和人工智能与数据科学学院
+ ；招生专业包括140500智能科学与技术、085400电子信息下
+ 设人工智能和大数据技术与工程。材料包括签名报名表
+ 、前两年半成绩单、总成绩排名证明、英语水平证明、
+ 获奖/论文/专利等学术材料，并需汇总为PDF上传，无需邮
+ 寄纸质材料。\\n截止时间: 20260625T235959 (Asia/Shanghai)\\n官
+ 网链接: https://saids.ustc.edu.cn/2026/0526/c15435a741761/page.htm\\n
+ 标签: 华五\\n数据源: camp2026\\n数据来源: https://ddl.csbaoyan.
+ top
 STATUS:CONFIRMED
 TRANSP:OPAQUE
-URL:https://cybersec.ustc.edu.cn/2026/0520/c23826a741220/page.htm
+URL:https://saids.ustc.edu.cn/2026/0526/c15435a741761/page.htm
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:提醒: DDL｜中国科学技术大学｜网络空间安全学
- 院 截止于 20260623T235959 (截止前 7 天)
-TRIGGER;VALUE=DATE-TIME:20260616T235959
+DESCRIPTION:提醒: DDL｜中国科学技术大学｜人工智能与数据
+ 科学学院 截止于 20260625T235959 (截止前 7 天)
+TRIGGER;VALUE=DATE-TIME:20260618T235959
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:提醒: DDL｜中国科学技术大学｜网络空间安全学
- 院 截止于 20260623T235959 (截止前 3 天)
-TRIGGER;VALUE=DATE-TIME:20260620T235959
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:提醒: DDL｜中国科学技术大学｜网络空间安全学
- 院 截止于 20260623T235959 (截止前 1 天)
+DESCRIPTION:提醒: DDL｜中国科学技术大学｜人工智能与数据
+ 科学学院 截止于 20260625T235959 (截止前 3 天)
 TRIGGER;VALUE=DATE-TIME:20260622T235959
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:提醒: DDL｜中国科学技术大学｜网络空间安全学
- 院 截止于 20260623T235959 (截止前 6 小时)
-TRIGGER;VALUE=DATE-TIME:20260623T175959
+DESCRIPTION:提醒: DDL｜中国科学技术大学｜人工智能与数据
+ 科学学院 截止于 20260625T235959 (截止前 1 天)
+TRIGGER;VALUE=DATE-TIME:20260624T235959
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜中国科学技术大学｜人工智能与数据
+ 科学学院 截止于 20260625T235959 (截止前 6 小时)
+TRIGGER;VALUE=DATE-TIME:20260625T175959
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:423323b1acd375e9@oohyees.github.io
-DTSTART:20260615T233000
-DTEND:20260616T000000
-SUMMARY:DDL｜西安交通大学｜电信学部—软件学院
-DESCRIPTION:学校: 西安交通大学\\n院系/项目: 电信学部—软
- 件学院\\n描述: 电信学部—软件学院2026年（第十届）优
- 秀大学生夏令营通知\n为了促进各高校优秀大学生之间的
- 交流与互动，西安交通大学软件学院将于2026年7月举办第
- 七届软件工程优秀大学生暑期夏令营，让广大优秀学子
- 近距离了解西安交通大学软件学院。欢迎有意向的同学
- 积极报名。\\n截止时间: 20260616T000000 (Asia/Shanghai)\\n官网
- 链接: https://se.xjtu.edu.cn/info/1043/3892.htm\\n标签: C9\\n数据源
- : camp2027\\n数据来源: https://ddl.csbaoyan.top
+UID:666b979cc0a2c8e0@oohyees.github.io
+DTSTART:20260625T233000
+DTEND:20260626T000000
+SUMMARY:DDL｜浙江大学｜计算机学院
+DESCRIPTION:学校: 浙江大学\\n院系/项目: 计算机学院\\n描述:
+  面向全国高校（含本校）2027届优秀本科毕业生（目前为
+ 三年级在校本科生），要求计算机或计算机相近专业，
+ 对科学研究有浓厚兴趣，有较强的研究、创新能力及培
+ 养潜质，欢迎能获得母校的推荐免试资格且有意攻读我
+ 院直博研究生报名。\n\n报名资格：\n\n1. 拥护中国共产党
+ ，热爱祖国，品德优良，遵纪守法，身心健康。\n\n2. 综
+ 合素质突出，学业成绩优秀，本科前三年（或前5学期）
+ 综合成绩排名原则上在本专业前10%；对有出色学术成果
+ 者，学习成绩标准可以适当放宽。\n\n3. 英语水平要求：
+ 大学英语六级460分及以上或WSK（PETS 5）合格或英语专业
+ 八级合格或英语国家获得过学士及以上学位，成绩有效
+ 期五年（指考试时间在2022年6月及以后）；或雅思5.5及以
+ 上或托福80及以上（不认可家庭版和拼分成绩），有效期
+ 参照证书的有效期。\n\n4. 有意向在我院计算机科学与技
+ 术、软件工程、网络空间安全、电子信息等专业参加推
+ 免直博生选拔。\\n截止时间: 20260626T000000 (Asia/Shanghai)\\n
+ 官网链接: http://www.cs.zju.edu.cn/csen/2026/0527/c27011a3167062/page.
+ htm\\n标签: 华五\\n数据源: camp2026\\n数据来源: https://ddl.csb
+ aoyan.top
 STATUS:CONFIRMED
 TRANSP:OPAQUE
-URL:https://se.xjtu.edu.cn/info/1043/3892.htm
+URL:http://www.cs.zju.edu.cn/csen/2026/0527/c27011a3167062/page.htm
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:提醒: DDL｜西安交通大学｜电信学部—软件学院 
- 截止于 20260616T000000 (截止前 7 天)
-TRIGGER;VALUE=DATE-TIME:20260609T000000
+DESCRIPTION:提醒: DDL｜浙江大学｜计算机学院 截止于 20260626
+ T000000 (截止前 7 天)
+TRIGGER;VALUE=DATE-TIME:20260619T000000
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:提醒: DDL｜西安交通大学｜电信学部—软件学院 
- 截止于 20260616T000000 (截止前 3 天)
-TRIGGER;VALUE=DATE-TIME:20260613T000000
+DESCRIPTION:提醒: DDL｜浙江大学｜计算机学院 截止于 20260626
+ T000000 (截止前 3 天)
+TRIGGER;VALUE=DATE-TIME:20260623T000000
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:提醒: DDL｜西安交通大学｜电信学部—软件学院 
- 截止于 20260616T000000 (截止前 1 天)
+DESCRIPTION:提醒: DDL｜浙江大学｜计算机学院 截止于 20260626
+ T000000 (截止前 1 天)
+TRIGGER;VALUE=DATE-TIME:20260625T000000
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜浙江大学｜计算机学院 截止于 20260626
+ T000000 (截止前 6 小时)
+TRIGGER;VALUE=DATE-TIME:20260625T180000
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:da105f7e232e0e6c@oohyees.github.io
+DTSTART:20260702T233000
+DTEND:20260703T000000
+SUMMARY:DDL｜中国科学院沈阳自动化研究所｜中国科学院沈
+ 阳自动化研究所
+DESCRIPTION:学校: 中国科学院沈阳自动化研究所\\n院系/项目
+ : 中国科学院沈阳自动化研究所\\n描述: 沈阳自动化研究
+ 所成立于1958年，是我国最早从事机器人研究的科研机构
+ ，是国家最早批复建设的机器人技术国家工程研究中心
+ ，开创了我国机器人学领域的先河。主要研究方向是机
+ 器人、智能制造与光电信息技术。在自动化科学与工程
+ 领域不断探索，为国民经济、社会发展和国家安全做出
+ 了突出贡献，获得国家、中国科学院、各部委及地方奖
+ 励 394 项。\n\n作为中国机器人事业的摇篮，在中国机器
+ 人事业发展历史上创造了二十多个第一，引领了中国机
+ 器人技术的研究发展，面向机器人与智能制造领域着重
+ 开展创新研究，在机器人学、工业机器人、水下机器人
+ 、空间机器人及自动化、特种机器人、先进光电技术与
+ 系统、无线传感与通信技术、机器人化工艺装备及智能
+ 产线等研究与开发方面取得大批成果，形成技术领先优
+ 势。成功孵化了沈阳新松机器人自动化股份有限公司、
+ 沈阳芯源微电子设备股份有限公司等 10 余家高技术企业
+ 。\n\n为让大学生了解沈阳自动化研究所在机器人、智能
+ 制造和光电信息技术等领域的研究特色和科研实力，感
+ 受科研氛围和研究生培养特色，引导与激发大学生的科
+ 研兴趣和热情，我所将于2026年7月举行大学生夏令营活动
+ \\n截止时间: 20260703T000000 (Asia/Shanghai)\\n官网链接: https://s
+ ia.cas.cn/zpjy/yjsjy/zs/zsgg/202605/t20260525_8208968.html\\n标签: 研
+ 究院\\n数据源: camp2026\\n数据来源: https://ddl.csbaoyan.top
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://sia.cas.cn/zpjy/yjsjy/zs/zsgg/202605/t20260525_8208968.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜中国科学院沈阳自动化研究所｜中国
+ 科学院沈阳自动化研究所 截止于 20260703T000000 (截止前 7 
+ 天)
+TRIGGER;VALUE=DATE-TIME:20260626T000000
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜中国科学院沈阳自动化研究所｜中国
+ 科学院沈阳自动化研究所 截止于 20260703T000000 (截止前 3 
+ 天)
+TRIGGER;VALUE=DATE-TIME:20260630T000000
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜中国科学院沈阳自动化研究所｜中国
+ 科学院沈阳自动化研究所 截止于 20260703T000000 (截止前 1 
+ 天)
+TRIGGER;VALUE=DATE-TIME:20260702T000000
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜中国科学院沈阳自动化研究所｜中国
+ 科学院沈阳自动化研究所 截止于 20260703T000000 (截止前 6 
+ 小时)
+TRIGGER;VALUE=DATE-TIME:20260702T180000
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:6dd163ca858c2215@oohyees.github.io
+DTSTART:20260625T233000
+DTEND:20260626T000000
+SUMMARY:DDL｜中国科学技术大学｜自动化系
+DESCRIPTION:学校: 中国科学技术大学\\n院系/项目: 自动化系\
+ \n描述: 中国科学技术大学自动化系2026年科学营，采用导
+ 师推荐制，只从自动化系2027年招生导师推荐的学生中选
+ 拔营员。科学营报名时不区分学硕和专硕、学科专业，
+ 在中国科大研究生报考服务系统中统一选择一级学科“
+ 控制科学与工程”，实际录取类型与学科专业需与意向
+ 导师确认。申请者需尽快联系导师，由导师于6月25日前
+ 通过邮件向自动化系报送推荐名单；入营结果将通过中
+ 国科大研究生报考服务系统直接通知本人。每位学生只
+ 能由一位导师推荐，若联系多位导师，需要确认唯一推
+ 荐导师。该通知未提供普通材料清单或统一报名表要求
+ ，核心流程为先联系2027年招生导师并完成导师推荐。\\n
+ 截止时间: 20260626T000000 (Asia/Shanghai)\\n官网链接: https://auto
+ .ustc.edu.cn/2026/0520/c26085a741214/page.htm\\n标签: 华五\\n数据源
+ : camp2026\\n数据来源: https://ddl.csbaoyan.top
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://auto.ustc.edu.cn/2026/0520/c26085a741214/page.htm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜中国科学技术大学｜自动化系 截止于
+  20260626T000000 (截止前 7 天)
+TRIGGER;VALUE=DATE-TIME:20260619T000000
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜中国科学技术大学｜自动化系 截止于
+  20260626T000000 (截止前 3 天)
+TRIGGER;VALUE=DATE-TIME:20260623T000000
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜中国科学技术大学｜自动化系 截止于
+  20260626T000000 (截止前 1 天)
+TRIGGER;VALUE=DATE-TIME:20260625T000000
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜中国科学技术大学｜自动化系 截止于
+  20260626T000000 (截止前 6 小时)
+TRIGGER;VALUE=DATE-TIME:20260625T180000
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:8f7fbde397d6fa96@oohyees.github.io
+DTSTART:20260615T163000
+DTEND:20260615T170000
+SUMMARY:DDL｜北京大学｜智能学院
+DESCRIPTION:学校: 北京大学\\n院系/项目: 智能学院\\n描述: 
+ 北京大学智能学院将面向智能科学与技术学科的优秀大
+ 学生举办夏令营活动，活动内容主要包括学院总体概览
+ 、学科前沿报告、专题讲座、专业知识与技能测评等，
+ 活动地址为北京大学燕园校区。\n\n\n\n一、活动时间\n\n20
+ 26年7月2日－4日\n\n\n\n二、营员招收对象\n\n全国各高校计
+ 算机、智能、数学、物理、自动化等相关专业，及有志
+ 于从事智能科学与技术研究工作的其它专业，将于2027年7
+ 月毕业的在校本科生。\n\n申请者须具备的条件：\n\n1. 拥
+ 护中国共产党的领导、愿为祖国建设服务、品德良好、
+ 遵纪守法；\n\n2. 学习成绩优秀，综合素质高；\n\n3. 对所
+ 报学科有浓厚的兴趣，致力于科学研究工作；\n\n4. 英语
+ 水平（符合其中一条即可）：\n\n1) 国家英语四级考试成
+ 绩525分（含）以上（2020年9月1日后参加考试）；\n\n2) 国
+ 家英语六级考试成绩450分（含）以上（2020年9月1日后参
+ 加考试）；\n\n3) 国家英语专业四级或八级考试合格（2020
+ 年9月1日后参加考试）；\n\n4) WSK(PETS 5)考试合格（2020年9
+ 月1日后参加考试）；\n\n5) TOEFL成绩100分（含）以上（IBT
+ ）（2025年9月1日后参加考试），只接受当次考核成绩，
+ 不接受拼分成绩；\n\n6) GRE成绩（语文+数学）320分（含）
+ 以上（2022年9月1日后参加考试）；\n\n7) 雅思成绩（学术
+ 类）6.5分（含）以上（2025年9月1日后参加考试）；\n\n8）
+ 作为第一（非共同一作）或第二作者（导师第一作者）
+ 在报考学科、专业或相近研究领域的期刊或会议发表过
+ 英文学术论文（2020年9月1日后发表）。\n\n\n\n三、拟招收
+ 规模\n\n约100人。\n\n\n\n四、申请材料清单（请按序号顺
+ 序整理材料）\n\n1.“北京大学2026年全国优秀大学生夏令
+ 营申请表”1份；\n\n- 网上填写生成，从报名系统下载打
+ 印，本人亲笔手签，不能使用电子签名。\n\n- 报名系统
+ 中的排名可根据本科学校实际情况填写。如所在学校没
+ 有综合排名，则填写成绩排名，之后在申请表上手写备
+ 注说明。\n\n- 如果所在院系无法在申请表上签字、加盖
+ 公章，请附情况说明。\n\n- 报名系统中每次修改信息，
+ 将会生成新的申请表校验码，请确保最终提交的申请表
+ 上的校验码与网报系统一致。\n\n- 系统中本人姓名及身
+ 份证号码必须准确，提交后不能修改。\n\n- 申请表中请
+ 填报一项符合我院要求成绩的英语水平考试类型，如果
+ 四六级成绩符合要求，请优先填写。\n\n2.个人陈述1份（
+ 从报名系统中下载模板，本人亲笔手签，不能使用电子
+ 签名）；\n\n3.本科前五学期包含所修全部课程的正式成
+ 绩单原件；\n\n4.英语水平证明（官方认证的纸质成绩单
+ ）复印件；\n\n- 如遗失四六级成绩单，请提供官网查询
+ 到的带二维码的电子版成绩单清晰截图。\n\n5.声明（模
+ 板见附件，本人亲笔手签）。\n\n6.体现个人学术水平、
+ 有代表性的学术论文首页复印件，各类获奖证书复印件
+ 或相关证明等。\n\n说明：1）以上1-5为必须项，6由考生
+ 根据自身实际情况提交。\n\n2）须保证所有材料真实有效
+ ，若有虚假取消入营资格与后续活动报名资格。\n\n北京
+ 大学智能学院导师信息：\n\nhttps://sai.pku.edu.cn/szdw/zzjs.htm\
+ n\n\n\n\n五、申请流程（以下三步缺一不可）\n\n1. 网上报
+ 名：\n\n- 网址：https://admission.pku.edu.cn/（请使用Chrome或Fir
+ efox浏览器）\n\n- 报名时间：2026年6月1日上午8:00起至2026
+ 年6月15日下午17:00系统自动关闭。\n\n2.提交电子版材料\n\
+ n- 申请夏令营的同学准备好纸质材料后（包括需要签字
+ 和盖章的部分），将材料（1）到（6）按照申请材料序号
+ 顺序扫描并合并成一个PDF文件（不超过20M，扫描的文件
+ 请去掉各种背景颜色并端正扫描），PDF文件须命名为：
+ “研究方向+导师（博士填系统中报名导师、硕士填意向
+ 导师）+博/硕+申请人姓名”，将准备好的PDF文件上传至
+ 报名系统即可。\n\n- 请务必于2026年6月15日下午17:00前上
+ 传，系统关闭后将无法上传，且不能二次上传和更新。\n
+ \n- 纸质版暂时不交，原件请保存好，入营后需提交纸质
+ 材料，具体另行通知。\n\n注意：扫描件和入营时提交的
+ 纸质版资料原文件必须完全一致，否则取消夏令营资格
+ 。\n\n3. 填写问卷星\n\n- 网上申报成功后，还需填写问卷
+ 星，提交报名信息。网上申报、电子版材料、问卷信息
+ 须保证内容一致。\n\n- 问卷星链接：https://v.wjx.cn/vm/YOHzEk
+ I.aspx\n\n- 请务必于2026年6月15日下午17:00前完成填写。\n\n
+ 【注意事项】\n\n(1)申请流程中的三步缺一不可，否则视
+ 为自动放弃；所有上传信息须完全一致，如发现不一致
+ 将取消夏令营资格；\n\n(2)申请者只能申请院内一个志愿
+ ；\n\n(3)系统中本人姓名及身份证号码必须准确，提交后
+ 不能修改；\n\n(4)申请材料一经收到，恕不退还；\n\n(5)请
+ 务必按照材料要求整理各项材料，例如格式、纸张大小
+ 、签名方式等。\n\n(6)已退出“强基计划”的北京大学学
+ 生及其它学校“强基计划”(含退出)学生请勿报名。\n\n\n
+ \n\n六、材料审核及夏令营资格审定\n\n夏令营材料审核和
+ 夏令营入营资格审定工作由学院专门的工作委员会负责
+ 。夏令营入营名单预计于6月下旬在智能学院网站上公布
+ ，并以短信和邮件方式直接通知本人，请保持手机和邮
+ 件畅通。未入选者，不再另行通知。\n\n入营营员需提交
+ 申请材料清单所列的纸质报名材料和专家推荐信2封，须
+ 在规定时间内快递寄达学院，具体信息将另行通知，请
+ 勿提前邮寄。\n\n(1)纸质报名材料必须与扫描件完全一致
+ ，否则取消夏令营资格；\n\n(2)专家推荐信2封。\n\n- 从报
+ 名系统中下载模板。\n\n- 均需副教授及以上职称或相当
+ 专业技术职称相关专业专家分别推荐，推荐信须密封并
+ 由推荐专家在封口骑缝处签字。\n\n- 推荐信正文内容可
+ 电脑录入，也可以手写，必须专家亲笔签名，不能电子
+ 签名。\n\n- 本校信息科学技术学院（本科生学院）的学
+ 生无需提交推荐信。\\n截止时间: 20260615T170000 (Asia/Shanghai
+ )\\n官网链接: https://sai.pku.edu.cn/info/1034/9575.htm\\n标签: TOP2
+ \\n数据源: camp2026\\n数据来源: https://ddl.csbaoyan.top
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://sai.pku.edu.cn/info/1034/9575.htm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜北京大学｜智能学院 截止于 20260615T17
+ 0000 (截止前 7 天)
+TRIGGER;VALUE=DATE-TIME:20260608T170000
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜北京大学｜智能学院 截止于 20260615T17
+ 0000 (截止前 3 天)
+TRIGGER;VALUE=DATE-TIME:20260612T170000
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜北京大学｜智能学院 截止于 20260615T17
+ 0000 (截止前 1 天)
+TRIGGER;VALUE=DATE-TIME:20260614T170000
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜北京大学｜智能学院 截止于 20260615T17
+ 0000 (截止前 6 小时)
+TRIGGER;VALUE=DATE-TIME:20260615T110000
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:89a1591d727c237c@oohyees.github.io
+DTSTART:20260630T233000
+DTEND:20260701T000000
+SUMMARY:DDL｜中国科学技术大学｜国家卓越工程师学院（先
+ 进技术研究院）
+DESCRIPTION:学校: 中国科学技术大学\\n院系/项目: 国家卓越
+ 工程师学院（先进技术研究院）\\n描述: 中国科学技术大
+ 学国家卓越工程师学院（先进技术研究院）2026年创新应
+ 用科学营，面向人工智能、集成电路、生物医药、新材
+ 料与新能源等前沿科技应用领域，践行产学研用结合的
+ 高端应用型科技创新创业人才培养。科学营计划招募营
+ 员约190名，其中10名为科技创新与创业人才培养项目营员
+ 。申请对象为本科专业为电子信息、生物与医药、材料
+ 与化工等相关专业或数学、物理学，且有意推免或报考
+ 中国科大先研院专业学位硕士的2027届本科生；要求有望
+ 取得推免资格，具备创新意识和能力，对科技成果应用
+ 有兴趣，尤其欢迎有创业梦想的学生。招生专业类别包
+ 括电子信息、材料与化工、生物与医药，电子信息下含
+ 新一代电子信息技术、通信工程、集成电路工程、计算
+ 机技术、软件工程、控制工程、生物医学工程、人工智
+ 能等方向。报名时间为2026年5月28日至6月30日，需通过中
+ 国科大研究生报考服务系统报名并上传报名表、前两年
+ 半成绩单、专业排名证明、论文/专利、获奖证书、项目
+ 证明、外语水平等材料。营员遴选优先采用校内导师推
+ 荐原则，活动预计7月中下旬举办，内容包括前沿科技应
+ 用报告、实践基地参观对话、师兄师姐经验交流、基本
+ 素质考察等。\\n截止时间: 20260701T000000 (Asia/Shanghai)\\n官
+ 网链接: https://iat.ustc.edu.cn/iat/x198/20260528/7958.html\\n标签: 
+ 华五\\n数据源: camp2026\\n数据来源: https://ddl.csbaoyan.top
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://iat.ustc.edu.cn/iat/x198/20260528/7958.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜中国科学技术大学｜国家卓越工程师
+ 学院（先进技术研究院） 截止于 20260701T000000 (截止前 7 
+ 天)
+TRIGGER;VALUE=DATE-TIME:20260624T000000
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜中国科学技术大学｜国家卓越工程师
+ 学院（先进技术研究院） 截止于 20260701T000000 (截止前 3 
+ 天)
+TRIGGER;VALUE=DATE-TIME:20260628T000000
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜中国科学技术大学｜国家卓越工程师
+ 学院（先进技术研究院） 截止于 20260701T000000 (截止前 1 
+ 天)
+TRIGGER;VALUE=DATE-TIME:20260630T000000
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜中国科学技术大学｜国家卓越工程师
+ 学院（先进技术研究院） 截止于 20260701T000000 (截止前 6 
+ 小时)
+TRIGGER;VALUE=DATE-TIME:20260630T180000
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:0f03ee4daa610f64@oohyees.github.io
+DTSTART:20260625T233000
+DTEND:20260626T000000
+SUMMARY:DDL｜浙江大学｜人工智能学院
+DESCRIPTION:学校: 浙江大学\\n院系/项目: 人工智能学院\\n描
+ 述: 浙江大学人工智能学院2026年暑期实习生（夏令营）
+ 招收计划，学院于2025年7月成立，负责人工智能、设计学
+ 两个一级学科建设，拥有国家人工智能产教融合创新平
+ 台、国家人工智能教材基地等平台。计划面向全国高校
+ （含本校）人工智能类、计算机类、设计类及相关专业20
+ 27届优秀本科毕业生，欢迎基础扎实、崇尚科学、潜心科
+ 研、具备创新能力和学术潜质，且有意攻读学院直博研
+ 究生并预计可获推免资格的学生申请。申请者原则上本
+ 科前三年或前5学期综合成绩排名专业前10%，有出色学术
+ 成果者可适当放宽；英语需满足六级460、PETS5、专八、英
+ 语国家学位、雅思5.5或托福80等条件之一。申请人须在202
+ 6年6月25日前完成材料准备和网申，材料包括简历、成绩
+ 单及排名、英语证明、论文/出版物/获奖/专利等学术成
+ 果证明，合并为不超过10MB的PDF。报名需在浙江大学研究
+ 生招生服务系统提交，并在意向导师姓名处注明限报一
+ 个具有博导资格的导师或导师团队，同时将材料邮件发
+ 送给导师/团队并抄送学院。拟招收名单7月上旬在系统公
+ 布，实习安排在7-8月，由导师团队制定线上或线下计划
+ ，内容包括学院情况介绍、研究方向解读、前沿讲座、
+ 导师项目科研实训等。学院不统一安排住宿，可在6月25
+ 日前申请协助安排校内住宿，费用自理。\\n截止时间: 202
+ 60626T000000 (Asia/Shanghai)\\n官网链接: https://ai.zju.edu.cn/2026/05
+ 29/c90347a3168154/page.htm\\n标签: 华五\\n数据源: camp2026\\n数据
+ 来源: https://ddl.csbaoyan.top
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://ai.zju.edu.cn/2026/0529/c90347a3168154/page.htm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜浙江大学｜人工智能学院 截止于 20260
+ 626T000000 (截止前 7 天)
+TRIGGER;VALUE=DATE-TIME:20260619T000000
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜浙江大学｜人工智能学院 截止于 20260
+ 626T000000 (截止前 3 天)
+TRIGGER;VALUE=DATE-TIME:20260623T000000
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜浙江大学｜人工智能学院 截止于 20260
+ 626T000000 (截止前 1 天)
+TRIGGER;VALUE=DATE-TIME:20260625T000000
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜浙江大学｜人工智能学院 截止于 20260
+ 626T000000 (截止前 6 小时)
+TRIGGER;VALUE=DATE-TIME:20260625T180000
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:bdc2366492b22a89@oohyees.github.io
+DTSTART:20260710T233000
+DTEND:20260711T000000
+SUMMARY:DDL｜中国科学院大学｜深圳先进技术研究院
+DESCRIPTION:学校: 中国科学院大学\\n院系/项目: 深圳先进技
+ 术研究院\\n描述: 中国科学院深圳先进技术研究院2026年
+ 优秀大学生夏令营，拟招收300人，由深圳先进院统一组
+ 织并按研究方向分为集成所、医工所、数字所、医药所
+ 、脑所、合成所、材料所、碳中和所、科学仪器所（筹
+ ）九个分营。深圳先进院由中国科学院、深圳市人民政
+ 府和香港中文大学于2006年共同建立，围绕IT+BT+MT交叉融
+ 合，布局医学成像设备与科学仪器、合成生物与生物制
+ 造、集成电路材料与封装，以及脑机接口、智能医药、
+ 能源材料与碳中和等方向。各研究所线上宣讲拟于6月下
+ 旬组织，线下活动拟于2026年8月3日-6日组织，内容包括开
+ 营仪式、科技前沿讲座、园区参观、项目实践体验、师
+ 生交流、师兄师姐茶话会等。报名需先登录中国科学院
+ 科教结合协同育人行动计划系统，再按各分营要求提交
+ 材料；必交材料包括国科大夏令营申请表、本科成绩单
+ 和专业排名、英语能力证明、学生证和身份证、背景调
+ 查问卷等，材料按顺序整合为不超过100MB的PDF。夏令营不
+ 收费，提供免费食宿、文化衫、周边礼包，并可按标准
+ 报销单程交通费用。\\n截止时间: 20260711T000000 (Asia/Shanghai
+ )\\n官网链接: https://www.siat.ac.cn/jyjx/zsxx/xly/202606/t20260603_82
+ 13255.html\\n标签: 研究院\\n数据源: camp2026\\n数据来源: https
+ ://ddl.csbaoyan.top
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://www.siat.ac.cn/jyjx/zsxx/xly/202606/t20260603_8213255.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜中国科学院大学｜深圳先进技术研究
+ 院 截止于 20260711T000000 (截止前 7 天)
+TRIGGER;VALUE=DATE-TIME:20260704T000000
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜中国科学院大学｜深圳先进技术研究
+ 院 截止于 20260711T000000 (截止前 3 天)
+TRIGGER;VALUE=DATE-TIME:20260708T000000
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜中国科学院大学｜深圳先进技术研究
+ 院 截止于 20260711T000000 (截止前 1 天)
+TRIGGER;VALUE=DATE-TIME:20260710T000000
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜中国科学院大学｜深圳先进技术研究
+ 院 截止于 20260711T000000 (截止前 6 小时)
+TRIGGER;VALUE=DATE-TIME:20260710T180000
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:1d3e95059e95b630@oohyees.github.io
+DTSTART:20260526T113000
+DTEND:20260526T120000
+SUMMARY:DDL｜西湖大学｜西湖大学
+DESCRIPTION:学校: 西湖大学\\n院系/项目: 西湖大学\\n描述: _N
+ o response_\\n截止时间: 20260526T120000 (Asia/Shanghai)\\n官网链接
+ : https://mp.weixin.qq.com/s/gGJTMwWMPLxxZF_myA_pcw\\n标签: 四非\\n数
+ 据源: camp2026\\n数据来源: https://ddl.csbaoyan.top
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://mp.weixin.qq.com/s/gGJTMwWMPLxxZF_myA_pcw
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜西湖大学｜西湖大学 截止于 20260526T12
+ 0000 (截止前 7 天)
+TRIGGER;VALUE=DATE-TIME:20260519T120000
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜西湖大学｜西湖大学 截止于 20260526T12
+ 0000 (截止前 3 天)
+TRIGGER;VALUE=DATE-TIME:20260523T120000
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜西湖大学｜西湖大学 截止于 20260526T12
+ 0000 (截止前 1 天)
+TRIGGER;VALUE=DATE-TIME:20260525T120000
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜西湖大学｜西湖大学 截止于 20260526T12
+ 0000 (截止前 6 小时)
+TRIGGER;VALUE=DATE-TIME:20260526T060000
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2b5209faa3dc0194@oohyees.github.io
+DTSTART:20260628T233000
+DTEND:20260629T000000
+SUMMARY:DDL｜山东大学｜前沿交叉科学青岛研究院
+DESCRIPTION:学校: 山东大学\\n院系/项目: 前沿交叉科学青岛
+ 研究院\\n描述: 山东大学前沿交叉科学青岛研究院2026年
+ 优秀大学生暑期夏令营，举办时间为2026年7月11日-12日，
+ 线上举行，入营规模约200人。研究院成立于2017年12月，
+ 是山东大学直属独立建制学术研究机构，依托青岛校区
+ 聚焦学科交叉融合、前沿科技研发和高端科研平台建设
+ 。夏令营分为粒子科学、空间科学、极端热物理三大板
+ 块，覆盖粒子物理理论、中高能核物理、加速器粒子物
+ 理实验与软件、非加速器实验与粒子探测技术、粒子与
+ 物质相互作用、太空科学与航天工程、极端条件热物理
+ 等团队方向。活动包含研究院及各板块介绍、政策宣讲
+ 、学术专题讲座、师生交流和优秀营员选拔。面向全国
+ 高校2027届本科三年级学生，优先考虑预计取得推免资格
+ 、本科院校相关学科为双一流建设学科、成绩优异且有
+ 志报考研究院专业方向的学生。申请材料包括申请表、
+ 报名信息表、前两年半成绩单、英语成绩和获奖证书/论
+ 文首页等，按板块发送至指定邮箱并加入对应QQ群，入营
+ 名单预计7月初在官网公示。\\n截止时间: 20260629T000000 (Asi
+ a/Shanghai)\\n官网链接: https://sduyjs.sdu.edu.cn/yjszs/plugins/zs/xly
+ xsd/entrance#/xlyksdSummerCampEntranceDetail?a=1780563730477001633&b=17786
+ 31988865001632\\n标签: 985\, 211\\n数据源: camp2026\\n数据来源: h
+ ttps://ddl.csbaoyan.top
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://sduyjs.sdu.edu.cn/yjszs/plugins/zs/xlyxsd/entrance#/xlyksdSumme
+ rCampEntranceDetail?a=1780563730477001633&b=1778631988865001632
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜山东大学｜前沿交叉科学青岛研究院 
+ 截止于 20260629T000000 (截止前 7 天)
+TRIGGER;VALUE=DATE-TIME:20260622T000000
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜山东大学｜前沿交叉科学青岛研究院 
+ 截止于 20260629T000000 (截止前 3 天)
+TRIGGER;VALUE=DATE-TIME:20260626T000000
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜山东大学｜前沿交叉科学青岛研究院 
+ 截止于 20260629T000000 (截止前 1 天)
+TRIGGER;VALUE=DATE-TIME:20260628T000000
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜山东大学｜前沿交叉科学青岛研究院 
+ 截止于 20260629T000000 (截止前 6 小时)
+TRIGGER;VALUE=DATE-TIME:20260628T180000
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2dad16edf7df90e6@oohyees.github.io
+DTSTART:20260622T233000
+DTEND:20260623T000000
+SUMMARY:DDL｜哈尔滨工业大学｜计算学部
+DESCRIPTION:学校: 哈尔滨工业大学\\n院系/项目: 计算学部\\n
+ 描述: 哈尔滨工业大学计算学部2026年学术交流营，面向20
+ 27届高水平研究型大学优秀本科生，欢迎有志从事计算机
+ 科学与技术、软件工程、网络空间安全、智能科学与技
+ 术、电子信息等专业研究、英语水平优良且具备较强研
+ 究能力的理工科学生申请。报名时间为2026年6月5日至6月2
+ 2日，通过问卷填写报名信息，并上传个人简历、学生证
+ 、成绩排名证明、成绩单、英语水平证明、论文/获奖等
+ 成果材料，材料需合并为10M以内PDF并以“本科学校名称+
+ 考生姓名”命名。学部将择优确定入营人选，6月26日前
+ 通过邮件或短信通知。交流营预计2026年7月中旬前后在哈
+ 尔滨工业大学一校区举办2-3天，内容包括开营式、专家
+ 学术报告、参观学习、学术交流等；营员须全程参加，
+ 学部提供在营期间食宿资助。\\n截止时间: 20260623T000000 (A
+ sia/Shanghai)\\n官网链接: https://cs.hit.edu.cn/2026/0605/c11271a39361
+ 2/page.htm\\n标签: C9\\n数据源: camp2026\\n数据来源: https://ddl.
+ csbaoyan.top
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://cs.hit.edu.cn/2026/0605/c11271a393612/page.htm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜哈尔滨工业大学｜计算学部 截止于 20
+ 260623T000000 (截止前 7 天)
+TRIGGER;VALUE=DATE-TIME:20260616T000000
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜哈尔滨工业大学｜计算学部 截止于 20
+ 260623T000000 (截止前 3 天)
+TRIGGER;VALUE=DATE-TIME:20260620T000000
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜哈尔滨工业大学｜计算学部 截止于 20
+ 260623T000000 (截止前 1 天)
+TRIGGER;VALUE=DATE-TIME:20260622T000000
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜哈尔滨工业大学｜计算学部 截止于 20
+ 260623T000000 (截止前 6 小时)
+TRIGGER;VALUE=DATE-TIME:20260622T180000
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:13b17448e55ac656@oohyees.github.io
+DTSTART:20260622T073000
+DTEND:20260622T080000
+SUMMARY:DDL｜吉林大学｜计算机科学与技术学院
+DESCRIPTION:学校: 吉林大学\\n院系/项目: 计算机科学与技术
+ 学院\\n描述: 吉林大学计算机科学与技术学院2026年校园
+ 学术活动开放日，面向全国高校计算机、数学、电子等
+ 相关专业2027届应届本科毕业生。申请者需对计算机专业
+ 领域学术研究有浓厚兴趣、有一定科研潜力，成绩优异
+ 并具有所在学校推免生资格，英语水平良好。活动时间
+ 为2026年7月13日-7月15日，地点为吉林大学前卫南区王湘浩
+ 楼，内容包括学生报到、学术活动、师生见面会和学生
+ 考核。网上报名时间为2026年6月6日8:00至6月22日8:00，申请
+ 人需通过吉林大学开放日报名系统填报，6月22日前将报
+ 名表、前5学期成绩单、论文/科研项目/获奖/大创/英语成
+ 绩等证明材料合并为PDF发送至指定邮箱。学院将进行资
+ 格审查并公布名单，入营学生需加入开放日QQ群；学术能
+ 力考核合格且获得2027年推免资格者，考核成绩可作为后
+ 续推免阶段重要参考。\\n截止时间: 20260622T080000 (Asia/Shang
+ hai)\\n官网链接: https://ccst.jlu.edu.cn/info/1229/21077.htm\\n标签:
+  985\, 211\\n数据源: camp2026\\n数据来源: https://ddl.csbaoyan.top
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://ccst.jlu.edu.cn/info/1229/21077.htm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜吉林大学｜计算机科学与技术学院 截
+ 止于 20260622T080000 (截止前 7 天)
+TRIGGER;VALUE=DATE-TIME:20260615T080000
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜吉林大学｜计算机科学与技术学院 截
+ 止于 20260622T080000 (截止前 3 天)
+TRIGGER;VALUE=DATE-TIME:20260619T080000
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜吉林大学｜计算机科学与技术学院 截
+ 止于 20260622T080000 (截止前 1 天)
+TRIGGER;VALUE=DATE-TIME:20260621T080000
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜吉林大学｜计算机科学与技术学院 截
+ 止于 20260622T080000 (截止前 6 小时)
+TRIGGER;VALUE=DATE-TIME:20260622T020000
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:1dd1f4e1534d3a95@oohyees.github.io
+DTSTART:20260621T233000
+DTEND:20260622T000000
+SUMMARY:DDL｜中国科学院大学｜量子学院暨卡弗里理论科学
+ 研究所
+DESCRIPTION:学校: 中国科学院大学\\n院系/项目: 量子学院暨
+ 卡弗里理论科学研究所\\n描述: 中国科学院大学量子学院
+ 暨卡弗里理论科学研究所2026年夏令营，即原卡弗里理论
+ 科学研究所夏令营，拟于2026年7月4日-5日在北京举办。量
+ 子学院于2026年成立，卡弗里理论科学研究所整体并入学
+ 院，师资覆盖凝聚态物理、量子场论、弦理论、量子信
+ 息与量子计算等方向，目标是培养量子科技拔尖创新人
+ 才。夏令营包含所内导师报告、与导师/博士后/研究生线
+ 下互动、科研环境体验和优秀营员选拔考试；笔试和面
+ 试通过的营员将被预录取为量子学院2027级研究生。申请
+ 对象为全日制普通高校本科2023级在校生（拟2027年毕业）
+ ，专业要求物理及相关专业，并需满足推荐免试研究生
+ 接收标准。报名材料包括个人简历、自我陈述（含本科
+ 学习科研情况、报考专业和1-3名意向导师）、主干课程
+ 成绩、院系排名材料和至少一封推荐信；6月24日前邮件
+ 通知入选营员，入选者须在6月26日前确认。非北京高校
+ 营员可按标准报销住宿费和城市间交通费。\\n截止时间: 
+ 20260622T000000 (Asia/Shanghai)\\n官网链接: https://kits.ucas.ac.cn/in
+ dex.php/people/opportunities/670-2026\\n标签: 双非\\n数据源: camp20
+ 26\\n数据来源: https://ddl.csbaoyan.top
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://kits.ucas.ac.cn/index.php/people/opportunities/670-2026
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜中国科学院大学｜量子学院暨卡弗里
+ 理论科学研究所 截止于 20260622T000000 (截止前 7 天)
 TRIGGER;VALUE=DATE-TIME:20260615T000000
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:提醒: DDL｜西安交通大学｜电信学部—软件学院 
- 截止于 20260616T000000 (截止前 6 小时)
+DESCRIPTION:提醒: DDL｜中国科学院大学｜量子学院暨卡弗里
+ 理论科学研究所 截止于 20260622T000000 (截止前 3 天)
+TRIGGER;VALUE=DATE-TIME:20260619T000000
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜中国科学院大学｜量子学院暨卡弗里
+ 理论科学研究所 截止于 20260622T000000 (截止前 1 天)
+TRIGGER;VALUE=DATE-TIME:20260621T000000
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜中国科学院大学｜量子学院暨卡弗里
+ 理论科学研究所 截止于 20260622T000000 (截止前 6 小时)
+TRIGGER;VALUE=DATE-TIME:20260621T180000
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:0d54a5f6f2d5e418@oohyees.github.io
+DTSTART:20260702T233000
+DTEND:20260703T000000
+SUMMARY:DDL｜浙江大学｜伊利诺伊大学厄巴纳香槟校区联合
+ 学院
+DESCRIPTION:学校: 浙江大学\\n院系/项目: 伊利诺伊大学厄巴
+ 纳香槟校区联合学院\\n描述: 浙江大学伊利诺伊大学厄巴
+ 纳香槟校区联合学院ZJUI学院2026年优秀大学生（含外校、
+ 本校）夏令营，面向外校、本校外院及本院2027届优秀本
+ 科毕业生。夏令营按电子信息、人工智能1、人工智能2、
+ 电气工程、交通运输、机械工程、土木工程七个分营报
+ 名，培养类型覆盖专业学位硕士和学术学位硕士。活动
+ 分为两个模块：7月上旬线上交流模块，由学院组织学院
+ 介绍和2027年招生专业/项目介绍；7月中下旬学术模块，
+ 由培养项目组、学科组或导师课题组组织线上或线下活
+ 动，内容可包括师生交流、研究方向解读、学术讲座、
+ 项目训练等。申请者需拥护党的领导，身心健康，学业
+ 优秀，对科研有兴趣和培养潜质，英语水平良好；网上
+ 报名截止7月2日，需在浙江大学研究生招生服务系统提交
+ 材料，材料包括身份证、前5学期成绩单、专业排名、英
+ 语水平证明、论文/获奖等证明材料。入营名单预计7月8
+ 日左右在系统公布并邮件通知，活动不收注册费，可能
+ 涉及线下活动的食宿和交通由营员自理。\\n截止时间: 202
+ 60703T000000 (Asia/Shanghai)\\n官网链接: https://zjui.intl.zju.edu.cn/
+ node/3455\\n标签: 华五\\n数据源: camp2026\\n数据来源: https://d
+ dl.csbaoyan.top
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://zjui.intl.zju.edu.cn/node/3455
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜浙江大学｜伊利诺伊大学厄巴纳香槟
+ 校区联合学院 截止于 20260703T000000 (截止前 7 天)
+TRIGGER;VALUE=DATE-TIME:20260626T000000
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜浙江大学｜伊利诺伊大学厄巴纳香槟
+ 校区联合学院 截止于 20260703T000000 (截止前 3 天)
+TRIGGER;VALUE=DATE-TIME:20260630T000000
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜浙江大学｜伊利诺伊大学厄巴纳香槟
+ 校区联合学院 截止于 20260703T000000 (截止前 1 天)
+TRIGGER;VALUE=DATE-TIME:20260702T000000
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜浙江大学｜伊利诺伊大学厄巴纳香槟
+ 校区联合学院 截止于 20260703T000000 (截止前 6 小时)
+TRIGGER;VALUE=DATE-TIME:20260702T180000
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:6b97a95755df07f7@oohyees.github.io
+DTSTART:20260625T232900
+DTEND:20260625T235900
+SUMMARY:DDL｜北京大学｜信息工程学院
+DESCRIPTION:学校: 北京大学\\n院系/项目: 信息工程学院\\n描
+ 述: 北京大学信息工程学院“汇智凝芯”2026年全国优秀
+ 大学生学术探索营，依托北京大学深圳研究生院（南国
+ 燕园）和粤港澳大湾区信息产业优势，面向集成电路、
+ 计算机、通信等信息学科优秀本科生。活动时间为2026年7
+ 月10日-12日，安排营员报到、开营仪式、学院介绍及参观
+ 、师生互动、分专业学术研讨和结营。活动规模为集成
+ 电路科学与工程约80人、计算机科学与技术约100人、信息
+ 与通信工程约10人。申请对象为集成电路科学与工程、微
+ 电子、物理、电路与系统、计算机科学与技术、软件工
+ 程、信息安全、数字媒体技术、网络工程、信息与通信
+ 工程等相近专业的2027届优秀本科毕业生；要求政治品德
+ 良好、学习成绩优秀、对专业有兴趣、英语水平较好，
+ 有科研经历或成果者优先。申请时间为2026年6月3日0:00至6
+ 月25日23:59，需通过北大申报系统提交申请表、成绩单、
+ 个人陈述和论文/英语成绩等证明材料，PDF不超过20M。最
+ 终入营名单7月初左右在学院官网公布，活动不收费，学
+ 院提供活动期间用餐，交通住宿自理。\\n截止时间: 202606
+ 25T235900 (Asia/Shanghai)\\n官网链接: https://www.ece.pku.edu.cn/info/
+ 1027/3175.htm\\n标签: TOP2\\n数据源: camp2026\\n数据来源: https:/
+ /ddl.csbaoyan.top
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://www.ece.pku.edu.cn/info/1027/3175.htm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜北京大学｜信息工程学院 截止于 20260
+ 625T235900 (截止前 7 天)
+TRIGGER;VALUE=DATE-TIME:20260618T235900
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜北京大学｜信息工程学院 截止于 20260
+ 625T235900 (截止前 3 天)
+TRIGGER;VALUE=DATE-TIME:20260622T235900
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜北京大学｜信息工程学院 截止于 20260
+ 625T235900 (截止前 1 天)
+TRIGGER;VALUE=DATE-TIME:20260624T235900
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜北京大学｜信息工程学院 截止于 20260
+ 625T235900 (截止前 6 小时)
+TRIGGER;VALUE=DATE-TIME:20260625T175900
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:1d8125e40d29f37f@oohyees.github.io
+DTSTART:20260701T232959
+DTEND:20260701T235959
+SUMMARY:DDL｜北京大学｜科学智能学院
+DESCRIPTION:学校: 北京大学\\n院系/项目: 科学智能学院\\n描
+ 述: 北京大学科学智能学院2026年全国优秀大学生夏令营
+ ，学院于2025年在北大深圳研究生院创立，聚焦AI for Scienc
+ e，构建AI+科学双轨制导师培养体系，面向人工智能与基
+ 础科学深度融合培养前沿复合型人才。夏令营拟于2026年7
+ 月26日-28日线下举办，活动人数约150人，内容包括学院情
+ 况介绍、课题组宣讲、师生交流、实验室参观、营员个
+ 人展示和素质拓展。申请对象为全国高校2027年应届本科
+ 毕业生，优先考虑计算机、人工智能、数学、化学、材
+ 料、生物、微电子、物理、机械、化工、生命科学、医
+ 药类等相关专业背景。申请专业包括科学智能（计算机
+ 科学与技术）、科学智能（材料科学）、科学智能（生
+ 物学）、科学智能（化学）。英语条件可由四级500、六
+ 级425、专四/专八、PETS5、TOEFL100、GRE320、雅思6.0或相关英
+ 文论文等满足。报名时间为2026年6月3日0:00至7月1日23:59，
+ 电子材料需在7月1日23:59:59前发送至学院邮箱，入选营员
+ 需报到时提交纸版材料及2封密封专家推荐信。活动不收
+ 费，学院统一安排用餐，交通住宿自理。\\n截止时间: 202
+ 60701T235959 (Asia/Shanghai)\\n官网链接: https://ai4s.pkusz.edu.cn/inf
+ o/1153/1385.htm\\n标签: TOP2\\n数据源: camp2026\\n数据来源: https
+ ://ddl.csbaoyan.top
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://ai4s.pkusz.edu.cn/info/1153/1385.htm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜北京大学｜科学智能学院 截止于 20260
+ 701T235959 (截止前 7 天)
+TRIGGER;VALUE=DATE-TIME:20260624T235959
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜北京大学｜科学智能学院 截止于 20260
+ 701T235959 (截止前 3 天)
+TRIGGER;VALUE=DATE-TIME:20260628T235959
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜北京大学｜科学智能学院 截止于 20260
+ 701T235959 (截止前 1 天)
+TRIGGER;VALUE=DATE-TIME:20260630T235959
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜北京大学｜科学智能学院 截止于 20260
+ 701T235959 (截止前 6 小时)
+TRIGGER;VALUE=DATE-TIME:20260701T175959
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:286209f2b54a2fcb@oohyees.github.io
+DTSTART:20260630T113000
+DTEND:20260630T120000
+SUMMARY:DDL｜北京计算科学研究中心｜北京计算科学研究中
+ 心
+DESCRIPTION:学校: 北京计算科学研究中心\\n院系/项目: 北京
+ 计算科学研究中心\\n描述: 北京计算科学研究中心2026年
+ 优秀大学生暑期夏令营，中心隶属于中国工程物理研究
+ 院，是以计算科学为牵引的多学科基础研究机构，研究
+ 领域覆盖物理、材料、数学、力学等，拥有百万亿次/秒
+ 量级高性能计算集群，并设有物理系统模拟、量子物理
+ 与量子信息、材料与能源、复杂系统、应用与计算数学
+ 、力学和计算方法等七个研究部。夏令营将于2026年7月13
+ 日-15日线下举办，活动包括专业介绍、研究生座谈、研
+ 究部参观、与老师近距离交流互动等。申请对象为全国
+ 高校本科三年级在校生（2027届毕业生），所学专业需与
+ 中心招生专业相关，要求成绩优秀、具有科研兴趣、英
+ 语水平良好、品德优良且身心健康。报名截止为6月30日
+ 中午12:00，通过中物院研究生院夏令营系统提交学生证/
+ 身份证、前5学期成绩单和排名、英语水平证明、科研实
+ 践/学术材料、健康告知和诚信承诺书等。中心为参营同
+ 学报销往返路费和住宿费用，并提供较高研究生科研补
+ 助、奖学金和助研项目介绍。\\n截止时间: 20260630T120000 (A
+ sia/Shanghai)\\n官网链接: https://mp.weixin.qq.com/s/3rtJjexJtZLk0gz7x
+ bOUXA\\n标签: 研究院\\n数据源: camp2026\\n数据来源: https://dd
+ l.csbaoyan.top
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://mp.weixin.qq.com/s/3rtJjexJtZLk0gz7xbOUXA
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜北京计算科学研究中心｜北京计算科
+ 学研究中心 截止于 20260630T120000 (截止前 7 天)
+TRIGGER;VALUE=DATE-TIME:20260623T120000
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜北京计算科学研究中心｜北京计算科
+ 学研究中心 截止于 20260630T120000 (截止前 3 天)
+TRIGGER;VALUE=DATE-TIME:20260627T120000
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜北京计算科学研究中心｜北京计算科
+ 学研究中心 截止于 20260630T120000 (截止前 1 天)
+TRIGGER;VALUE=DATE-TIME:20260629T120000
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜北京计算科学研究中心｜北京计算科
+ 学研究中心 截止于 20260630T120000 (截止前 6 小时)
+TRIGGER;VALUE=DATE-TIME:20260630T060000
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:8feb2b1dc6fd1d1d@oohyees.github.io
+DTSTART:20260621T233000
+DTEND:20260622T000000
+SUMMARY:DDL｜北京大学｜统计科学中心
+DESCRIPTION:学校: 北京大学\\n院系/项目: 统计科学中心\\n描
+ 述: 北京大学统计科学中心2026年全国统计学优秀大学生
+ 夏令营，活动时间为2026年7月8日-9日，通过专业介绍、师
+ 生互动等活动，帮助优秀大学生了解统计学与数据科学
+ 前沿、拓宽学术视野并展示自我。统计科学中心成立于20
+ 10年，由数学科学学院概率统计系、光华管理学院商务统
+ 计与计量系、公共卫生学院生物统计系及其他院系统计
+ 研究教师构成，是北大跨学院交叉学科研究机构；北大
+ 统计学科入选“双一流”，近两轮教育部学科评估获A+，
+ 2026年QS统计学与运筹学排名第31。申请者需为统计学、数
+ 学、经济学、计算机科学、自动化、公共卫生等专业，
+ 或具有良好数理背景并修读主要数学和概率统计课程的20
+ 27届本科毕业生；同时需对统计学和数据科学有浓厚兴趣
+ 、成绩排名靠前、有2位副教授及以上专家推荐、英语六
+ 级450分以上或同等水平。申请材料包括简历、个人陈述
+ 、2封推荐信、前五学期成绩单和排名证明、英语水平证
+ 明、论文/获奖等材料；唯一报名途径为在线表单，报名
+ 时间为6月1日至6月21日24:00，活动申请和参与不收费，中
+ 心将择优确定营员并在官网公布。\\n截止时间: 20260622T000
+ 000 (Asia/Shanghai)\\n官网链接: https://mp.weixin.qq.com/s/iX94nxYWWyG
+ 8VgbdZqEl3w\\n标签: TOP2\\n数据源: camp2026\\n数据来源: https://d
+ dl.csbaoyan.top
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://mp.weixin.qq.com/s/iX94nxYWWyG8VgbdZqEl3w
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜北京大学｜统计科学中心 截止于 20260
+ 622T000000 (截止前 7 天)
+TRIGGER;VALUE=DATE-TIME:20260615T000000
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜北京大学｜统计科学中心 截止于 20260
+ 622T000000 (截止前 3 天)
+TRIGGER;VALUE=DATE-TIME:20260619T000000
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜北京大学｜统计科学中心 截止于 20260
+ 622T000000 (截止前 1 天)
+TRIGGER;VALUE=DATE-TIME:20260621T000000
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜北京大学｜统计科学中心 截止于 20260
+ 622T000000 (截止前 6 小时)
+TRIGGER;VALUE=DATE-TIME:20260621T180000
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:9afb9840e2c8e843@oohyees.github.io
+DTSTART:20260615T133000
+DTEND:20260615T140000
+SUMMARY:DDL｜北京大学｜集成电路学院
+DESCRIPTION:学校: 北京大学\\n院系/项目: 集成电路学院\\n描
+ 述: 北京大学集成电路学院2026年优秀大学生夏令营，活
+ 动时间为2026年7月6日-8日，面向集成电路科学与工程、电
+ 子科学与技术、计算机科学与技术等学科优秀本科生，
+ 活动内容包括学院总体概览、产教融合培训、学科前沿
+ 报告、专业知识与技能测评等。营员对象为全国高校集
+ 成电路、电子、计算机、物理、材料、数学、化学等相
+ 关专业，及有志于从事集成电路科学与工程研究的其它
+ 专业2027届本科生；已退出强基计划的北大学生及其他学
+ 校强基计划学生请勿报名。申请者需政治品德良好、成
+ 绩优秀、综合素质高、对科研有浓厚兴趣，并满足英语
+ 四级525、六级450、专四/专八、PETS5、TOEFL100、GRE320、雅思
+ 6.5等条件之一。拟招收约200人，申请材料包括北大夏令
+ 营申请表、前五学期成绩单、个人陈述、英语水平证明
+ 、声明、获奖/论文/成果证明等，其中1-5项为必须项。网
+ 上报名截止6月15日14:00，需同时在系统上传不超过20M的PDF
+ 材料。入营名单预计6月下旬在学院官网公示，入营后需
+ 提交纸质材料和2封专家推荐信；活动不收费，交通住宿
+ 自理，学院提供非本校营员活动期间用餐。\\n截止时间: 
+ 20260615T140000 (Asia/Shanghai)\\n官网链接: https://ic.pku.edu.cn/rcpy
+ /yjszs/d075666e55f5443fb3cf317e28bff60e.htm\\n标签: TOP2\\n数据源: ca
+ mp2026\\n数据来源: https://ddl.csbaoyan.top
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://ic.pku.edu.cn/rcpy/yjszs/d075666e55f5443fb3cf317e28bff60e.htm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜北京大学｜集成电路学院 截止于 20260
+ 615T140000 (截止前 7 天)
+TRIGGER;VALUE=DATE-TIME:20260608T140000
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜北京大学｜集成电路学院 截止于 20260
+ 615T140000 (截止前 3 天)
+TRIGGER;VALUE=DATE-TIME:20260612T140000
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜北京大学｜集成电路学院 截止于 20260
+ 615T140000 (截止前 1 天)
+TRIGGER;VALUE=DATE-TIME:20260614T140000
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜北京大学｜集成电路学院 截止于 20260
+ 615T140000 (截止前 6 小时)
+TRIGGER;VALUE=DATE-TIME:20260615T080000
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:468a325178bad607@oohyees.github.io
+DTSTART:20260615T233000
+DTEND:20260616T000000
+SUMMARY:DDL｜西安交通大学｜电子与信息学部计算机科学与
+ 技术学院
+DESCRIPTION:学校: 西安交通大学\\n院系/项目: 电子与信息学
+ 部计算机科学与技术学院\\n描述: 西安交通大学电子与信
+ 息学部计算机科学与技术学院2026年（第八届）全国优秀
+ 大学生夏令营，面向拟报考计算机科学与技术学院研究
+ 生的2027届优秀本科毕业生。该项目已列入西安交通大学2
+ 026年夏令营招生学院列表，报名通常通过西安交通大学
+ 夏令营报名系统进行；学院学科方向覆盖计算机科学与
+ 技术、软件与系统、智能计算、网络与数据等相关领域
+ 。当前可确认报名截止为2026年6月15日全天截止后的下一
+ 日零点；具体申请条件、材料上传、活动形式、营员审
+ 核、导师交流和考核安排以学院原通知为准。\\n截止时
+ 间: 20260616T000000 (Asia/Shanghai)\\n官网链接: http://www.cs.xjtu.ed
+ u.cn/info/1233/3919.htm\\n标签: C9\\n数据源: camp2026\\n数据来源:
+  https://ddl.csbaoyan.top
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:http://www.cs.xjtu.edu.cn/info/1233/3919.htm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜西安交通大学｜电子与信息学部计算
+ 机科学与技术学院 截止于 20260616T000000 (截止前 7 天)
+TRIGGER;VALUE=DATE-TIME:20260609T000000
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜西安交通大学｜电子与信息学部计算
+ 机科学与技术学院 截止于 20260616T000000 (截止前 3 天)
+TRIGGER;VALUE=DATE-TIME:20260613T000000
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜西安交通大学｜电子与信息学部计算
+ 机科学与技术学院 截止于 20260616T000000 (截止前 1 天)
+TRIGGER;VALUE=DATE-TIME:20260615T000000
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜西安交通大学｜电子与信息学部计算
+ 机科学与技术学院 截止于 20260616T000000 (截止前 6 小时)
 TRIGGER;VALUE=DATE-TIME:20260615T180000
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:3c5802d7651f4b0f@oohyees.github.io
+DTSTART:20260615T233000
+DTEND:20260616T000000
+SUMMARY:DDL｜西安交通大学｜电子与信息学部微电子学院
+DESCRIPTION:学校: 西安交通大学\\n院系/项目: 电子与信息学
+ 部微电子学院\\n描述: 西安交通大学电子与信息学部微电
+ 子学院2026年（第七届）全国优秀大学生夏令营，面向集
+ 成电路科学与工程、电子科学与技术、微电子、电子信
+ 息等相关方向优秀本科生。该项目已列入西安交通大学20
+ 26年夏令营招生学院列表，通常通过西安交通大学夏令营
+ 报名系统申请，适合有意了解集成电路器件、设计、制
+ 造、封装测试、微纳电子和电子信息相关研究方向并继
+ 续攻读研究生的学生。当前可确认报名截止为2026年6月15
+ 日全天截止后的下一日零点；具体活动时间、申请条件
+ 、上传材料、审核录取、导师/方向安排和后续考核以学
+ 院原通知为准。\\n截止时间: 20260616T000000 (Asia/Shanghai)\\n
+ 官网链接: https://ele.xjtu.edu.cn/info/1013/2892.htm\\n标签: C9\\n
+ 数据源: camp2026\\n数据来源: https://ddl.csbaoyan.top
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://ele.xjtu.edu.cn/info/1013/2892.htm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜西安交通大学｜电子与信息学部微电
+ 子学院 截止于 20260616T000000 (截止前 7 天)
+TRIGGER;VALUE=DATE-TIME:20260609T000000
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜西安交通大学｜电子与信息学部微电
+ 子学院 截止于 20260616T000000 (截止前 3 天)
+TRIGGER;VALUE=DATE-TIME:20260613T000000
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜西安交通大学｜电子与信息学部微电
+ 子学院 截止于 20260616T000000 (截止前 1 天)
+TRIGGER;VALUE=DATE-TIME:20260615T000000
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜西安交通大学｜电子与信息学部微电
+ 子学院 截止于 20260616T000000 (截止前 6 小时)
+TRIGGER;VALUE=DATE-TIME:20260615T180000
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:9af75231a7db75c3@oohyees.github.io
+DTSTART:20260626T093000
+DTEND:20260626T100000
+SUMMARY:DDL｜西湖大学｜工学院
+DESCRIPTION:学校: 西湖大学\\n院系/项目: 工学院\\n描述: 西
+ 湖大学工学院2026年优秀大学生暑期夏令营，拟于2026年7
+ 月12日-14日举办，计划招收营员约200人。工学院面向国家
+ 战略性新兴产业重大需求，建设以交叉学科和新兴学科
+ 为特色的工程技术学科群，目前重点构建电子信息工程
+ 系、材料科学与工程系、人工智能系和先进工程科学与
+ 技术中心。夏令营活动包括学校和学院介绍、学术报告
+ 、在校生交流、实验室参观、海报展和导师面对面等。
+ 申请对象为国内外高校对工学院相关研究领域有浓厚兴
+ 趣的2027届优秀应届本科毕业生，不限本科专业；申请条
+ 件包括具有科研兴趣、学习主动性强、理论知识扎实、
+ 成绩优秀、专业能力强、身心健康、品德端正、创新意
+ 识和探索精神强、英语水平优秀。申请时间为2026年5月28
+ 日10:00至6月26日10:00，通过西湖大学研究生招生系统提交
+ 材料。申请材料主要包括英文个人陈述、本科成绩单及
+ 排名、英语水平证明、论文/获奖/成果等，具体以系统要
+ 求为准。\\n截止时间: 20260626T100000 (Asia/Shanghai)\\n官网链
+ 接: https://engineering.westlake.edu.cn/Admission/GraduateProgram/zszx_26
+ 23/202605/t20260528_67384.shtml\\n标签: 四非\\n数据源: camp2026\\n
+ 数据来源: https://ddl.csbaoyan.top
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://engineering.westlake.edu.cn/Admission/GraduateProgram/zszx_2623
+ /202605/t20260528_67384.shtml
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜西湖大学｜工学院 截止于 20260626T10000
+ 0 (截止前 7 天)
+TRIGGER;VALUE=DATE-TIME:20260619T100000
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜西湖大学｜工学院 截止于 20260626T10000
+ 0 (截止前 3 天)
+TRIGGER;VALUE=DATE-TIME:20260623T100000
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜西湖大学｜工学院 截止于 20260626T10000
+ 0 (截止前 1 天)
+TRIGGER;VALUE=DATE-TIME:20260625T100000
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜西湖大学｜工学院 截止于 20260626T10000
+ 0 (截止前 6 小时)
+TRIGGER;VALUE=DATE-TIME:20260626T040000
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:176395b53fc32b4b@oohyees.github.io
+DTSTART:20260625T233000
+DTEND:20260626T000000
+SUMMARY:DDL｜浙江大学｜网络空间安全学院
+DESCRIPTION:学校: 浙江大学\\n院系/项目: 网络空间安全学院\
+ \n描述: 浙江大学网络空间安全学院2026年暑期实习生计划
+ ，学院依托区块链与数据安全全国重点实验室、网络空
+ 间国际治理研究基地、新一代信息安全与隐私保护标准
+ 化技术工信部重点实验室等平台，围绕数据安全与隐私
+ 、软硬件系统安全、人工智能安全、网络与通信安全四
+ 大方向开展科研。计划面向全国高校（含本校）2027届计
+ 算机或计算机相近专业优秀本科生，欢迎预计可获推免
+ 资格且有意攻读学院直博研究生的学生报名。申请者原
+ 则上本科前三年或前5学期综合成绩排名专业前10%，有出
+ 色学术成果者可适当放宽；英语需满足六级460、PETS5、专
+ 八、英语国家学位、雅思5.5或托福80等条件之一，并有意
+ 在网络空间安全、电子信息等专业参加推免直博选拔。
+ 报名截止2026年6月25日，需通过浙江大学研究生招生服务
+ 系统申请，意向学院选择计算机科学与技术学院并注明
+ 限报一个具有博导资格的意向导师或导师团队。材料包
+ 括个人简历、成绩单和排名、英语水平证明、论文/出版
+ 物/获奖/专利等，需上传系统并邮件发送给导师/团队联
+ 系人，抄送学院邮箱。拟招收名单7月上旬在系统公布，
+ 实习活动安排在7-8月，可线上或线下，由导师团队制定
+ 学院介绍、方向解读、学术讲座、项目训练等内容。\\n
+ 截止时间: 20260626T000000 (Asia/Shanghai)\\n官网链接: https://mp.w
+ eixin.qq.com/s/48vxLYe_ObndhiSpC-JSlA\\n标签: 华五\\n数据源: camp20
+ 26\\n数据来源: https://ddl.csbaoyan.top
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://mp.weixin.qq.com/s/48vxLYe_ObndhiSpC-JSlA
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜浙江大学｜网络空间安全学院 截止于
+  20260626T000000 (截止前 7 天)
+TRIGGER;VALUE=DATE-TIME:20260619T000000
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜浙江大学｜网络空间安全学院 截止于
+  20260626T000000 (截止前 3 天)
+TRIGGER;VALUE=DATE-TIME:20260623T000000
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜浙江大学｜网络空间安全学院 截止于
+  20260626T000000 (截止前 1 天)
+TRIGGER;VALUE=DATE-TIME:20260625T000000
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜浙江大学｜网络空间安全学院 截止于
+  20260626T000000 (截止前 6 小时)
+TRIGGER;VALUE=DATE-TIME:20260625T180000
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:3bb46a229218462e@oohyees.github.io
+DTSTART:20260618T093000
+DTEND:20260618T100000
+SUMMARY:DDL｜西安交通大学｜前沿科学技术研究院
+DESCRIPTION:学校: 西安交通大学\\n院系/项目: 前沿科学技术
+ 研究院\\n描述: 西安交通大学前沿科学技术研究院2026年
+ （第十五届）全国优秀大学生夏令营，面向拟报考前沿
+ 科学技术研究院相关方向研究生的2027届优秀本科毕业生
+ 。前沿院以多学科交叉和前沿基础研究为特色，往年夏
+ 令营主要面向材料、物理、化学、生物、生物医学工程
+ 、化学工程与技术、计算机科学与技术、控制科学与工
+ 程等方向学生，也欢迎有志于能源材料与化学、前沿电
+ 子技术、医工交叉、智能材料等新兴关键领域交叉研究
+ 的学生申请。当前可确认报名截止时间为2026年6月18日10:0
+ 0；具体报名系统、申请条件、材料清单、活动形式、食
+ 宿交通安排和考核办法以学院原通知为准。\\n截止时间: 
+ 20260618T100000 (Asia/Shanghai)\\n官网链接: https://fist.xjtu.edu.cn/i
+ nfo/1013/4922.htm\\n标签: C9\\n数据源: camp2026\\n数据来源: https
+ ://ddl.csbaoyan.top
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://fist.xjtu.edu.cn/info/1013/4922.htm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜西安交通大学｜前沿科学技术研究院 
+ 截止于 20260618T100000 (截止前 7 天)
+TRIGGER;VALUE=DATE-TIME:20260611T100000
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜西安交通大学｜前沿科学技术研究院 
+ 截止于 20260618T100000 (截止前 3 天)
+TRIGGER;VALUE=DATE-TIME:20260615T100000
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜西安交通大学｜前沿科学技术研究院 
+ 截止于 20260618T100000 (截止前 1 天)
+TRIGGER;VALUE=DATE-TIME:20260617T100000
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜西安交通大学｜前沿科学技术研究院 
+ 截止于 20260618T100000 (截止前 6 小时)
+TRIGGER;VALUE=DATE-TIME:20260618T040000
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:0abeb499fed99629@oohyees.github.io
+DTSTART:20260612T233000
+DTEND:20260613T000000
+SUMMARY:DDL｜西安交通大学｜电子与信息学部自动化科学与
+ 工程学院
+DESCRIPTION:学校: 西安交通大学\\n院系/项目: 电子与信息学
+ 部自动化科学与工程学院\\n描述: 西安交通大学电子与信
+ 息学部自动化科学与工程学院2026年（第八届）全国优秀
+ 大学生夏令营，面向控制科学与工程、自动化、人工智
+ 能、机器人、智能制造、系统工程及相关方向优秀本科
+ 生。该项目已列入西安交通大学2026年夏令营招生学院列
+ 表，通常通过西安交通大学夏令营报名系统提交申请，
+ 旨在帮助学生了解学院学科建设、导师团队、科研方向
+ 和研究生培养情况。当前可确认报名截止为2026年6月12日
+ 全天截止后的下一日零点；具体活动时间、线上/线下形
+ 式、申请条件、成绩和英语要求、上传材料、审核录取
+ 及后续考核安排以学院原通知为准。\\n截止时间: 20260613T
+ 000000 (Asia/Shanghai)\\n官网链接: https://automation.xjtu.edu.cn/info
+ /1009/2391.htm\\n标签: C9\\n数据源: camp2026\\n数据来源: https://
+ ddl.csbaoyan.top
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://automation.xjtu.edu.cn/info/1009/2391.htm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜西安交通大学｜电子与信息学部自动
+ 化科学与工程学院 截止于 20260613T000000 (截止前 7 天)
+TRIGGER;VALUE=DATE-TIME:20260606T000000
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜西安交通大学｜电子与信息学部自动
+ 化科学与工程学院 截止于 20260613T000000 (截止前 3 天)
+TRIGGER;VALUE=DATE-TIME:20260610T000000
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜西安交通大学｜电子与信息学部自动
+ 化科学与工程学院 截止于 20260613T000000 (截止前 1 天)
+TRIGGER;VALUE=DATE-TIME:20260612T000000
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜西安交通大学｜电子与信息学部自动
+ 化科学与工程学院 截止于 20260613T000000 (截止前 6 小时)
+TRIGGER;VALUE=DATE-TIME:20260612T180000
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:7b38820167b61909@oohyees.github.io
+DTSTART:20260615T233000
+DTEND:20260616T000000
+SUMMARY:DDL｜西安交通大学｜电子与信息学部信息与通信工
+ 程学院
+DESCRIPTION:学校: 西安交通大学\\n院系/项目: 电子与信息学
+ 部信息与通信工程学院\\n描述: 西安交通大学电子与信息
+ 学部信息与通信工程学院2026年（第七届）全国优秀大学
+ 生夏令营，拟于2026年6-7月举办，活动以线上为主。内容
+ 包括电信学部/信通学院概况介绍、教授专业解读、专家
+ 学术报告等，并对营员进行综合素质、专业基础能力及
+ 发展潜力考核。申请者应为2027届应届本科毕业生，所在
+ 学校为一流大学建设高校者优先，或所在专业在最新一
+ 轮学科评估中排名B+以上且综合成绩排名专业前15%者优先
+ 。网上申报时间为6月3日至6月15日，申请人需登录西安交
+ 通大学夏令营报名系统，报名项目选择“全国优秀大学
+ 生夏令营”，注册获取报名号并填写信息。上传材料包
+ 括学生证及身份证、加盖教务处公章的本科正式成绩单
+ 、英语四六级证书、奖励/论文/出版物/学术成果/社会实
+ 践鉴定等证明文件。学院审核后统一发布名单，申请者
+ 可在系统查看状态，审核通过者需及时确认是否参加，
+ 逾期视为放弃。\\n截止时间: 20260616T000000 (Asia/Shanghai)\\n
+ 官网链接: https://mp.weixin.qq.com/s/2x6NxD2tbPQulJYtUnH7-Q\\n标签: 
+ C9\\n数据源: camp2026\\n数据来源: https://ddl.csbaoyan.top
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://mp.weixin.qq.com/s/2x6NxD2tbPQulJYtUnH7-Q
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜西安交通大学｜电子与信息学部信息
+ 与通信工程学院 截止于 20260616T000000 (截止前 7 天)
+TRIGGER;VALUE=DATE-TIME:20260609T000000
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜西安交通大学｜电子与信息学部信息
+ 与通信工程学院 截止于 20260616T000000 (截止前 3 天)
+TRIGGER;VALUE=DATE-TIME:20260613T000000
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜西安交通大学｜电子与信息学部信息
+ 与通信工程学院 截止于 20260616T000000 (截止前 1 天)
+TRIGGER;VALUE=DATE-TIME:20260615T000000
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜西安交通大学｜电子与信息学部信息
+ 与通信工程学院 截止于 20260616T000000 (截止前 6 小时)
+TRIGGER;VALUE=DATE-TIME:20260615T180000
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:f378e43e369d86c6@oohyees.github.io
+DTSTART:20260622T233000
+DTEND:20260623T000000
+SUMMARY:DDL｜中国科学院｜软件研究所
+DESCRIPTION:学校: 中国科学院\\n院系/项目: 软件研究所\\n描
+ 述: 中国科学院软件研究所2026年全国大学生“软件与网
+ 络”夏令营，定于2026年7月中下旬举办，面向对计算机科
+ 学和软件工程有研究兴趣的优秀本科生，入营规模约300
+ 人。活动主要包括软件所简介、主要研究方向及成果介
+ 绍、师生交流、招生咨询等，形式包含线上宣讲、线下
+ 活动和科研实践；拟于6月下旬举行线上宣讲，7月中旬开
+ 始线下入营参观，线下表现优秀者将参加1-2周科研实践
+ 活动，具体视实验室安排。申请条件为国内高校计算机
+ 科学与技术、软件工程、网络空间安全、数学及相近专
+ 业拟2027年毕业优秀本科生，品学兼优、身心健康、成绩
+ 专业或年级排名前20%（某方面特别突出者可除外），英
+ 语达到六级或可用TOEFL/IELTS/GRE替代，并对软件所科研方
+ 向有浓厚兴趣。网上报名截止6月22日，通过中国科学院
+ 大学科教结合协同育人行动计划系统申请，并需在备注
+ 栏填写感兴趣实验室名称。申请材料包括国科大夏令营
+ 申请表、身份证明、成绩单及排名、英语水平证明、科
+ 研获奖等自愿材料、软件所夏令营申请表等，线下入营
+ 时提交纸质材料。交通住宿自理，线下入营需购买短期
+ 意外保险，表现优异者可获往返交通补助。\\n截止时间: 
+ 20260623T000000 (Asia/Shanghai)\\n官网链接: https://www.iscas.ac.cn/yj
+ sjy2016/zsxx2016/202605/t20260528_8210508.html\\n标签: 研究院\\n数
+ 据源: camp2026\\n数据来源: https://ddl.csbaoyan.top
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://www.iscas.ac.cn/yjsjy2016/zsxx2016/202605/t20260528_8210508.htm
+ l
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜中国科学院｜软件研究所 截止于 20260
+ 623T000000 (截止前 7 天)
+TRIGGER;VALUE=DATE-TIME:20260616T000000
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜中国科学院｜软件研究所 截止于 20260
+ 623T000000 (截止前 3 天)
+TRIGGER;VALUE=DATE-TIME:20260620T000000
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜中国科学院｜软件研究所 截止于 20260
+ 623T000000 (截止前 1 天)
+TRIGGER;VALUE=DATE-TIME:20260622T000000
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜中国科学院｜软件研究所 截止于 20260
+ 623T000000 (截止前 6 小时)
+TRIGGER;VALUE=DATE-TIME:20260622T180000
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:a714ee3d37a1dbd0@oohyees.github.io
+DTSTART:20260620T093000
+DTEND:20260620T100000
+SUMMARY:DDL｜西湖大学｜理学院交叉科学中心
+DESCRIPTION:学校: 西湖大学\\n院系/项目: 理学院交叉科学中
+ 心\\n描述: 西湖大学理学院交叉科学中心2026年夏令营，
+ 拟于2026年7月12日-14日举办。西湖大学交叉科学中心已组
+ 建15个跨学科核心教研团队，聚焦物质科学、生命科学、
+ 人工智能等领域的深度交叉融合，结合实验与数据驱动
+ 范式推动理论研究和定量分析。活动旨在帮助青年学子
+ 近距离了解交叉科学前沿方向、感受创新学术氛围，内
+ 容包括中心介绍、实验室方向分享、科研海报交流、与
+ 科学家交流、学长学姐座谈会、校园参观等。申请对象
+ 为物理学、数学、生物学、工程科学、人工智能、计算
+ 机科学等相关专业的2027届应届本科生、往届本科生、应
+ 届硕士生、往届硕士生。申请条件包括对交叉科学有浓
+ 厚兴趣、有志于科研工作、创新意识和能力强、学习主
+ 动、理论知识扎实、成绩优秀、专业能力强、英语水平
+ 良好。申请材料包括约1200字个人陈述、在读证明与成绩
+ 单或学位/毕业证、英语水平证明、学术科研成果、获奖
+ 证明、至少2位教授推荐信等。申请时间为北京时间5月25
+ 日10:00至6月20日10:00，通过西湖大学博士研究生申请系统
+ 提交。入营学员需全程参与，学校提供免费校内住宿、
+ 餐食、交通费报销和全程意外保险保障。\\n截止时间: 202
+ 60620T100000 (Asia/Shanghai)\\n官网链接: https://science.westlake.edu.
+ cn/newsevents/news/202605/t20260527_67188.shtml\\n标签: 四非\\n数据
+ 源: camp2026\\n数据来源: https://ddl.csbaoyan.top
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://science.westlake.edu.cn/newsevents/news/202605/t20260527_67188.
+ shtml
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜西湖大学｜理学院交叉科学中心 截止
+ 于 20260620T100000 (截止前 7 天)
+TRIGGER;VALUE=DATE-TIME:20260613T100000
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜西湖大学｜理学院交叉科学中心 截止
+ 于 20260620T100000 (截止前 3 天)
+TRIGGER;VALUE=DATE-TIME:20260617T100000
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜西湖大学｜理学院交叉科学中心 截止
+ 于 20260620T100000 (截止前 1 天)
+TRIGGER;VALUE=DATE-TIME:20260619T100000
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜西湖大学｜理学院交叉科学中心 截止
+ 于 20260620T100000 (截止前 6 小时)
+TRIGGER;VALUE=DATE-TIME:20260620T040000
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:36eb2def94af1b43@oohyees.github.io
+DTSTART:20260621T232900
+DTEND:20260621T235900
+SUMMARY:DDL｜南方科技大学｜深港微电子学院
+DESCRIPTION:学校: 南方科技大学\\n院系/项目: 深港微电子学
+ 院\\n描述: 南方科技大学深港微电子学院2026年全国优秀
+ 大学生暑期交流营，拟于2026年7-8月举办，旨在促进集成
+ 电路学科优秀大学生学术交流，搭建师生深度交流和高
+ 校学子互助成长平台。招生对象为就读于集成电路科学
+ 与工程、电子科学与技术、电子信息等专业，对先进通
+ 信领域集成电路关键技术、人工智能芯片关键技术、生
+ 物芯片关键技术、器件、EDA等方向有浓厚研究兴趣的2027
+ 届本科毕业生，要求本科前三学年学习成绩专业排名前30
+ %。活动以课题组为单位开展，导师与学生双向自由沟通
+ ，学生可直接与意向导师一对一交流并展示学术潜力，
+ 报名前建议联系意向导师；课题组将为异地学校学生提
+ 供部分差旅补贴，深圳地区高校学生原则上不提供。网
+ 上申报截止2026年6月21日23:59，通过南科大研究生招生服
+ 务系统选择“全国优秀大学生交流营”中的深港微电子
+ 学院报名，并填报不超过3个意向交流导师。申请材料包
+ 括系统生成申请表、身份证和学生证、正式成绩单及专
+ 业排名、个人简历、英语水平/论文/获奖等学术和综合能
+ 力证明。申请截止后，学院评审工作小组审核材料并发
+ 送给导师，由导师邀请优秀同学进行线上或线下会谈。\\
+ n截止时间: 20260621T235900 (Asia/Shanghai)\\n官网链接: https://mp.
+ weixin.qq.com/s/fiMhCtSRY5Z_IOWuiwCYEw\\n标签: 双非\\n数据源: camp2
+ 026\\n数据来源: https://ddl.csbaoyan.top
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://mp.weixin.qq.com/s/fiMhCtSRY5Z_IOWuiwCYEw
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜南方科技大学｜深港微电子学院 截止
+ 于 20260621T235900 (截止前 7 天)
+TRIGGER;VALUE=DATE-TIME:20260614T235900
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜南方科技大学｜深港微电子学院 截止
+ 于 20260621T235900 (截止前 3 天)
+TRIGGER;VALUE=DATE-TIME:20260618T235900
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜南方科技大学｜深港微电子学院 截止
+ 于 20260621T235900 (截止前 1 天)
+TRIGGER;VALUE=DATE-TIME:20260620T235900
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜南方科技大学｜深港微电子学院 截止
+ 于 20260621T235900 (截止前 6 小时)
+TRIGGER;VALUE=DATE-TIME:20260621T175900
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:0ce4c2cd507b42b5@oohyees.github.io
+DTSTART:20260625T233000
+DTEND:20260626T000000
+SUMMARY:DDL｜浙江大学｜集成电路学院
+DESCRIPTION:学校: 浙江大学\\n院系/项目: 集成电路学院\\n描
+ 述: 浙江大学集成电路学院2026年全国优秀大学生暑期学
+ 术夏令营，线下活动时间为2026年7月7日-9日，旨在向全国
+ 优秀大学生介绍学院并搭建师生深入交流平台，活动包
+ 括学科专业介绍、平台参观、导师交流等。夏令营具体
+ 方向包括集成电路科学与工程（集成电路制造工程方向
+ ）/电子信息（集成电路先进制造技术方向），主要研究
+ 集成电路虚拟制造与智能制造、成套工艺整合与新器件
+ 、先进制造工艺与装备、测试、可靠性、设计制造协同
+ 优化、AI辅助EDA、三维集成芯粒技术、先进器件等，拟招
+ 收约50人；集成电路科学与工程（集成纳电子科学方向）
+ /电子信息（微纳电子前沿方向），研究后摩尔材料与工
+ 艺、微纳电子/光电子器件与工艺、微纳系统、感知器件
+ 、新型器件与电路、人工智能与具身智能、融合AI芯片等
+ ，拟招收约25人；设计与设计自动化方向本年度不组织夏
+ 令营。申请者为2027届优秀本科毕业生，需热爱祖国、对
+ 相关学科有兴趣、学业优秀且预期可获推免资格；直博
+ 英语需六级460、TOEFL80或雅思5.5以上。报名截止6月25日，
+ 通过浙江大学研究生招生服务系统申请，材料包括成绩
+ 单和排名、简历、英语证明、论文/获奖等，需合并为10M
+ 以内PDF。学院将按教育背景、学业水平、科研能力和综
+ 合素质审核，名单通过系统、短信或邮件通知；营员食
+ 宿由学院承担并统一安排，交通自理，学院统一购买活
+ 动期间团体意外保险。\\n截止时间: 20260626T000000 (Asia/Shang
+ hai)\\n官网链接: https://ic.zju.edu.cn/2026/0527/c54024a3166915/page.h
+ tm\\n标签: 华五\\n数据源: camp2026\\n数据来源: https://ddl.csba
+ oyan.top
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://ic.zju.edu.cn/2026/0527/c54024a3166915/page.htm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜浙江大学｜集成电路学院 截止于 20260
+ 626T000000 (截止前 7 天)
+TRIGGER;VALUE=DATE-TIME:20260619T000000
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜浙江大学｜集成电路学院 截止于 20260
+ 626T000000 (截止前 3 天)
+TRIGGER;VALUE=DATE-TIME:20260623T000000
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜浙江大学｜集成电路学院 截止于 20260
+ 626T000000 (截止前 1 天)
+TRIGGER;VALUE=DATE-TIME:20260625T000000
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜浙江大学｜集成电路学院 截止于 20260
+ 626T000000 (截止前 6 小时)
+TRIGGER;VALUE=DATE-TIME:20260625T180000
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:79198e1d4c05918f@oohyees.github.io
+DTSTART:20260629T233000
+DTEND:20260630T000000
+SUMMARY:DDL｜中国科学院｜计算机网络信息中心
+DESCRIPTION:学校: 中国科学院\\n院系/项目: 计算机网络信息
+ 中心\\n描述: 中国科学院计算机网络信息中心2026年“智
+ 能与网络”夏令营，中心是中国互联网发源地、高性能
+ 科学计算服务先行者和中国科学数据引领者，瞄准AI4S时
+ 代机遇，开展面向人智融合的新一代科学智能体、空天
+ 地海一体化移动科研网络、面向科研应用的数字孪生集
+ 成研发平台等关键技术研究。中心拥有计算机科学与技
+ 术、网络空间安全两个一级学科学术型博士培养点，以
+ 及电子信息全日制专业型博士培养点，设有计算机科学
+ 与技术博士后流动站。夏令营拟于2026年7月14日-17日举办
+ ，内容包括学术前沿讲座、走进实验室、参观、师生交
+ 流等，营员规模100-150人。申请对象为国内高校计算机、
+ 网络空间安全及相关专业拟2027年毕业优秀本科生，原则
+ 上应具有推免资格。网上报名截止6月29日，通过中国科
+ 学院大学科教结合协同育人行动计划网站申请。材料包
+ 括国科大夏令营申请表、成绩单及专业排名、英语四六
+ 级或其他英语证明、科研成果/竞赛成绩等自愿材料、安
+ 全协议书。7月3日前后通过系统和邮件通知入选者，入选
+ 者需7月7日前将材料合并为PDF发送至指定邮箱并报到时提
+ 交原件。活动免报名费，线下营员可享住宿安排、用餐
+ 补助和人身意外保险，表现优秀者可获得优秀营员资格
+ 。\\n截止时间: 20260630T000000 (Asia/Shanghai)\\n官网链接: https:
+ //www.cnic.cas.cn/yjsjy/tzgg/202605/t20260527_8209811.html\\n标签: 研
+ 究院\\n数据源: camp2026\\n数据来源: https://ddl.csbaoyan.top
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://www.cnic.cas.cn/yjsjy/tzgg/202605/t20260527_8209811.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜中国科学院｜计算机网络信息中心 截
+ 止于 20260630T000000 (截止前 7 天)
+TRIGGER;VALUE=DATE-TIME:20260623T000000
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜中国科学院｜计算机网络信息中心 截
+ 止于 20260630T000000 (截止前 3 天)
+TRIGGER;VALUE=DATE-TIME:20260627T000000
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜中国科学院｜计算机网络信息中心 截
+ 止于 20260630T000000 (截止前 1 天)
+TRIGGER;VALUE=DATE-TIME:20260629T000000
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜中国科学院｜计算机网络信息中心 截
+ 止于 20260630T000000 (截止前 6 小时)
+TRIGGER;VALUE=DATE-TIME:20260629T180000
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d9e8b57ed1e39b3f@oohyees.github.io
+DTSTART:20260615T163000
+DTEND:20260615T170000
+SUMMARY:DDL｜中国科学院大学｜杭州高等研究院智能科学与
+ 技术学院
+DESCRIPTION:学校: 中国科学院大学\\n院系/项目: 杭州高等研
+ 究院智能科学与技术学院\\n描述: 国科大杭州高等研究院
+ 智能科学与技术学院2026年大学生暑期夏令营（线下），
+ 杭高院由中国科学院大学和杭州市人民政府共同举办，
+ 智能学院由杭高院与中科院计算所、中科院软件所、中
+ 科院计算机网络信息中心联合共建，并与中科院信息工
+ 程所、中科院半导体所、之江实验室合作，专注人工智
+ 能、智能芯片、智能软件及智能系统等领域。学院包含
+ 黄伟庆、陈弘达、杜一、李彦彪、韩银和、郑婉华、顾
+ 建军、张健等教授工作室，方向覆盖信息安全、智能功
+ 率集成电路、科学大数据、AI4S基础设施、芯粒集成芯片
+ 、半导体光电芯片、仿人机器人、人机融合、软件分析
+ 测试等。夏令营拟于2026年7月初在杭高院云艺园区线下举
+ 办，内容包括开营仪式、学院及工作室介绍、专题讲座
+ 、优秀营员选拔、园区参观等。申请对象为计算机类、
+ 电子信息类、自动化类、数学类、信息管理与信息系统
+ 等相关专业2027届本科毕业生，需成绩优秀、对学院研究
+ 方向有兴趣、英语四级通过。报名和电子材料截止2026年6
+ 月15日17点，需填写问卷星并通过WPS收集提交申请表、成
+ 绩单、四六级成绩、身份证、学生证、排名证明等，推
+ 荐信和成果材料可自愿提交。学院为营员免费提供食宿
+ ，并为外地营员报销到杭州的单程交通费用（不含飞机
+ ）。\\n截止时间: 20260615T170000 (Asia/Shanghai)\\n官网链接: htt
+ p://hias.ucas.ac.cn/znkxyjs/info/1118/1461.htm\\n标签: 双非\\n数据
+ 源: camp2026\\n数据来源: https://ddl.csbaoyan.top
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:http://hias.ucas.ac.cn/znkxyjs/info/1118/1461.htm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜中国科学院大学｜杭州高等研究院智
+ 能科学与技术学院 截止于 20260615T170000 (截止前 7 天)
+TRIGGER;VALUE=DATE-TIME:20260608T170000
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜中国科学院大学｜杭州高等研究院智
+ 能科学与技术学院 截止于 20260615T170000 (截止前 3 天)
+TRIGGER;VALUE=DATE-TIME:20260612T170000
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜中国科学院大学｜杭州高等研究院智
+ 能科学与技术学院 截止于 20260615T170000 (截止前 1 天)
+TRIGGER;VALUE=DATE-TIME:20260614T170000
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜中国科学院大学｜杭州高等研究院智
+ 能科学与技术学院 截止于 20260615T170000 (截止前 6 小时)
+TRIGGER;VALUE=DATE-TIME:20260615T110000
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2c2911c3d2384b91@oohyees.github.io
+DTSTART:20260618T233000
+DTEND:20260619T000000
+SUMMARY:DDL｜北京师范大学｜未来技术学院
+DESCRIPTION:学校: 北京师范大学\\n院系/项目: 未来技术学院\
+ \n描述: 北京师范大学未来技术学院2026年优秀大学生夏令
+ 营，拟于2026年7月1日-3日举办，计划招收营员50人。学院
+ 聚焦绿色、低碳、健康、智慧技术，通过环境资源、生
+ 态生命、物质科学、系统科学、人工智能、工程技术等
+ 学科交叉融合，培养交叉工程拔尖创新人才。夏令营涵
+ 盖环境科学与工程、水利工程、化学、水文水资源、地
+ 理学、生态学、计算机科学与技术等专业方向，面向2027
+ 届全日制本科三年级学生。申请者需政治品德合格、身
+ 心健康、无违纪处分，学习成绩优秀并达到本科学校推
+ 免要求，有意申请学院推免研究生或报考学院研究生；
+ 来自一流高校或本科前3年/前5学期综合成绩排名学校同
+ 年级专业前20%的推免生优先，并需对科研有兴趣、创新
+ 能力强、英语水平良好。网上申报时间为2026年5月28日至6
+ 月18日，通过北师大夏令营申请系统提交申请表、成绩单
+ 和排名、英语证明、2封专家推荐信、个人自述、论文/获
+ 奖等证明，材料1-5必交。活动包括开营仪式、学院和招
+ 生政策介绍、前沿报告、营员考核与优秀作品评选、湾
+ 区科技与珠海校区文化体验、重点实验室参观、结营仪
+ 式等。学院不收费，提供校内食宿和意外险，并按地区
+ 给予200/400/800元交通补贴。\\n截止时间: 20260619T000000 (Asia/
+ Shanghai)\\n官网链接: https://mp.weixin.qq.com/s/Z3xWjSoJxMWKqreMmPv-B
+ Q\\n标签: 985\, 211\\n数据源: camp2026\\n数据来源: https://ddl.cs
+ baoyan.top
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://mp.weixin.qq.com/s/Z3xWjSoJxMWKqreMmPv-BQ
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜北京师范大学｜未来技术学院 截止于
+  20260619T000000 (截止前 7 天)
+TRIGGER;VALUE=DATE-TIME:20260612T000000
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜北京师范大学｜未来技术学院 截止于
+  20260619T000000 (截止前 3 天)
+TRIGGER;VALUE=DATE-TIME:20260616T000000
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜北京师范大学｜未来技术学院 截止于
+  20260619T000000 (截止前 1 天)
+TRIGGER;VALUE=DATE-TIME:20260618T000000
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜北京师范大学｜未来技术学院 截止于
+  20260619T000000 (截止前 6 小时)
+TRIGGER;VALUE=DATE-TIME:20260618T180000
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:0da1e6e19d9109ef@oohyees.github.io
+DTSTART:20260625T233000
+DTEND:20260626T000000
+SUMMARY:DDL｜中国科学技术大学｜电子工程与信息科学系
+DESCRIPTION:学校: 中国科学技术大学\\n院系/项目: 电子工程
+ 与信息科学系\\n描述: 中国科学技术大学电子工程与信息
+ 科学系（6系）2026年研招科学营，活动全部采用线下方式
+ ，要求营员全程参加。科学营采用导师推荐制，只从6系2
+ 026年招生导师推荐的学生中选拔营员；报名时不区分学
+ 硕、专硕和具体学科专业，在中国科大研究生报考服务
+ 系统中统一选择一级学科“信息与通信工程”，实际录
+ 取类型与学科专业需与意向导师确认。申请者需尽快联
+ 系2026年招生导师，由导师于6月25日前通过邮件向6系报送
+ 推荐名单；每位学生只能由一位导师推荐，如同时联系
+ 多位导师需确认唯一推荐导师。该通知未列出普通网申
+ 材料清单，核心流程是先确定意向导师并完成导师推荐
+ ，再通过系统查询入营结果。\\n截止时间: 20260626T000000 (A
+ sia/Shanghai)\\n官网链接: https://eeis.ustc.edu.cn/2026/0520/c2702a741
+ 249/page.htm\\n标签: 华五\\n数据源: camp2026\\n数据来源: https:
+ //ddl.csbaoyan.top
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://eeis.ustc.edu.cn/2026/0520/c2702a741249/page.htm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜中国科学技术大学｜电子工程与信息
+ 科学系 截止于 20260626T000000 (截止前 7 天)
+TRIGGER;VALUE=DATE-TIME:20260619T000000
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜中国科学技术大学｜电子工程与信息
+ 科学系 截止于 20260626T000000 (截止前 3 天)
+TRIGGER;VALUE=DATE-TIME:20260623T000000
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜中国科学技术大学｜电子工程与信息
+ 科学系 截止于 20260626T000000 (截止前 1 天)
+TRIGGER;VALUE=DATE-TIME:20260625T000000
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜中国科学技术大学｜电子工程与信息
+ 科学系 截止于 20260626T000000 (截止前 6 小时)
+TRIGGER;VALUE=DATE-TIME:20260625T180000
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:eeb7ed6ed24d110a@oohyees.github.io
+DTSTART:20260614T163000
+DTEND:20260614T170000
+SUMMARY:DDL｜北京大学｜前沿交叉学科研究院、生命科学学
+ 院
+DESCRIPTION:学校: 北京大学\\n院系/项目: 前沿交叉学科研究
+ 院、生命科学学院\\n描述: 北京大学前沿交叉学科研究院
+ （含定量生物学中心、PTN项目、CLS项目）与生命科学学
+ 院（含BIOPIC项目）联合举办2026年“大生命科学交叉”夏
+ 令营，活动时间为2026年7月6日-9日，围绕生命科学与相关
+ 交叉学科开展，拟招收约450人，主办方提供活动期间住
+ 宿（北京高校学生除外）和校内餐饮。研究方向包括前
+ 沿交叉学科研究院的整合生物学、定量生物学（系统生
+ 物学、计算生物学、物理生物学、人工智能与生物系统
+ 、复杂疾病网络与药物设计等）、合成生物学、生命化
+ 学、生命医学、脑科学与类脑研究等；以及生命科学学
+ 院的动物学、植物学、生理学、细胞生物学、生物化学
+ 与分子生物学、生物物理学、生物信息学、生物技术等
+ 。申请者不限生物学及医学专业，欢迎数学、物理、化
+ 学、工程、心理、信息、计算机等理工科背景且对生命
+ 科学有强烈兴趣和科研创造力的学生；对象包括2027年毕
+ 业的应届本科生或硕士生，以及已获学士/硕士学位的往
+ 届生。网上申报和材料提交时间为6月1日8:00至6月14日17:00
+ ，需通过联合报名系统提交申请表、个人陈述、3封专家
+ 推荐信、成绩单和排名证明、英语水平证明、学历/学位
+ 证明、论文/获奖等材料，PDF不超过20页。材料审核6月底
+ 前完成，入营名单将在相关学院和项目主页公布。\\n截
+ 止时间: 20260614T170000 (Asia/Shanghai)\\n官网链接: https://www.aai
+ s.pku.edu.cn/info/1058/19661.htm\\n标签: TOP2\\n数据源: camp2026\\n
+ 数据来源: https://ddl.csbaoyan.top
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://www.aais.pku.edu.cn/info/1058/19661.htm
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜北京大学｜前沿交叉学科研究院、生
+ 命科学学院 截止于 20260614T170000 (截止前 7 天)
+TRIGGER;VALUE=DATE-TIME:20260607T170000
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜北京大学｜前沿交叉学科研究院、生
+ 命科学学院 截止于 20260614T170000 (截止前 3 天)
+TRIGGER;VALUE=DATE-TIME:20260611T170000
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜北京大学｜前沿交叉学科研究院、生
+ 命科学学院 截止于 20260614T170000 (截止前 1 天)
+TRIGGER;VALUE=DATE-TIME:20260613T170000
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:提醒: DDL｜北京大学｜前沿交叉学科研究院、生
+ 命科学学院 截止于 20260614T170000 (截止前 6 小时)
+TRIGGER;VALUE=DATE-TIME:20260614T110000
 END:VALARM
 END:VEVENT
 END:VCALENDAR
