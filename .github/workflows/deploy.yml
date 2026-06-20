@@ -32,7 +32,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: "24"
+          node-version: "22"
           cache: "pnpm"
 
       - name: Install dependencies
@@ -40,6 +40,10 @@ jobs:
 
       - name: Build
         run: pnpm run build
+        env:
+          ASTRO_OUTPUT: static
+          SITE_URL: https://oohyees.github.io
+          PUBLIC_WALINE_SERVER_URL: https://waline-comments-umber.vercel.app
 
       - name: Setup Pages
         uses: actions/configure-pages@v4

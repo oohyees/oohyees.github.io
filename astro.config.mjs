@@ -33,6 +33,7 @@ const site =
   (process.env.VERCEL_PROJECT_PRODUCTION_URL
     ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
     : 'https://oohyees.github.io')
+const isStaticOutput = process.env.ASTRO_OUTPUT === 'static' || process.env.GITHUB_PAGES === 'true'
 
 // https://astro.build/config
 export default defineConfig({
@@ -43,8 +44,8 @@ export default defineConfig({
 
   // Adapter
   // 1. Vercel (serverless)
-  adapter: vercel(),
-  output: 'server',
+  adapter: isStaticOutput ? undefined : vercel(),
+  output: isStaticOutput ? 'static' : 'server',
   // 2. Vercel (static)
   // adapter: vercelStatic(),
   // 3. Local (standalone)
@@ -70,9 +71,13 @@ export default defineConfig({
 
     // Temporary fix vercel adapter
     // static build method is not needed
-    outputCopier({
-      integ: ['sitemap', 'pagefind']
-    })
+    ...(!isStaticOutput
+      ? [
+          outputCopier({
+            integ: ['sitemap', 'pagefind']
+          })
+        ]
+      : [])
   ],
   // root: './my-project-directory',
 
