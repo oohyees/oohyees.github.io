@@ -1,0 +1,58 @@
+---
+import { PostPreview } from 'astro-pure/components/pages'
+import { getBlogCollection, sortMDByDate } from 'astro-pure/server'
+import PageLayout from '@/layouts/BaseLayout.astro'
+import {
+  collections,
+  getCollectionInfo,
+  postMatchesCollection,
+  type CollectionKey
+} from '@/utils/collections'
+
+export const prerender = true
+
+export async function getStaticPaths() {
+  const posts = sortMDByDate(await getBlogCollection())
+  return collections.map((collection) => ({
+    params: { key: collection.key },
+    props: {
+      collectionKey: collection.key,
+      posts: posts.filter((post) => postMatchesCollection(post, collection.key))
+    }
+  }))
+}
+
+interface Props {
+  collectionKey: CollectionKey
+  posts: Awaited<ReturnType<typeof getBlogCollection>>
+}
+
+const { collectionKey, posts } = Astro.props
+const collection = getCollectionInfo(collectionKey)!
+
+const meta = {
+  description: collection.description,
+  title: collection.title
+}
+---
+
+<PageLayout {meta}>
+  <main class='mt-6 lg:mt-10'>
+    <div id='content-header' class='animate mb-8'>
+      <h1 class='text-3xl font-medium'>{collection.title}</h1>
+      <p class='mt-2 text-muted-foreground'>{collection.description}</p>
+    </div>
+
+    {
+      posts.length === 0 ? (
+        <p class='text-muted-foreground'>No posts yet.</p>
+      ) : (
+        <ul class='flex flex-col gap-y-4 text-start'>
+          {posts.map((post) => (
+            <PostPreview {post} detailed />
+          ))}
+        </ul>
+      )
+    }
+  </main>
+</PageLayout>

@@ -1,5 +1,11 @@
 blank_issues_enabled: false
 contact_links:
-  - name: AstroPaper Discussions
-    url: https://github.com/satnaing/astro-paper/discussions
-    about: Please ask and answer questions here.
+  - name: 👾 Chat
+    url: https://t.me/astro_pure
+    about: Chat with the community on Telegram
+  - name: 📘 Documentation
+    url: https://astro-pure.js.org/docs/list
+    about: Checkout the documentation for more information
+  - name: 💁 Discussion
+    url: https://github.com/cworld1/astro-theme-pure/discussions
+    about: 'This issue tracker is not for support questions. Leave a comment on the discussion board if you need help.'

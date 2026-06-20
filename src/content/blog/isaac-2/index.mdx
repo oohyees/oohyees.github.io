@@ -1,0 +1,120 @@
+---
+title: "Isaac Sim 一百讲（2）：万物皆 Prim"
+publishDate: 2025-01-19
+updatedDate: 2025-01-19
+description: "从零开始的 Isaac Sim 之路，第一季开始！"
+heroImage:
+  src: "/images/axi-hero/isaac-2-zh.webp"
+  alt: "Isaac Sim 一百讲（2）：万物皆 Prim"
+  inferSize: true
+  source: "https://www.pixiv.net/artworks/122728541"
+category: "tech"
+tags:
+  - "embodied ai"
+  - "isaac 101"
+language: zh
+comment: true
+---
+import { LinkPreview } from 'astro-pure/advanced'
+
+## 前言
+
+在上一讲中，我们介绍了 Isaac Sim 的安装，并且使用一个简单的程序验证了安装的正确性。读者大可兴奋地期待着本章内容讲解程序的编写，并且可以上手编写自己的程序，然而遗憾的是，这节内容将是概念相关的内容，尽管相对枯燥，但是理解这些概念，对于我们后续的实践是至关重要的。
+
+## 万物皆 Prim
+
+古希腊的一位哲学家兼数学家，毕达哥拉斯，曾经说过：“万物皆数”。这句话听上去十分带感，因此在这里对这句话进行一定的化用，在 Isaac Sim 中，万物皆 Prim。
+
+我们无法找到某个准确的翻译来翻译这一概念，不过在科研界，这种现象比比皆是，因此也就不过多纠结了。要是想要寻求一个恰当的类比，学习过 Java 的读者可能会想到 Java 中的 Object 类，在 Java 中一切的变量都是 Object 类的实例，这是一种很好的迁移，在 Isaac Sim 中，一切的物体都是 Prim 类的实例。
+
+Isaac Sim 的本质是对于物理世界的模拟，其中的关键在于模拟物理世界中的各种元素，例如物体、光照、纹理等，而在 OpenUSD 的管理范围下，这些东西都可以用 Prim 来替代，进一步在 Prim 上延伸出更多的种类，诸如 XFormPrim、RigidPrim 或者 Shader 等。Isaac Sim 搭建在 OpenUSD 的框架上，可以模拟 OpenUSD 中的物体的交互，使用 PhyX 进行模拟，并且使用管线对于视觉进行渲染等。
+
+对于每一个 Prim，其包括几个关键的属性，即 `prim_path`, `API` 以及 `Attributes`。
+
+## Prim Path
+
+在 Isaac Sim 中，每一次的程序运行会打开某种实例，从意义的角度来说，可以称之为 Scene，也就是一个场景，而从定义上来说，我们剋称之为一个 Stage。在一个 Stage 下面包括若干的 Prim，这些 Prim 以树状结构组织，每一个 Prim 作为一个结点，因此对于任何一个 Prim，可以使用其递归父结点的名称来表示其路径，例如 `/World/Table/LeftLeg` 表示的是在 World 下面的一个 Table 下面的一个左腿，更进一步，在这个 LeftLeg 下面可能包括 Mesh 以及 Tex，前者表示左腿的形状信息，而后者表示左腿的纹理信息。
+
+在 Isaac Sim 中，所有的 Prim 的 `prim_path` 都是唯一的，因此可以通过 `prim_path` 来访问任何一个 Prim。
+
+```python
+import numpy as np
+from isaacsim import SimulationApp
+simulation_app = SimulationApp({"headless": False}) # we can also run as headless.
+
+from omni.isaac.core import World
+from omni.isaac.core.objects import DynamicCuboid
+from omni.isaac.core.utils.prims import get_prim_at_path
+
+world = World()
+world.scene.add_default_ground_plane()
+cube1 = world.scene.add(
+    DynamicCuboid(
+        prim_path="/World/cube1",
+        name="cube1",
+        position=np.array([0, 0, 1.0]),
+        scale=np.array([0.5015, 0.5015, 0.5015]),
+        color=np.array([0, 0, 1.0]),
+    ))
+
+cube1_prim = get_prim_at_path("/World/cube1")
+simulation_app.close()
+```
+
+在这里面，我们创建了一个程序实例，即通过 `simulation_app = SimulationApp({"headless": False})` 创建了一个非无头模式的应用实例，然后通过 `world.scene.add_default_ground_plane()` 创建了一个地面。`DynamicCuboid` 是一个用于演示很方便的类，其可以创建一个立方体，这个立方体具有重力以及碰撞箱。
+
+读者可以使用代码：
+
+```python
+...
+world.reset() # [!code ++]
+for _ in range(10): # [!code ++]
+    world.step(render=True) # [!code ++]
+simulation_app.close()
+```
+
+来查看这个立方体在重力作用下的运动，在这里不过多解释，后续会详细讲解，在这里可以理解为 step 是前向模拟一次。
+
+大多数的实际上在操作过程中我们遇到的实例，都是经过了封装的内容，例如大多数的资产都会通过 XFormPrim 进行封装，这些类都具有属性 `prim_path`，也就可以直接获得他们的 Prim Path 了，例如：
+
+```python
+...
+print(cube1.prim_path) # [!code ++]
+print(cube1_prim.GetPath()) # [!code ++]
+```
+
+## API 与 Attributes
+
+在了解了 Prim 的基本属性 Prim Path 之后，我们也有必要了解一下，是什么区分了不同的 Prim，让他们具有了不同的功能。
+
+在 Isaac Sim 中，API 是 Prim 的一个属性，一个 API 被添加之后，Prim 就可以被施加若干的属性，在这里以物理属性为例，以下代码可以查看一个 Prim 的 API 列表：
+
+```python
+...
+print(cube1_prim.GetAppliedSchemas()) # [!code ++]
+```
+
+可以得到输出：
+
+```txt
+['MaterialBindingAPI', 'PhysicsCollisionAPI', 'PhysicsMeshCollisionAPI', 'PhysxCollisionAPI', 'PhysicsMassAPI', 'PhysicsRigidBodyAPI', 'PhysxRigidBodyAPI']
+```
+
+不难发现其包含的 Rigid 以及 Collision 相关的 API。
+
+每创建一个 API，其就会自动创建若干的属性，对于一些属性来说，其默认就会被创建，并且被设置为默认值，而其他的属性则需要手动创建，以应用这些变换。在后续的使用中，我们主要会对于 Physics 相关的一些 API 进行处理，这将在后续进行详细的展示。
+
+话题回到当下，于是也就不难通过函数来获得这些 API 下面的 Attribute 的内容：
+
+```python
+...
+print(cube1_prim.GetAttribute("physxRigidBody:maxLinearVelocity").Get()) # [!code ++]
+```
+
+返回为 `inf`，也就是对于最大速度没有限制。读者不难注意到 `physxRigidBody:maxLinearVelocity` 是 `physxRigidBody` 这个 API 下面的一个属性，但是这个名字究竟是如何获得的呢？在这里指路文档，其 [某一处](https://docs.omniverse.nvidia.com/kit/docs/omni_usd_schema_physics/106.1/class_physx_schema_physx_rigid_body_a_p_i.html#a809c9a1d401014d2a9d9ad734ebd9d1a) 包括这一说明。Isaac Sim 的文档中对于每一个 API 都有详细的介绍，而几乎没有任何的教程。当然，我们会使用的 Attribute 将在后续向大家详细的介绍，无需紧张。
+
+<LinkPreview href='https://docs.omniverse.nvidia.com/kit/docs/omni_usd_schema_physics/106.1/index.html' />
+
+## 总结
+
+通过本章内容，读者不难对于 Isaac Sim 有一个宏观的理解：Isaac Sim 通过 OpenUSD 管理一系列的 Prim，使用 API 以及 Attributes 来管理这些 Prim 的属性，并且通过其自身的特性，对于这些内容之间的交互（如物理碰撞或者渲染）进行处理。我们还没有详细讲解 step 相关的内容，这便是 Isaac Sim 的仿真的运行，通过这些内容，我们可以在一个场景中，添加物体、光照、纹理，模拟重力以及碰撞，从而运行良好的仿真。

@@ -1,0 +1,106 @@
+---
+import { getBlogCollection, getUniqueTags, sortMDByDate } from 'astro-pure/server'
+import { Button } from 'astro-pure/user'
+import type { GetStaticPaths } from 'astro'
+import PageLayout from '@/layouts/BaseLayout.astro'
+import config from '@/site-config'
+import { blogCategories, postMatchesCategory } from '@/utils/blogCategories'
+import { collections } from '@/utils/collections'
+
+export const prerender = true
+
+export const getStaticPaths = (async () => {
+  const pagedPaths = (base: string, count: number) => {
+    const pageSize = config.content.blogPageSize ?? 15
+    const pages = Math.max(1, Math.ceil(count / pageSize))
+    return Array.from({ length: pages }, (_, index) =>
+      index === 0 ? base : `${base}/${index + 1}`
+    )
+  }
+
+  const corePaths = [
+    'about',
+    'academic',
+    'archives',
+    'links',
+    'projects',
+    'search',
+    'tags',
+    'collection',
+    'terms/list',
+    'terms/privacy-policy',
+    'terms/terms-and-conditions',
+    'terms/copyright',
+    'terms/disclaimer'
+  ]
+  const posts = sortMDByDate(await getBlogCollection())
+  const tags = getUniqueTags(posts)
+
+  const paths = new Set<string>(corePaths)
+
+  for (const post of posts) {
+    paths.add(`blog/${post.id}`)
+  }
+
+  for (const path of pagedPaths('blog', posts.length)) {
+    paths.add(path)
+  }
+
+  for (const category of blogCategories) {
+    const categoryPosts = posts.filter((post) => postMatchesCategory(post, category.key))
+    for (const path of pagedPaths(`blog/${category.key}`, categoryPosts.length)) {
+      paths.add(path)
+    }
+  }
+
+  for (const tag of tags) {
+    const tagPosts = posts.filter((post) => post.data.tags.includes(tag))
+    for (const path of pagedPaths(`tags/${tag}`, tagPosts.length)) {
+      paths.add(path)
+    }
+  }
+
+  for (const collection of collections) {
+    paths.add(`collection/${collection.key}`)
+  }
+
+  return Array.from(paths).map((path) => ({
+    params: { path },
+    props: { path }
+  }))
+}) satisfies GetStaticPaths
+
+const { path } = Astro.props
+const normalizedPath = `/${path}`
+const title = path
+  .split('/')
+  .filter(Boolean)
+  .map((part: string) => part.replace(/-/g, ' '))
+  .join(' / ')
+
+const meta = {
+  description: `English mirror for ${normalizedPath}`,
+  title
+}
+---
+
+<PageLayout {meta}>
+  <Button title='Back' href='/en' style='back' />
+  <main class='mt-6 lg:mt-10'>
+    <div id='content-header' class='animate'>
+      <p class='mb-2 text-sm uppercase tracking-wide text-muted-foreground'>English Mirror</p>
+      <h1 class='text-3xl font-medium'>{title}</h1>
+    </div>
+
+    <div id='content' class='animate mt-8 max-w-3xl space-y-4 text-muted-foreground'>
+      <p>
+        This route mirrors the current Chinese content structure so navigation, sitemap coverage, and
+        language switching stay aligned with the live site.
+      </p>
+      <p>
+        Content for this page is available in the source route until the English corpus is migrated.
+      </p>
+      <a class='inline-flex text-foreground hover:text-primary' href={normalizedPath}>Open source page -></a>
+    </div>
+  </main>
+</PageLayout>

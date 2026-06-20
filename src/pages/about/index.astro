@@ -1,0 +1,85 @@
+---
+import { Comment } from 'astro-pure/advanced'
+import { Button, Spoiler } from 'astro-pure/user'
+import PageLayout from '@/layouts/CommonPage.astro'
+
+const headings = [
+  { depth: 2, slug: 'distribution', text: 'Distribution' },
+  { depth: 2, slug: 'tools', text: 'Tools' },
+  { depth: 2, slug: 'copyright', text: 'Copyright' },
+  { depth: 2, slug: 'theme', text: 'Theme' }
+]
+
+const mirrors = [
+  ['Vercel', 'axi404.top', 'https://axi404.top'],
+  ['Vultr', 'blog.axi404.top', 'https://blog.axi404.top'],
+  ['GitHub Pages', 'axi404.github.io', 'https://axi404.github.io'],
+  ['Cloudflare Pages', 'axi-blog.pages.dev', 'https://axi-blog.pages.dev']
+]
+
+const tools = [
+  ['Astro', 'Content-focused web framework', 'https://astro.build'],
+  ['Pure', 'Astro theme base used by this site', 'https://github.com/cworld1/astro-theme-pure'],
+  ['Waline', 'Comment and pageview service', 'https://waline.js.org'],
+  ['Pagefind', 'Static site search', 'https://pagefind.app']
+]
+---
+
+<PageLayout title='About' {headings} info='/about'>
+  <p>学生 / <Spoiler>可爱猫娘</Spoiler></p>
+  <p>
+    我是「阿汐」，一名来自西安交通大学的人工智能专业的在读生，是 22
+    级。我正在上海人工智能实验室（SHAILAB）的具身智能中心中进行科研实习，从事具身智能
+    manipulation 领域的研究。
+  </p>
+  <Button title='Sponsor Me' class='w-fit' href='/projects#sponsorship' style='ahead' />
+
+  <h2 id='distribution'>网页分发</h2>
+  <p>
+    为了提供更好的访问体验和可靠性，本站在多个平台进行了部署，您可以选择合适的镜像站点进行访问：
+  </p>
+  <div class='grid grid-cols-1 gap-3 md:grid-cols-2'>
+    {
+      mirrors.map(([platform, host, href]) => (
+        <a
+          href={href}
+          target='_blank'
+          rel='noopener noreferrer'
+          class='rounded-2xl border border-border bg-card p-4 no-underline transition-all hover:border-foreground/25 hover:shadow-lg'
+        >
+          <p class='m-0 text-sm text-muted-foreground'>{platform}</p>
+          <p class='m-0 mt-1 font-medium text-foreground'>{host}</p>
+        </a>
+      ))
+    }
+  </div>
+  <p>如果您遇到访问问题，建议尝试其他镜像站点。所有站点内容保持同步更新。</p>
+
+  <h2 id='tools'>Tools</h2>
+  <div class='grid grid-cols-1 gap-3 md:grid-cols-2'>
+    {
+      tools.map(([name, description, href]) => (
+        <a
+          href={href}
+          target='_blank'
+          rel='noopener noreferrer'
+          class='rounded-xl border border-border bg-card p-4 no-underline transition-all hover:border-foreground/25 hover:shadow-md'
+        >
+          <p class='m-0 font-medium text-foreground'>{name}</p>
+          <p class='m-0 mt-1 text-sm text-muted-foreground'>{description}</p>
+        </a>
+      ))
+    }
+  </div>
+
+  <h2 id='copyright'>Copyright</h2>
+  <p>
+    除非另有说明，本站原创内容采用 CC BY 4.0 协议发布。文章中的第三方图片、商标和引用材料归原权利人所有。
+  </p>
+
+  <h2 id='theme'>Theme</h2>
+  <p>
+    Astro-Axi 基于 Astro 与 Pure 主题构建，并将部分主题组件解耦到项目组件目录中，方便按个人主页、博客、学术页面和友链系统继续定制。
+  </p>
+  <Comment slot='bottom' />
+</PageLayout>

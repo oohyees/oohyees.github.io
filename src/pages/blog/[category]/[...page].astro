@@ -1,80 +1,165 @@
 ---
-import type { GetStaticPaths } from "astro";
-import { getRelativeLocaleUrl } from "astro:i18n";
-import { getCollection } from "astro:content";
-import Layout from "@/layouts/Layout.astro";
-import Header from "@/components/Header.astro";
-import Card from "@/components/Card.astro";
-import Footer from "@/components/Footer.astro";
-import Pagination from "@/components/Pagination.astro";
-import { getSortedPosts } from "@/utils/getSortedPosts";
-import { CATEGORIES, getPostsByCategory, type Category } from "@/utils/categories";
-import config from "@/config";
+import type { GetStaticPaths, Page } from 'astro'
+import type { CollectionEntry } from 'astro:content'
+
+import { Paginator, PostPreview } from 'astro-pure/components/pages'
+import { getBlogCollection, getUniqueTags, sortMDByDate } from 'astro-pure/server'
+import { Button, Icon } from 'astro-pure/user'
+import PageLayout from '@/layouts/BaseLayout.astro'
+import config from '@/site-config'
+import {
+  blogCategories,
+  getBlogCategory,
+  postMatchesCategory,
+  type BlogCategoryKey
+} from '@/utils/blogCategories'
+
+export const prerender = true
 
 export const getStaticPaths = (async ({ paginate }) => {
-  const posts = await getCollection("posts", ({ data }) => !data.draft);
-  const sortedPosts = getSortedPosts(posts);
+  const collections = sortMDByDate(await getBlogCollection())
 
-  return Object.keys(CATEGORIES).flatMap((category) => {
-    const catPosts = getPostsByCategory(sortedPosts, category as Category);
-    return paginate(catPosts, {
-      params: { category },
-      pageSize: config.posts.perPage,
-    });
-  });
-}) satisfies GetStaticPaths;
+  return blogCategories.flatMap((category) => {
+    const posts = collections.filter((post) => postMatchesCategory(post, category.key))
+    const uniqueTags = getUniqueTags(posts)
 
-const { page } = Astro.props;
-const category = Astro.params.category as Category;
-const info = CATEGORIES[category];
+    return paginate(posts, {
+      pageSize: config.content.blogPageSize,
+      params: { category: category.key },
+      props: {
+        categoryKey: category.key,
+        collectionsCount: posts.length,
+        uniqueTags
+      }
+    })
+  })
+}) satisfies GetStaticPaths
 
-const locale = Astro.currentLocale ?? config.site.lang;
+interface Props {
+  categoryKey: BlogCategoryKey
+  collectionsCount: number
+  page: Page<CollectionEntry<'blog'>>
+  uniqueTags: string[]
+}
 
-const categoryOrder: Category[] = ["research", "tech", "daily", "journal"];
-const idx = categoryOrder.indexOf(category);
-const prevCat = categoryOrder[(idx - 1 + categoryOrder.length) % categoryOrder.length];
-const nextCat = categoryOrder[(idx + 1) % categoryOrder.length];
+const { categoryKey, collectionsCount, page, uniqueTags } = Astro.props
+const category = getBlogCategory(categoryKey)!
+const prev = getBlogCategory(category.prev)!
+const next = getBlogCategory(category.next)!
+
+const meta = {
+  description: `Posts in category: ${category.title}`,
+  title: `${category.title} - Blog`
+}
+
+const paginationProps = {
+  ...(page.url.prev && {
+    prevUrl: {
+      text: `← Previous Posts`,
+      url: page.url.prev
+    }
+  }),
+  ...(page.url.next && {
+    nextUrl: {
+      text: `Next Posts →`,
+      url: page.url.next
+    }
+  })
+}
 ---
 
-<Layout title={`${info.label} | ${config.site.title}`}>
-  <Header />
-
-  <main id="main-content" class="app-layout pb-4">
-    <!-- Title row with fixed prev/next arrows, title centered -->
-    <div class="flex items-baseline mt-10 mb-2">
-      <div class="w-10 shrink-0">
-        <a
-          href={getRelativeLocaleUrl(locale, `blog/${prevCat}`)}
-          class="text-muted-foreground hover:text-accent text-lg transition-colors"
-          aria-label={CATEGORIES[prevCat].label}
-        >&larr;</a>
-      </div>
-      <h1
-        class="flex-1 text-center text-2xl font-semibold sm:text-3xl"
-        transition:name="category-title"
-      >{info.label}</h1>
-      <div class="w-10 shrink-0 text-right">
-        <a
-          href={getRelativeLocaleUrl(locale, `blog/${nextCat}`)}
-          class="text-muted-foreground hover:text-accent text-lg transition-colors"
-          aria-label={CATEGORIES[nextCat].label}
-        >&rarr;</a>
+<PageLayout {meta}>
+  <main class='mt-6 lg:mt-10'>
+    <div id='content-header' class='animate'>
+      <div class='category-nav-wrapper mb-6 mt-6 sm:mt-10'>
+        <h1 class='inline-block text-3xl font-medium'>{category.title}</h1>
+        <div class='category-nav-arrows ms-3 inline-flex gap-1 align-middle'>
+          <a
+            href={`/blog/${prev.key}`}
+            class='flex size-8 items-center justify-center transition-colors hover:text-primary'
+            title={`Previous: ${prev.title}`}
+            aria-label={`Go to ${prev.title}`}
+          >
+            ‹
+          </a>
+          <a
+            href={`/blog/${next.key}`}
+            class='flex size-8 items-center justify-center transition-colors hover:text-primary'
+            title={`Next: ${next.title}`}
+            aria-label={`Go to ${next.title}`}
+          >
+            ›
+          </a>
+        </div>
       </div>
     </div>
 
-    <!-- Post count + archives link -->
-    <p class="text-sm text-muted-foreground mb-6">
-      Page {page.currentPage} — Showing {page.data.length} of {page.total} posts
-      <a href={getRelativeLocaleUrl(locale, "archives")} class="ml-2 hover:text-accent">&rarr; 按年份归档</a>
-    </p>
+    <div class='grid gap-y-16 sm:grid-cols-[3fr_1fr] sm:gap-x-8'>
+      <section aria-label='Blog posts list' class='animate' id='content'>
+        <div class='mb-3 flex flex-col justify-between text-sm sm:mb-5 sm:flex-row'>
+          <span class='text-muted-foreground'>
+            Page {page.currentPage} - Showing {page.data.length} of {collectionsCount} posts
+          </span>
+          <a aria-label='View all blog by years' href='/archives' data-astro-prefetch>
+            View all posts by years →
+          </a>
+        </div>
 
-    <!-- Post list -->
-    <ul transition:animate="fade">
-      {page.data.map(data => <Card {...data} />)}
-    </ul>
+        {
+          page.data.length === 0 ? (
+            <p>No posts yet.</p>
+          ) : (
+            <ul class='flex flex-col gap-y-4 text-start'>
+              {page.data.map((post) => (
+                <PostPreview {post} detailed />
+              ))}
+            </ul>
+          )
+        }
+
+        <Paginator {...paginationProps} />
+      </section>
+
+      <aside class='animate space-y-8' id='sidebar'>
+        <section>
+          <h2 class='mb-4 flex items-center text-lg font-semibold'>
+            <Icon name='document' class='me-2' />
+            Collections
+          </h2>
+          <ul class='flex flex-col gap-2 text-sm text-muted-foreground'>
+            {
+              blogCategories.map((item) => (
+                <li>
+                  <a href={`/blog/${item.key}`} class='hover:text-primary'>
+                    {item.title}
+                  </a>
+                </li>
+              ))
+            }
+          </ul>
+        </section>
+
+        {!!uniqueTags.length && (
+          <section>
+            <h2 class='mb-4 flex items-center text-lg font-semibold'>
+              <Icon name='tag-2' class='me-2' />
+              Tags
+            </h2>
+            <ul class='text-bgColor flex flex-wrap gap-2'>
+              {uniqueTags.map((tag) => (
+                <li>
+                  <Button title={tag} href={`/tags/${tag}`} style='pill' />
+                </li>
+              ))}
+            </ul>
+            <span class='mt-4 block sm:text-end'>
+              <a aria-label='View all blog categories' href='/tags' data-astro-prefetch>
+                View all →
+              </a>
+            </span>
+          </section>
+        )}
+      </aside>
+    </div>
   </main>
-
-  <Pagination {page} />
-
-  <Footer noMarginTop={page.lastPage > 1} />
-</Layout>
+</PageLayout>

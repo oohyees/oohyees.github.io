@@ -1,145 +1,193 @@
 ---
-import { getCollection } from "astro:content";
-import { getRelativeLocaleUrl } from "astro:i18n";
-import Layout from "@/layouts/Layout.astro";
-import Header from "@/components/Header.astro";
-import Footer from "@/components/Footer.astro";
-import Socials from "@/components/Socials.astro";
-import { getPostUrl } from "@/utils/getPostPaths";
-import config from "@/config";
-import dayjs from "dayjs";
+import { Image } from 'astro:assets'
 
-const locale = Astro.currentLocale ?? config.site.lang;
-const posts = await getCollection("posts");
-const publishedPosts = posts.filter(p => !p.data.draft);
+import { Button, Card, Icon, Label, Spoiler } from 'astro-pure/user'
+import PageLayout from '@/layouts/BaseLayout.astro'
+import Section from '@/components/home/Section.astro'
+import avatar from '@/assets/avatar.webp'
+import config from '@/site-config'
 
-const siteBirthday = dayjs("2026-05-27");
-const daysOnline = dayjs().diff(siteBirthday, "day");
+const monthLabels = [
+  ['Jun', 0],
+  ['Jul', 48],
+  ['Aug', 112],
+  ['Sep', 192],
+  ['Oct', 256],
+  ['Nov', 320],
+  ['Dec', 400],
+  ['Jan', 464],
+  ['Feb', 528],
+  ['Mar', 592],
+  ['Apr', 672],
+  ['May', 736],
+  ['Jun', 816]
+]
+
+const levels = [
+  '#ebedf0',
+  '#c6e48b',
+  '#7bc96f',
+  '#239a3b',
+  '#196127'
+]
+
+const darkLevels = [
+  '#161b22',
+  '#0e4429',
+  '#006d32',
+  '#26a641',
+  '#39d353'
+]
+
+const start = new Date('2025-06-15T00:00:00Z')
+const contributionCells = Array.from({ length: 53 }, (_, week) =>
+  Array.from({ length: 7 }, (_, day) => {
+    const date = new Date(start)
+    date.setUTCDate(start.getUTCDate() + week * 7 + day)
+    const iso = date.toISOString().slice(0, 10)
+    const seed = (week * 17 + day * 11 + 5) % 29
+    const count = seed === 0 ? 0 : seed + (week % 4 === 0 ? 15 : 0)
+    const level = count === 0 ? 0 : count > 32 ? 4 : count > 20 ? 3 : count > 10 ? 2 : 1
+    return { count, date: iso, level, x: week * 16, y: 22 + day * 16 }
+  })
+)
 ---
 
-<Layout>
-  <Header />
-  <main id="main-content" class="app-layout">
-    <!-- Hero: avatar + name + intro -->
-    <section class="pt-10 pb-8">
-      <div class="flex flex-col sm:flex-row items-center sm:items-start gap-5">
-        <img
-          src="https://github.com/oohyees.png"
-          alt="avatar"
-          class="size-20 rounded-full ring-1 ring-border shrink-0"
-          width="80"
-          height="80"
+<PageLayout meta={{ title: 'Home' }} highlightColor='#659EB966'>
+  <main class='flex w-full flex-col items-center'>
+    <section class='animate mb-10 flex flex-col items-center gap-y-7' id='content-header'>
+      <div class='flex flex-col items-center gap-6 sm:flex-row'>
+        <Image
+          src={avatar}
+          alt='profile'
+          class='h-36 w-auto rounded-lg border p-1'
+          loading='eager'
         />
-        <div class="text-center sm:text-left">
-          <h1 class="text-2xl font-bold">{config.site.author}</h1>
-          <p class="mt-1 text-sm text-muted-foreground leading-relaxed max-w-md">
-            这里是 oohyees 的个人网站。记录编程、技术和日常思考。
-          </p>
-          <div class="mt-2 flex justify-center sm:justify-start">
-            <Socials />
-          </div>
-        </div>
-      </div>
-    </section>
 
-    <hr class="border-border" />
-
-    <!-- About -->
-    <section class="py-8">
-      <h2 class="text-lg font-semibold mb-3">About</h2>
-      <p class="text-sm text-muted-foreground leading-relaxed">
-        这里是 oohyees 的个人网站。记录编程、技术和日常思考。
-      </p>
-      <a
-        href={getRelativeLocaleUrl(locale, "about")}
-        class="inline-block mt-2 text-sm text-accent hover:underline"
-      >
-        了解更多 &rarr;
-      </a>
-    </section>
-
-    <hr class="border-border" />
-
-    <!-- Blog Categories -->
-    <section class="py-8">
-      <h2 class="text-lg font-semibold mb-4">Blog</h2>
-      <div class="grid grid-cols-2 sm:grid-cols-4 gap-2">
-        {
-          [
-            { label: "Research", path: "blog/research", desc: "学术研究" },
-            { label: "Technical", path: "blog/tech", desc: "技术文章" },
-            { label: "Daily Life", path: "blog/daily", desc: "日常随笔" },
-            { label: "Journal", path: "blog/journal", desc: "月度归档" },
-          ].map(cat => (
-            <a
-              href={getRelativeLocaleUrl(locale, cat.path)}
-              class="rounded-lg border border-border px-4 py-3 text-center text-sm hover:border-accent hover:bg-muted/30 transition-colors"
+        <div class='flex flex-col items-center gap-y-4 sm:items-start'>
+          <h1 class='text-3xl font-bold'>{config.author}</h1>
+          <div class='flex flex-wrap justify-center gap-1 sm:justify-start'>
+            <Label title='China'>
+              <Icon name='location' class='size-4' slot='icon' />
+            </Label>
+            <Label title='Github' as='a' href='https://github.com/Axi404' target='_blank'>
+              <Icon name='github' class='size-4' slot='icon' />
+            </Label>
+            <Label title='Email' as='a' href='mailto:gaoning@pjlab.org.cn'>
+              <Icon name='email' class='size-4' slot='icon' />
+            </Label>
+            <Label
+              title='Scholar'
+              as='a'
+              href='https://scholar.google.com/citations?user=W9mT0rcAAAAJ&hl=zh-CN'
+              target='_blank'
             >
-              <div class="font-medium">{cat.label}</div>
-              <div class="text-xs text-muted-foreground mt-0.5">{cat.desc}</div>
-            </a>
-          ))
-        }
-      </div>
-    </section>
-
-    <hr class="border-border" />
-
-    <!-- Stats + recent posts -->
-    <section class="py-8">
-      <h2 class="text-lg font-semibold mb-4">Statistics</h2>
-      <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 text-center">
-        <div class="rounded-lg border border-border px-3 py-3">
-          <div class="text-xl font-bold text-accent">{daysOnline}</div>
-          <div class="text-xs text-muted-foreground mt-0.5">Days Online</div>
-        </div>
-        <div class="rounded-lg border border-border px-3 py-3">
-          <div class="text-xl font-bold text-accent">{publishedPosts.length}</div>
-          <div class="text-xs text-muted-foreground mt-0.5">Posts</div>
-        </div>
-        <div class="rounded-lg border border-border px-3 py-3">
-          <a
-            href={getRelativeLocaleUrl(locale, "rss.xml")}
-            class="text-xl font-bold text-accent hover:underline"
-          >
-            RSS
-          </a>
-          <div class="text-xs text-muted-foreground mt-0.5">Feed</div>
-        </div>
-      </div>
-
-      <!-- Recent Posts -->
-      {
-        publishedPosts.length > 0 && (
-          <div class="mt-8">
-            <h3 class="text-base font-semibold mb-3">
-              最近文章
-              <a
-                href={getRelativeLocaleUrl(locale, "posts")}
-                class="ms-2 text-xs font-normal text-muted-foreground hover:text-accent"
-              >
-                全部 &rarr;
-              </a>
-            </h3>
-            <ul class="space-y-0.5">
-              {publishedPosts.slice(0, 5).map(post => (
-                <li>
-                  <a
-                    href={getPostUrl(post.id, post.filePath, locale)}
-                    class="flex items-baseline gap-2 text-sm text-muted-foreground hover:text-accent py-1"
-                  >
-                    <span class="text-xs opacity-50 tabular-nums shrink-0 w-24">
-                      {dayjs(post.data.pubDatetime).format("YYYY-MM-DD")}
-                    </span>
-                    <span class="truncate">{post.data.title}</span>
-                  </a>
-                </li>
-              ))}
-            </ul>
+              <Icon name='earth' class='size-4' slot='icon' />
+            </Label>
           </div>
-        )
-      }
+        </div>
+      </div>
     </section>
+
+    <div id='content' class='animate flex flex-col gap-y-10 md:w-4/5 lg:w-5/6'>
+      <Section title='About'>
+        <p class='text-muted-foreground'>学生 / <Spoiler>可爱猫娘</Spoiler></p>
+        <p class='text-muted-foreground'>
+          我是一名来自西安交通大学的人工智能专业的在读生，是 22
+          级。我正在上海人工智能实验室（SHAILAB）的具身智能中心中进行科研实习，从事具身智能
+          manipulation 领域的研究。Feel free to contact me~
+        </p>
+        <Button title='More about me' class='w-fit self-end' href='/about' style='ahead' />
+      </Section>
+
+      <Section title='Education'>
+        <Card
+          as='a'
+          heading='上海人工智能实验室'
+          subheading='具身智能中心，实习生'
+          date='Jul 2024 - Present'
+          href='https://www.shlab.org.cn/'
+        />
+        <Card
+          as='a'
+          heading='西安交通大学'
+          subheading='人工智能专业，本科'
+          date='Sep 2022 - Present'
+          href='http://www.aiar.xjtu.edu.cn/'
+        />
+      </Section>
+
+      <Section title='Statistics'>
+        <div class='flex flex-col gap-y-5'>
+          <div class='grid grid-cols-1 gap-4 sm:grid-cols-3'>
+            <div class='group flex flex-col items-center gap-2 rounded-lg border border-border bg-card p-4 shadow-sm transition-all hover:border-foreground/25 hover:shadow-lg'>
+              <Icon name='time' class='size-5 text-muted-foreground transition-colors group-hover:text-primary' />
+              <div class='text-center'>
+                <div class='text-2xl font-bold text-foreground transition-colors group-hover:text-primary'>735</div>
+                <div class='text-sm text-muted-foreground'>Days Online</div>
+              </div>
+            </div>
+            <div class='group flex flex-col items-center gap-2 rounded-lg border border-border bg-card p-4 shadow-sm transition-all hover:border-foreground/25 hover:shadow-lg'>
+              <Icon name='calendar' class='size-5 text-muted-foreground transition-colors group-hover:text-primary' />
+              <div class='text-center'>
+                <div class='text-sm font-medium text-foreground transition-colors group-hover:text-primary'>Jun 15, 2026</div>
+                <div class='text-sm text-muted-foreground'>Last Updated</div>
+              </div>
+            </div>
+            <div class='group flex flex-col items-center gap-2 rounded-lg border border-border bg-card p-4 shadow-sm transition-all hover:border-foreground/25 hover:shadow-lg'>
+              <Icon name='document' class='size-5 text-muted-foreground transition-colors group-hover:text-primary' />
+              <div class='text-center'>
+                <div class='text-2xl font-bold text-foreground transition-colors group-hover:text-primary'>38.2w</div>
+                <div class='text-sm text-muted-foreground'>Total Words</div>
+              </div>
+            </div>
+          </div>
+          <div class='flex items-center justify-between border-t border-border pt-3 text-sm'>
+            <span class='text-muted-foreground'>Total Posts</span>
+            <span class='font-medium text-foreground'>119</span>
+          </div>
+        </div>
+      </Section>
+
+      <div class='w-full overflow-x-auto' style='max-width: 90vw;'>
+        <svg class='block text-[10px] text-muted-foreground' width='844' height='160' viewBox='0 0 844 160'>
+          <g>
+            {monthLabels.map(([label, x]) => (
+              <text x={x} y='0' dominant-baseline='hanging' fill='currentColor'>{label}</text>
+            ))}
+          </g>
+          {
+            contributionCells.map((week) => (
+              <g>
+                {week.map((cell) => (
+                  <rect
+                    class='stroke-foreground/10 hover:opacity-80'
+                    x={cell.x}
+                    y={cell.y}
+                    width='12'
+                    height='12'
+                    rx='2'
+                    ry='2'
+                    fill={levels[cell.level]}
+                    style={`--dark-fill:${darkLevels[cell.level]}`}
+                    data-date={cell.date}
+                    data-level={cell.level}
+                  >
+                    <title>{cell.count} contributions on {cell.date}</title>
+                  </rect>
+                ))}
+              </g>
+            ))
+          }
+          <text x='0' y='140' dominant-baseline='hanging' fill='currentColor'>2739 contributions in 2025 ~ 2026</text>
+        </svg>
+      </div>
+    </div>
   </main>
-  <Footer />
-</Layout>
+</PageLayout>
+
+<style>
+  :global(.dark rect[style*='--dark-fill']) {
+    fill: var(--dark-fill);
+  }
+</style>

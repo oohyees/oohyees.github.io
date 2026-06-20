@@ -1,0 +1,130 @@
+---
+import { Image } from 'astro:assets'
+
+import type { iconsType } from 'astro-pure/types'
+import { Button, Icon } from 'astro-pure/user'
+import PageLayout from '@/layouts/CommonPage.astro'
+import ProjectSection from '@/components/projects/ProjectSection.astro'
+import Sponsors from '@/components/projects/Sponsors.astro'
+import alipay from '@/assets/alipay-qrcode.jpg'
+import wechat from '@/assets/wechat-qrcode.jpg'
+import config from '@/site-config'
+
+const headings = [
+  { depth: 2, slug: 'projects', text: 'Projects' },
+  { depth: 2, slug: 'sponsorship', text: 'Sponsorship' }
+]
+---
+
+<PageLayout title='Projects' {headings} info={{ slug: '/projects', hideComment: true }}>
+  <p>
+    如果你觉得我做的项目还不错，可以赞助我，让我有动力继续做下去。
+  </p>
+  <Button title='Checkout sponsorship' class='w-fit' href='#sponsorship'>
+    <Icon class='size-5' name='receive-money' slot='before' />
+  </Button>
+
+  <h2 id='projects'>Projects</h2>
+  <ProjectSection
+    project={[
+      {
+        image: 'lumina.webp',
+        name: 'Lumina 具身社区',
+        description: '一个关于具身智能的社区',
+        links: [
+          { type: 'site', href: 'https://lumina-embodied.ai/' },
+        ]
+      },
+      {
+        image: 'vote.webp',
+        name: 'Vote Web',
+        description: '一个投票网站，用户可以上传自己的简历和判断其他人的保研去向，并统计情况。前后端采用 Next.js，支持账户注册',
+        links: [
+          { type: 'site', href: 'https://vote.axi404.top/' },
+        ]
+      },
+      {
+        image: 'byddl.webp',
+        name: 'CS-BAOYAN-DDL',
+        description: 'CCFDDL Like 的保研夏令营/预推免时间汇总',
+        links: [
+          { type: 'github', href: 'https://github.com/CS-BAOYAN/CS-BAOYAN-DDL' },
+          { type: 'site', href: 'https://ddl.csbaoyan.top/' },
+        ]
+      },
+      {
+        image: 'mtf.webp',
+        name: 'Minimalist Text Framework',
+        description: '基于 Astro 的极简文本游戏框架，仅通过 JSON 文件即可生成游戏',
+        links: [
+          { type: 'site', href: 'https://mtf.axi404.top/' },
+          { type: 'github', href: 'https://github.com/Axi404/minimalist-text-framework' },
+        ]
+      },
+      {
+        image: 'survivexjtu.webp',
+        name: '西安交大生存指南',
+        description: '西安交大生存指南，关于西安交通大学的学习与生活的系统性指南',
+        links: [
+          { type: 'github', href: 'https://github.com/survivexjtu/survivexjtu.github.io' },
+          { type: 'site', href: 'https://survivexjtu.github.io/' },
+        ]
+      },
+      {
+        image: 'cswiki.webp',
+        name: 'CSWiki',
+        description: '一个关于计算机科学保研的相关百科',
+        links: [
+          { type: 'github', href: 'https://github.com/CS-BAOYAN/CS-BAOYAN-Wiki' },
+          { type: 'site', href: 'https://csbaoyan.top/' },
+        ]
+      }
+    ]}
+  />
+
+  <!-- sponsorship -->
+  <h2 id='sponsorship'>Sponsorship</h2>
+  <p>请在赞助后留言或主动联系我。</p>
+  <div class='flex flex-col justify-center gap-4 sm:flex-row'>
+    {
+      [
+        { name: 'WeChat', icon: 'wechat-pay', image: wechat },
+        { name: 'Alipay', icon: 'alipay', image: alipay }
+      ].map((item) => (
+        <div class='group relative justify-center overflow-hidden rounded-xl border bg-white'>
+          <div class='absolute bottom-0 end-0 start-0 top-0 flex items-center justify-center transition-opacity group-hover:opacity-0'>
+            <Icon class='size-20' name={item.icon as iconsType} />
+          </div>
+          <Image
+            class='mx-auto my-0 max-w-60 opacity-30 blur-sm transition-opacity group-hover:opacity-100 group-hover:blur-none'
+            src={item.image}
+            alt={item.name}
+            loading='lazy'
+          />
+        </div>
+      ))
+    }
+  </div>
+  <p>感谢这些人投喂的猫粮:</p>
+  <Sponsors
+    sponsors={[
+    ]}
+  />
+</PageLayout>
+
+<script
+  is:inline
+  type='module'
+  data-astro-rerun
+  define:vars={{ npmCDN: config.npmCDN, walineServer: config.integ.waline.server }}
+>
+  const loadPageviewCount = async () => {
+    const pageview = await import(`${npmCDN}/@waline/client@v3/dist/pageview.js`)
+    pageview.pageviewCount({
+      serverURL: walineServer,
+      path: window.location.pathname
+    })
+  }
+
+  await loadPageviewCount()
+</script>

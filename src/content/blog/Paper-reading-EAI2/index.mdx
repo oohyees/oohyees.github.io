@@ -1,0 +1,134 @@
+---
+title: "Paper Reading: Embodied AI 2"
+publishDate: 2025-08-31
+updatedDate: 2025-08-31
+description: "从一些 Embodied AI 相关工作中扫过。"
+heroImage:
+  src: "/images/axi-hero/Paper-reading-EAI2-zh.webp"
+  alt: "Paper Reading: Embodied AI 2"
+  inferSize: true
+  source: "https://www.pixiv.net/artworks/118143618"
+category: "research"
+tags:
+  - "paper reading"
+  - "embodied ai"
+language: zh
+comment: true
+---
+export function FunctionTable({ id, tldr, vim, rank, children }) {
+  return (
+    <div className='border rounded-xl p-4'>
+      <div class='inline-flex items-stretch gap-2 rounded-full border pe-3'>
+        <span class='flex items-center shrink-0 text-sm bg-primary-foreground text-primary px-2.5 rounded-full'>
+          Arxiv ID
+        </span>
+        <samp className='break-all text-foreground'>
+          <a href={`https://arxiv.org/abs/${id}`} target='_blank' rel='noopener noreferrer'>
+            {id}
+          </a>
+        </samp>
+      </div>
+      <p class='flex items-center gap-x-3'>
+        <svg xmlns='http://www.w3.org/2000/svg' width='26' height='26' viewBox='0 0 24 24'>
+          <g fill='none'>
+            <path d='m12.593 23.258l-.011.002l-.071.035l-.02.004l-.014-.004l-.071-.035q-.016-.005-.024.005l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427q-.004-.016-.017-.018m.265-.113l-.013.002l-.185.093l-.01.01l-.003.011l.018.43l.005.012l.008.007l.201.093q.019.005.029-.008l.004-.014l-.034-.614q-.005-.018-.02-.022m-.715.002a.02.02 0 0 0-.027.006l-.006.014l-.034.614q.001.018.017.024l.015-.002l.201-.093l.01-.008l.004-.011l.017-.43l-.003-.012l-.01-.01z' />
+            <path
+              fill='currentColor'
+              d='M13 20a1 1 0 1 1 0 2h-2a1 1 0 1 1 0-2zM12 2c4.41 0 8 3.543 8 7.933c0 3.006-1.522 5.196-2.78 6.494l-.284.283l-.27.252l-.252.22l-.33.27l-.328.244c-.196.138-.34.329-.466.535l-.145.251l-.141.252c-.24.412-.518.766-1.111.766h-3.786c-.593 0-.871-.354-1.11-.766l-.213-.378c-.145-.253-.305-.494-.54-.66l-.232-.171l-.199-.155l-.227-.188l-.252-.22l-.27-.252l-.285-.283C5.522 15.129 4 12.939 4 9.933C4 5.543 7.59 2 12 2m0 2C8.677 4 6 6.665 6 9.933c0 2.624 1.533 4.494 2.593 5.471l.245.218l.22.182l.27.208l.072.052c.315.222.549.531.762.854l.373.582h2.93l.373-.582c.213-.323.447-.632.762-.854l.243-.182l.206-.165l.233-.2C16.342 14.576 18 12.662 18 9.933C18 6.665 15.323 4 12 4m.293 2.293a1 1 0 0 1 1.497 1.32l-.083.094L12.414 9l1.286 1.286c.364.364.392.937.084 1.333l-.084.095l-1.993 1.993a1 1 0 0 1-1.497-1.32l.083-.094L11.586 11L10.3 9.714a1.01 1.01 0 0 1-.084-1.333l.084-.095z'
+            />
+          </g>
+        </svg>
+        {tldr}
+      </p>
+      <div class='function-table-content'>{children}</div>
+      <div class='inline-flex gap-x-1 items-center bg-muted border rounded-full px-3 [&_svg]:text-foreground'>
+        推荐指数：
+        {
+          // print stars (count rank)
+          Array.from({ length: rank }, (_) => (
+            <svg xmlns='http://www.w3.org/2000/svg' width='22' height='22' viewBox='0 0 24 24'>
+              <g fill='none' fill-rule='evenodd'>
+                <path d='m12.593 23.258l-.011.002l-.071.035l-.02.004l-.014-.004l-.071-.035q-.016-.005-.024.005l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427q-.004-.016-.017-.018m.265-.113l-.013.002l-.185.093l-.01.01l-.003.011l.018.43l.005.012l.008.007l.201.093q.019.005.029-.008l.004-.014l-.034-.614q-.005-.018-.02-.022m-.715.002a.02.02 0 0 0-.027.006l-.006.014l-.034.614q.001.018.017.024l.015-.002l.201-.093l.01-.008l.004-.011l.017-.43l-.003-.012l-.01-.01z' />
+                <path
+                  fill='currentColor'
+                  d='M10.92 2.868a1.25 1.25 0 0 1 2.16 0l2.795 4.798l5.428 1.176a1.25 1.25 0 0 1 .667 2.054l-3.7 4.141l.56 5.525a1.25 1.25 0 0 1-1.748 1.27L12 19.592l-5.082 2.24a1.25 1.25 0 0 1-1.748-1.27l.56-5.525l-3.7-4.14a1.25 1.25 0 0 1 .667-2.055l5.428-1.176zM12 4.987L9.687 8.959a1.25 1.25 0 0 1-.816.592l-4.492.973l3.062 3.427c.234.262.347.61.312.959l-.463 4.573l4.206-1.854a1.25 1.25 0 0 1 1.008 0l4.206 1.854l-.463-4.573a1.25 1.25 0 0 1 .311-.959l3.063-3.427l-4.492-.973a1.25 1.25 0 0 1-.816-.592z'
+                />
+              </g>
+            </svg>
+          ))
+        }
+      </div>
+    </div>
+  )
+}
+
+## 前言
+
+Embodied AI 是一个比较新的领域，而且可能横跨的任务也很多，在这方面做的事情来说，可能一些和具身智能具有比较高相关度的 perception 任务，也都会放在其中。
+
+## HPT
+
+<FunctionTable id='2409.20537' tldr='使用 Stem Encoder 和 Decoder 对齐 cross-embodiment 并训练一个 Transformer' rank={4}>
+
+![The pipeline of HPT](https://pic.axi404.top/image.60u8wwy8i3.webp)
+
+HPT 是 Kaiming He 团队在具身领域的新作，可以说是很直接也很本质地解决了 cross-embodiment 任务的问题，也就是使用在多模态领域中一贯使用的 projector 的思想。这个思想属于是看一眼 Pipeline 图就能看懂的，就是对于不同的机器人，使用不同的 stem 把他们投影到同一个空间中，可以理解为一种机器人任务空间，然后在里面进行 transformer，之后再训练不同的 MLP 来投影回 actions。假如在具有无限多数据的情况下，这种方法确实可以简单有效地进行 scaling up 并且很好地迁移到不同的机器人上，不过令我好奇的是，这种方法居然在此之前没有人提出过，在此之前的工作中本栏目提到过一篇 [Extreme Cross-Embodiment](https://arxiv.org/abs/2402.19432)，然而是将不同的模态统一到了动作空间中，类似于无论是移动还是抓取，本质上都是位移以及旋转。HPT 更多还是聚焦在 manipulation 的任务中，直接且本质地给出了这个架构，并且在很多数据上进行了训练。
+</FunctionTable>
+
+## RoboDual
+
+<FunctionTable id='2410.08001' tldr='使用 OpenVLA 以及 DP 组成的快慢系统，DP 用 OpenVLA 的输出作为输入' rank={2}>
+
+![](https://pic.axi404.top/image.4jo3v6aymf.webp)
+
+首先在讲解这篇之前，不得不说的是，这篇的作图风格我确实十分的喜欢，可以说无论是 icon 还是配色都十分的好看。那么这一篇 RoboDual 本质上就是使用两个模型的并行运行来代替了单一的模型，用了一个大的 OpenVLA 作为一个 high-level 的模型，之后用 DiT 去做 low-level 的 policy，其中 OpenVLA 的输出作为 conditioned input 给到 DiT 中。说白了其实这种框架本身和 PALM-E 在内的一系列工作都有很大相似之处，也就是 high-level 和 low-level 的设计，但是区别在于从之前的串行改到了并行，一次 high-level 到多次 low-level 的并行，并且因此可以提高帧率，也就增加了控制的细粒度。
+
+![](https://pic.axi404.top/image.4xujm1jr7w.webp)
+
+从 pipeline 中也不难看出思想的核心其实就在于把 OpenVLA 的一个 action 扩成了若干的 action，而且 DiT 负责一种扩写，而 OpenVLA 则负责泛化。这种方法可以说是一种通用的技巧，不同于之前 conditioned input 就是 language，这里的 input 就是 action，所以降低了 DiT 的表征难度并且也让模型跑起来很快，将来的模型想要提速，这种增加一个 stage 的策略可以说是通用的。
+</FunctionTable>
+
+## GR-2
+
+<FunctionTable id='2410.06158' tldr='规模更大的 GR-2，展现了泛化能力' rank={3}>
+
+可以说没有什么非常大的 highlight，就是在之前的 GR-1 的基础上的一个拓展性的工作，在更多的数据上进行了预训练以及微调，具体的方法依然不变，还是在大量视频数据里面训练一个 World Model 之后在机器人的数据里面进行动作微调，让模型学会 Action，可以说就是在意料之中。
+</FunctionTable>
+
+## Humanoid Manipulation
+
+<FunctionTable id='2410.10803' tldr='对于 DP3 的 scaling up' rank={3}>
+
+这篇文章其实也很直接，说白了就是一篇对于 DP3 的 Scaling up 的论文。里面提出了一种 iDP3，也就是一个 improved 的方法，但是其实就是一些 trick 的集合，在这里也进行一下介绍。第一个就是 camera centric 的 point cloud 输入，这个应该是利好数据预处理的，而且 scaling up 也比较简单；然后就是下采样少一些，这个其实也可以拓展思考一下，其实是不是可以进行上采用呢，用一些模型对点云进行超分；然后就是把视觉编码器的 MLP 变成卷积，这个应该是经验之谈，可以让输出更加平滑，也可以得到更多的编码内容；以及预测更长时间，这个自然会更好。最后从结果来看，Scaling up 的结果很好，皆大欢喜。
+</FunctionTable>
+
+## Surfer
+
+<FunctionTable id='2306.11335' tldr='使用 World Model 的 VLA 模型' rank={2}>
+
+![Surfer](https://pic.axi404.top/Surfer.8adam0a9tq.webp)
+
+这篇论文里面主要提出了一个 World Model，可以看出来，本身就是拿了两个现成的 Encoder 把任务以及图像进行了编码，然后预测下一次的 action 以及 frame。不过从 pipeline 来看，我其实确实不是很确定这个 next frame prediction 是否有效果。隔了一个网络然后来传梯度给 Action prediction module，本身是串行的，等于说加了一个模块以增加额外约束，这种方法肯定符合直觉，但是肯定拓展性以及潜力有限，监督信号还是本身加在输出 action 的模型本身会好，这种可以说是一种增加监督的 trick，但是不一定在更大规模的 scaling 中好用，毕竟效率不高，增加了一个开销很大的模型。
+</FunctionTable>
+
+## ACT
+
+<FunctionTable id='2304.13705' tldr='CVAE style 的模型，使用 Transformer 作为 encoder，DETR like 的结构作为 decoder' rank={2}>
+
+![ACT](https://pic.axi404.top/image.eskdeuqyp.webp)
+
+这篇论文也是十分经典的论文了，使用了 CVAE 的结构来运行。按照说法，CVAE 也就是 conditional VAE，使用了 VAE，并且使用图像+joint position 作为解码器的输入。由于我没有看过 CVAE，但是大概猜测 conditional 在这个里面其实指的是 image 以及 joint position 在解码器的输入，而至于任务本身，就是重建输入到编码器里面的 action。本身论文里面有很多的细节，包括说在 VAE 编码器的时候只使用 joint position 以及在训练的时候使用 L1 损失而非 L2，在这里就不进行展开了。解码器的结构神似 DETR，包含一个编码器以及一个解码器，不过有必要指出的是，这里其实等于说一共有两个编码器，VAE 本身还有一个。ACT 可以说是比较优雅的 VAE 范式的解决方法，但是不得不说的是，VAE 甚至是传统 diffusion 的策略在当下来看都已经过时了，这种策略可能难以作为一个可以大量 scaling up 的一个策略存在，而且令我疑惑的一个点在于，之前的 VAE 以及 CVAE 因为需要生成图像的 diversity 因此一定需要采样这样一个分布，但是在 manipulation 任务里面，需要一个确定性的 policy 生成，采样一个分布并不重要。而且这样下去全部的信息不久都进入 condition 了吗，那 VAE encoder 的意义何在呢？我不是很理解。
+</FunctionTable>
+
+## SceneVerse
+
+<FunctionTable id='2401.09340' tldr='一个 3D Scene 的数据集以及对应的 Caption Model' rank={3}>
+![](https://pic.axi404.top/image.6pnlog61i3.webp)
+
+这篇工作做了一个大型的数据集，里面的全部的 scene 应该以扫描出来的为主，然后使用了不同 level 的标注，这是比较有参考价值的。也就是 Scene Level 的标注，比如说“这是一个有床和衣柜的卧室”，以及一个 object level 的标注，比如说“床”，“衣柜”，以及一个 object ref 的标注，也就是物品之间的关系，比如说“床在衣柜的左边”。其里面提出的 Scene Graph 还是很有效地可以用于表示场景中的相对关系的。
+
+![](https://pic.axi404.top/image.2rv87ruraz.webp)
+
+然后提出了一个模型，这个图应该是画的比较好看，但是不太容易看懂。本身包括一个 PCD Encoder，以及一个 Text Encoder，之后使用一个 Transformer 进行编码，建立了四个损失，也都算是 MLLM 的比较经典设计。一个是 ALEBF 的损失，这里面叫 $\mathcal{L}_{obj}$，在输入到 Transformer 之前，使用一个 MLP 来预测 object 的 3D 坐标，然后使用 ALEBF 的损失来优化；然后是 $\mathcal{L}_{obj}$，在输入到 Transformer 之前，使用一个 MLP 来预测 object 的 3D 坐标，然后使用 ALEBF 的损失来优化；然后是 $\mathcal{L}_{obj}$，在输入到 Transformer 之前，使用一个 MLP 来预测 object 的 3D 坐标，然后使用 ALEBF 的损失来优化；然后是 $\mathcal{L}_{obj}$，在输入到 Transformer 之前，对齐 PCD Encoder 以及 Text Encoder 的输出。然后这里面多了一个 Spatial Attention，其实就是把 Object 的空间信息编码了一下，之后才和 Text Encoder 的信息一起输入到 Transformer 中。然后就是一个 $\mathcal{L}_{MLM}$，以及 Transformer 之后把 PCD 和 Text 进行对齐的 $\mathcal{L}_{ref}$。最后还有一个过了 Spatial Attention 的 $\mathcal{L}_{scene}$。可以说各种地方都加了各种的损失。$\mathcal{L}_{obj}$ 是让 PCD Encoder 包含 Object 全部的表征，$\mathcal{L}_{scene}$ 确保 Spatial Attention 的输出和 Scene Level 的标注一致，也就是 Spatial 之后真的编码出了这个场景，$\mathcal{L}_{ref}$ 和 $\mathcal{L}_{MLM}$ 则是保证 Fusion 之后的信息的准确性。中规中矩，十分合理。
+
+</FunctionTable>

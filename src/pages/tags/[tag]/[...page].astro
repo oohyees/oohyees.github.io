@@ -1,57 +1,72 @@
 ---
-import { getCollection } from "astro:content";
-import type { GetStaticPathsOptions } from "astro";
-import Layout from "@/layouts/Layout.astro";
-import Header from "@/components/Header.astro";
-import Main from "@/components/Main.astro";
-import Breadcrumb from "@/components/Breadcrumb.astro";
-import Card from "@/components/Card.astro";
-import Footer from "@/components/Footer.astro";
-import Pagination from "@/components/Pagination.astro";
-import { getUniqueTags } from "@/utils/getUniqueTags";
-import { getSortedPosts } from "@/utils/getSortedPosts";
-import { slugifyAll } from "@/utils/slugify";
-import { useTranslations } from "@/i18n";
-import config from "@/config";
+import type { GetStaticPaths, Page } from 'astro'
+import type { CollectionEntry } from 'astro:content'
 
-export async function getStaticPaths({ paginate }: GetStaticPathsOptions) {
-  const posts = await getCollection("posts", ({ data }) => !data.draft);
-  const tags = getUniqueTags(posts);
+import { Paginator, PostPreview } from 'astro-pure/components/pages'
+import { getBlogCollection, getUniqueTags, sortMDByDate } from 'astro-pure/server'
+import { Button } from 'astro-pure/user'
+import PageLayout from '@/layouts/BaseLayout.astro'
+import config from '@/site-config'
 
-  return tags.flatMap(({ tag, tagName }) => {
-    const tagPosts = getSortedPosts(
-      posts.filter(({ data }) => slugifyAll(data.tags).includes(tag))
-    );
+export const prerender = true
 
-    return paginate(tagPosts, {
-      params: { tag },
-      props: { tagName },
-      pageSize: config.posts.perPage,
-    });
-  });
+export const getStaticPaths: GetStaticPaths = async ({ paginate }) => {
+  const allPosts = await getBlogCollection()
+  const allPostsByDate = sortMDByDate(allPosts)
+  const uniqueTags = getUniqueTags(allPostsByDate)
+
+  return uniqueTags.flatMap((tag) => {
+    const filterPosts = allPostsByDate.filter((post) => post.data.tags.includes(tag))
+    return paginate(filterPosts, {
+      pageSize: config.content.blogPageSize,
+      params: { tag }
+    })
+  })
 }
 
-const { page, tagName } = Astro.props;
+interface Props {
+  page: Page<CollectionEntry<'blog'>>
+}
 
-const locale = Astro.currentLocale ?? config.site.lang;
-const t = useTranslations(locale);
+const { page } = Astro.props
+const { tag } = Astro.params
+
+const meta = {
+  description: `View all posts with the tag - ${tag}`,
+  title: `Tag: ${tag}`
+}
+
+const paginationProps = {
+  ...(page.url.prev && {
+    prevUrl: {
+      text: `← Previous Tags`,
+      url: page.url.prev
+    }
+  }),
+  ...(page.url.next && {
+    nextUrl: {
+      text: `Next Tags →`,
+      url: page.url.next
+    }
+  })
+}
 ---
 
-<Layout title={`${t.pages.tagTitle}: ${tagName} | ${config.site.title}`}>
-  <Header />
+<PageLayout {meta}>
+  <Button title='Back' href='/blog' style='back' />
+  <main class='mt-6 lg:mt-10'>
+    <div id='content-header' class='animate'>
+      <h1 class='mb-6 flex items-end gap-x-2 text-3xl font-medium'>
+        Tags:
+        <span class='text-2xl'>#{tag}</span>
+      </h1>
+    </div>
 
-  <Breadcrumb />
-
-  <Main
-    pageTitle={`${t.pages.tagTitle}: ${tagName}`}
-    pageDesc={`${t.pages.tagDesc} "${tagName}".`}
-  >
-    <ul>
-      {page.data.map(data => <Card {...data} />)}
-    </ul>
-  </Main>
-
-  <Pagination {page} />
-
-  <Footer noMarginTop={page.lastPage > 1} />
-</Layout>
+    <section id='content' class='animate' aria-label='Blog post list'>
+      <ul class='flex flex-col gap-y-3 text-start'>
+        {page.data.map((post) => <PostPreview as='h2' {post} detailed />)}
+      </ul>
+      <Paginator {...paginationProps} />
+    </section>
+  </main>
+</PageLayout>

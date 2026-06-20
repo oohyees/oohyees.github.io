@@ -1,0 +1,39 @@
+---
+import PageLayout from '@/layouts/BaseLayout.astro'
+import { collections } from '@/utils/collections'
+
+const meta = {
+  description: 'Curated sets of posts on specific topics or themes.',
+  title: 'All Collections'
+}
+---
+
+<PageLayout {meta}>
+  <a class='mb-8 inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-primary' href='/'>
+    <span aria-hidden='true'>‹</span>
+    Back
+  </a>
+  <main class='mt-6 lg:mt-10'>
+    <div id='content-header' class='animate mb-8'>
+      <h1 class='text-3xl font-medium'>Collections</h1>
+      <p class='mt-2 text-muted-foreground'>Curated sets of posts on specific topics or themes.</p>
+    </div>
+
+    <div class='grid gap-4 sm:grid-cols-2'>
+      {
+        collections.map((collection) => (
+          <a
+            href={`/collection/${collection.key}`}
+            class='group rounded-2xl border border-border bg-card p-5 no-underline transition-all hover:border-foreground/25 hover:shadow-md'
+          >
+            <h2 class='m-0 text-xl font-semibold text-foreground group-hover:text-primary'>
+              {collection.title}
+            </h2>
+            <p class='mb-5 mt-2 text-sm text-muted-foreground'>{collection.description}</p>
+            <span class='text-sm font-medium text-foreground'>View Collection</span>
+          </a>
+        ))
+      }
+    </div>
+  </main>
+</PageLayout>

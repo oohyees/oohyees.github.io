@@ -1,0 +1,3566 @@
+{
+  "generatedAt": "2026-06-20T05:20:51.911Z",
+  "source": "https://axi404.top",
+  "counts": {
+    "collections": 5,
+    "posts": 119,
+    "tags": 96
+  },
+  "collections": [
+    {
+      "path": "collection",
+      "url": "https://axi404.top/collection"
+    },
+    {
+      "path": "collection/embodied-paper-reading",
+      "url": "https://axi404.top/collection/embodied-paper-reading"
+    },
+    {
+      "path": "collection/embodied-series-talk",
+      "url": "https://axi404.top/collection/embodied-series-talk"
+    },
+    {
+      "path": "collection/for-beginners",
+      "url": "https://axi404.top/collection/for-beginners"
+    },
+    {
+      "path": "collection/isaac-101",
+      "url": "https://axi404.top/collection/isaac-101"
+    }
+  ],
+  "posts": [
+    {
+      "category": "daily",
+      "description": "你是否在尺子上留下了刻度。2024，剧终。",
+      "headings": [
+        "年终总结",
+        "找到方向#",
+        "内耗#",
+        "成长#",
+        "新年展望#"
+      ],
+      "heroImage": "https://picr2.axi404.top/2024-zh.webp",
+      "heroImageSource": "https://www.pixiv.net/artworks/125351612",
+      "path": "blog/2024",
+      "publishDate": "2025-01-05",
+      "tags": [
+        "university",
+        "memoir"
+      ],
+      "title": "2024 年终总结",
+      "url": "https://axi404.top/blog/2024"
+    },
+    {
+      "category": "daily",
+      "description": "相对成功的失败，绝对失败的成功。",
+      "headings": [
+        "年终总结",
+        "回顾目标#",
+        "聚焦#",
+        "迷思#",
+        "更多，开源#",
+        "另外，乐小姐#",
+        "以及一切#"
+      ],
+      "heroImage": "https://picr2.axi404.top/139376820_p0.webp",
+      "heroImageSource": "https://www.pixiv.net/artworks/139376820",
+      "path": "blog/2025",
+      "publishDate": "2026-01-01",
+      "tags": [
+        "university",
+        "memoir",
+        "deep dive"
+      ],
+      "title": "2025 年终总结",
+      "url": "https://axi404.top/blog/2025"
+    },
+    {
+      "category": "research",
+      "description": "StarVLA 这段时间以来的进展",
+      "headings": [
+        "前言#",
+        "StarVLA 的发展#",
+        "未来的展望#",
+        "结语#"
+      ],
+      "heroImage": "https://picr2.axi404.top/139754531_p0.webp",
+      "heroImageSource": "https://www.pixiv.net/artworks/139754531",
+      "path": "blog/about-starvla",
+      "publishDate": "2026-02-24",
+      "tags": [
+        "starvla",
+        "vla",
+        "embodied ai"
+      ],
+      "title": "StarVLA 这段时间以来",
+      "url": "https://axi404.top/blog/about-starvla"
+    },
+    {
+      "category": "tech",
+      "description": "详细介绍如何在 Astro 博客中配置和自定义 Markdown 脚注功能，让你的技术文档更加专业。",
+      "headings": [
+        "前言#",
+        "什么是 Markdown 脚注#",
+        "安装必要的依赖#",
+        "配置 Astro#",
+        "基础配置#",
+        "自定义脚注样式#",
+        "完整配置示例#",
+        "脚注语法示例#",
+        "基本脚注#",
+        "具名脚注#",
+        "多行脚注#",
+        "注意事项#",
+        "开发服务器重启#",
+        "脚注标识符#",
+        "无障碍性#",
+        "高级自定义#",
+        "自定义返回符号#",
+        "实际应用示例#",
+        "总结#",
+        "脚注#"
+      ],
+      "heroImage": "https://picr2.axi404.top/add-footnote-zh.webp",
+      "heroImageSource": "https://www.pixiv.net/artworks/130236798",
+      "path": "blog/add-footnote",
+      "publishDate": "2025-06-03",
+      "tags": [
+        "astro",
+        "markdown",
+        "footnote"
+      ],
+      "title": "为 Astro 博客添加 Markdown 脚注支持",
+      "url": "https://axi404.top/blog/add-footnote"
+    },
+    {
+      "category": "daily",
+      "description": "关于这些年来走过的路，兴趣，进步，以及长期主义",
+      "headings": [
+        "前言#",
+        "过去的事#",
+        "科研的路#",
+        "尾声#"
+      ],
+      "heroImage": "https://picr2.axi404.top/105216073_p0.webp",
+      "heroImageSource": "https://www.pixiv.net/artworks/105216073",
+      "path": "blog/admission",
+      "publishDate": "2025-10-04",
+      "tags": [
+        "admission-guide"
+      ],
+      "title": "乘凉，我的保研经验贴",
+      "url": "https://axi404.top/blog/admission"
+    },
+    {
+      "category": "daily",
+      "description": "致新生的你",
+      "headings": [
+        "前言#",
+        "濒临奔溃的本科教学#",
+        "学问的学问，生活的学问#",
+        "Learn to learn#",
+        "信息差#",
+        "持续学习#",
+        "人工智能的学习路线#",
+        "一切开始之前#",
+        "基础数理知识#",
+        "认识你的电脑#",
+        "Markdown，记录你的笔记#",
+        "VSCode，Not IDE#",
+        "Chat with LLM#",
+        "氛围编程，编程是一种思想#",
+        "你唯一在深度学习中需要掌握的语言#",
+        "Linux (and Git)#",
+        "机器学习与计算机视觉是否真的必要#",
+        "深度学习#",
+        "论文阅读 and so on#",
+        "加入课题组#",
+        "完成第一篇论文#",
+        "中稿之后#",
+        "去做更重要的事情#",
+        "一条可能的时间线#",
+        "保研二三事#",
+        "保研流程#",
+        "保研细则#",
+        "两种流派#",
+        "结语#",
+        "Change Logs#",
+        "脚注#"
+      ],
+      "heroImage": "https://picr2.axi404.top/advise-zh.webp",
+      "heroImageSource": "https://www.pixiv.net/artworks/131529266",
+      "path": "blog/advise",
+      "publishDate": "2025-12-25",
+      "tags": [
+        "guidance",
+        "self-study"
+      ],
+      "title": "致新生的你",
+      "url": "https://axi404.top/blog/advise"
+    },
+    {
+      "category": "daily",
+      "description": "为什么要写作致新生的你后日谈，一个新的系列的开始",
+      "headings": [
+        "关于定位#",
+        "后日谈是一个系列#"
+      ],
+      "heroImage": "https://picr2.axi404.top/138231898_p0.webp",
+      "heroImageSource": "https://www.pixiv.net/artworks/138231898",
+      "path": "blog/advise-epilogue-0",
+      "publishDate": "2026-01-04",
+      "tags": [
+        "guidance",
+        "self-study"
+      ],
+      "title": "致新生的你/后日谈：序",
+      "url": "https://axi404.top/blog/advise-epilogue-0"
+    },
+    {
+      "category": "daily",
+      "description": "伴随着 Coding Agent 的能力提升，Vibe Coding 所触及的范围已经如此之广，然而绝大多数人并没有意识到",
+      "headings": [
+        "前言#",
+        "为什么我的编程知识如此匮乏#",
+        "我们需要的是并行度#",
+        "小记#"
+      ],
+      "heroImage": "https://picr2.axi404.top/137725117_p0.webp",
+      "heroImageSource": "https://www.pixiv.net/artworks/137725117",
+      "path": "blog/advise-epilogue-1",
+      "publishDate": "2026-01-04",
+      "tags": [
+        "guidance",
+        "self-study"
+      ],
+      "title": "致新生的你/后日谈：为什么 Vibe Coding 如此重要",
+      "url": "https://axi404.top/blog/advise-epilogue-1"
+    },
+    {
+      "category": "daily",
+      "description": "在升学过程中的绝大多数内容往往涉及抉择，诸如保研以及直博，或者实习和科研，从本质上它们都是「价值博弈」",
+      "headings": [
+        "前言#",
+        "一些例子#",
+        "保研或者直博#",
+        "强 com 与弱 com#",
+        "海投#",
+        "结语#"
+      ],
+      "heroImage": "https://picr2.axi404.top/138247214_p0.webp",
+      "heroImageSource": "https://www.pixiv.net/artworks/138247214",
+      "path": "blog/advise-epilogue-2",
+      "publishDate": "2026-01-13",
+      "tags": [
+        "guidance",
+        "self-study"
+      ],
+      "title": "致新生的你/后日谈：价值博弈",
+      "url": "https://axi404.top/blog/advise-epilogue-2"
+    },
+    {
+      "category": "daily",
+      "description": "入选 Top 10000 的问题往往是那些经常在科研/学习/保研中笔者经常被问到的问题，对于读者来说，可以直接快速查询",
+      "headings": [],
+      "heroImage": "https://picr2.axi404.top/139152112_p0.webp",
+      "heroImageSource": "https://www.pixiv.net/artworks/139152112",
+      "path": "blog/advise-epilogue-4",
+      "publishDate": "2026-01-16",
+      "tags": [
+        "guidance",
+        "self-study"
+      ],
+      "title": "致新生的你/后日谈：那些常见的问题",
+      "url": "https://axi404.top/blog/advise-epilogue-4"
+    },
+    {
+      "category": "tech",
+      "description": "在 Ubuntu 22.04 以及 CUDA 12.1 下安装 Anygrasp。",
+      "headings": [
+        "基础配置#",
+        "MinkowskiEngine#",
+        "AnyGrasp#",
+        "PointNet2#",
+        "License Checker#"
+      ],
+      "heroImage": "https://picr2.axi404.top/anygrasp-zh.webp",
+      "heroImageSource": "https://www.pixiv.net/artworks/86616238",
+      "path": "blog/anygrasp",
+      "publishDate": "2024-12-21",
+      "tags": [
+        "bug-report",
+        "robotics",
+        "anygrasp"
+      ],
+      "title": "Anygrasp 踩坑",
+      "url": "https://axi404.top/blog/anygrasp"
+    },
+    {
+      "category": "tech",
+      "description": "ArchLinux 滚包报错，linux-firmware-nvidia: 文件系统中已存在 /usr/lib/firmware/nvidia/*。",
+      "headings": [
+        "情况说明#",
+        "问题分析#",
+        "多次尝试失败#",
+        "解决方案#",
+        "1. 卸载旧包（跳过依赖检查）#",
+        "2. 安装新包#",
+        "3. 再次系统更新#",
+        "验证#"
+      ],
+      "heroImage": "https://picr2.axi404.top/archbug1-zh.webp",
+      "heroImageSource": "https://www.pixiv.net/artworks/130991327",
+      "path": "blog/archbug1",
+      "publishDate": "2025-06-26",
+      "tags": [
+        "archlinux",
+        "bug-report"
+      ],
+      "title": "ArchLinux 日志之 linux-firmware-nvidia 文件冲突",
+      "url": "https://axi404.top/blog/archbug1"
+    },
+    {
+      "category": "tech",
+      "description": "品鉴 EndeavourOS 并且进行一些配置。",
+      "headings": [
+        "前言#",
+        "基础安装#",
+        "基础依赖安装#",
+        "软件安装#",
+        "一些自己使用的内容#",
+        "快捷指令#",
+        "悬浮托盘#",
+        "ZSH#",
+        "adb#",
+        "NVM#",
+        "Anaconda#",
+        "ToDesk#",
+        "安装输入法#"
+      ],
+      "heroImage": "https://picr2.axi404.top/archlinux-zh.webp",
+      "heroImageSource": "https://www.pixiv.net/artworks/117322748",
+      "path": "blog/archlinux",
+      "publishDate": "2025-12-03",
+      "tags": [
+        "endeavouros"
+      ],
+      "title": "EndeavourOS 安装踩坑",
+      "url": "https://axi404.top/blog/archlinux"
+    },
+    {
+      "category": "tech",
+      "description": "如何部署一个 Astrbot Agent，让她自由管理自己，并且作为鲁棒的助手",
+      "headings": [
+        "前言#",
+        "部署#",
+        "角色扮演#",
+        "功能实现#",
+        "Tmux Skill#",
+        "小结#"
+      ],
+      "heroImage": "https://picr2.axi404.top/139759344_p0.webp",
+      "heroImageSource": "https://www.pixiv.net/artworks/139759344",
+      "path": "blog/astrbot-xiyan",
+      "publishDate": "2026-02-27",
+      "tags": [
+        "tech"
+      ],
+      "title": "Astrbot/ 夕颜是如何炼成的",
+      "url": "https://axi404.top/blog/astrbot-xiyan"
+    },
+    {
+      "category": "tech",
+      "description": "为 Astro 博客添加多部署站点",
+      "headings": [
+        "前言#",
+        "编辑配置文件#",
+        "服务器部署#",
+        "结语#"
+      ],
+      "heroImage": "https://picr2.axi404.top/template-17-zh.webp",
+      "heroImageSource": "https://www.pixiv.net/artworks/132212928",
+      "path": "blog/astro-multi-pages",
+      "publishDate": "2025-07-28",
+      "tags": [
+        "astro",
+        "deployment"
+      ],
+      "title": "为 Astro 博客添加多部署站点",
+      "url": "https://axi404.top/blog/astro-multi-pages"
+    },
+    {
+      "category": "tech",
+      "description": "解决网页浏览卡顿的简单方法。",
+      "headings": [
+        "前言#",
+        "开启网页图形加速#"
+      ],
+      "heroImage": "https://picr2.axi404.top/browser-issues-zh.webp",
+      "heroImageSource": "https://www.pixiv.net/artworks/130482185",
+      "path": "blog/browser-issues",
+      "publishDate": "2025-06-30",
+      "tags": [
+        "browser"
+      ],
+      "title": "网页浏览卡顿的解决方案",
+      "url": "https://axi404.top/blog/browser-issues"
+    },
+    {
+      "category": "tech",
+      "description": "在 Ubuntu 22.04 安装 Ceres 1.14，出现了一些之前在 Ubuntu 20.04 没有出现过的问题，提供了解决方案。",
+      "headings": [
+        "默认安装#",
+        "报错处理#"
+      ],
+      "heroImage": "https://picr2.axi404.top/ceres-install-zh.webp",
+      "heroImageSource": "https://www.pixiv.net/artworks/98306685",
+      "path": "blog/ceres-install",
+      "publishDate": "2024-12-19",
+      "tags": [
+        "bug-report",
+        "ceres"
+      ],
+      "title": "Ceres 1.14 在 Ubuntu 22.04 的安装",
+      "url": "https://axi404.top/blog/ceres-install"
+    },
+    {
+      "category": "tech",
+      "description": "关于为什么不使用 Cursor 以及转用 Claude Code 的一些考量",
+      "headings": [
+        "更新#",
+        "前言#",
+        "使用 Claude Code#"
+      ],
+      "heroImage": "https://picr2.axi404.top/template-15-zh.webp",
+      "heroImageSource": "https://www.pixiv.net/artworks/127756722",
+      "path": "blog/claude-code",
+      "publishDate": "2025-08-04",
+      "tags": [
+        "claude-code",
+        "cursor",
+        "vibe-coding"
+      ],
+      "title": "Hello, Claude Code. Goodbye, Cursor",
+      "url": "https://axi404.top/blog/claude-code"
+    },
+    {
+      "category": "tech",
+      "description": "清除 Chrome 缓存，刷新页面。",
+      "headings": [
+        "方法#"
+      ],
+      "heroImage": "https://picr2.axi404.top/clean-cache-zh.webp",
+      "heroImageSource": "https://www.pixiv.net/artworks/126713347",
+      "path": "blog/clean-cache",
+      "publishDate": "2025-02-13",
+      "tags": [
+        "chrome",
+        "web-cache"
+      ],
+      "title": "清除 Chrome 缓存",
+      "url": "https://axi404.top/blog/clean-cache"
+    },
+    {
+      "category": "tech",
+      "description": "因为一些指令比较常见，所以写一篇博客记录一下，以在将来方便同步。",
+      "headings": [
+        "ZSH 配置#",
+        "Docker 初始化#",
+        "Windows 安装 Torch#",
+        "Miniconda 安装#",
+        "安装 Starship#",
+        "安装 NodeJS#",
+        "配置 Python 清华源#",
+        "初始化 Git#"
+      ],
+      "heroImage": "https://picr2.axi404.top/common-commands-zh.webp",
+      "heroImageSource": "https://www.pixiv.net/artworks/126490750",
+      "path": "blog/common-commands",
+      "publishDate": "2026-01-08",
+      "tags": [
+        "checklist"
+      ],
+      "title": "一些常用的指令",
+      "url": "https://axi404.top/blog/common-commands"
+    },
+    {
+      "category": "tech",
+      "description": "如何在 Astro 中为你的鼠标添加指针动画",
+      "headings": [
+        "前言#",
+        "方法#"
+      ],
+      "heroImage": "https://picr2.axi404.top/112299886_p0.webp",
+      "heroImageSource": "https://www.pixiv.net/artworks/112299886",
+      "path": "blog/cursor-feature",
+      "publishDate": "2025-10-11",
+      "tags": [
+        "cursor",
+        "astro"
+      ],
+      "title": "如何在 Astro 中为你的鼠标添加指针动画",
+      "url": "https://axi404.top/blog/cursor-feature"
+    },
+    {
+      "category": "research",
+      "description": "关于我的 AI 失败主义思想",
+      "headings": [
+        "前言#",
+        "AGI 泡沫#",
+        "垃圾时间#",
+        "结语#"
+      ],
+      "heroImage": "https://picr2.axi404.top/3b54b55bd30543a12573945bb80418d8.webp",
+      "heroImageSource": "",
+      "path": "blog/dark-side-of-ai",
+      "publishDate": "2025-11-03",
+      "tags": [
+        "thoughts"
+      ],
+      "title": "The Dark Side of the AI",
+      "url": "https://axi404.top/blog/dark-side-of-ai"
+    },
+    {
+      "category": "tech",
+      "description": "正常安装 Nvidia Docker 后运行时报错 Failed to initialize NVML: Unknown Error。",
+      "headings": [
+        "前言#",
+        "情况复现#",
+        "安装 NVIDIA Driver#",
+        "安装 Docker#",
+        "安装 Nvidia Container Toolkit#",
+        "安装 Isaac Sim#",
+        "解决方法#"
+      ],
+      "heroImage": "https://picr2.axi404.top/docker-nvidia-error-zh.webp",
+      "heroImageSource": "https://www.pixiv.net/artworks/125859477",
+      "path": "blog/docker-nvidia-error",
+      "publishDate": "2025-01-12",
+      "tags": [
+        "bug-report",
+        "docker",
+        "nvidia",
+        "isaac-sim"
+      ],
+      "title": "Docker 调用 Nvidia 报错",
+      "url": "https://axi404.top/blog/docker-nvidia-error"
+    },
+    {
+      "category": "tech",
+      "description": "为 Docker 设置 SSH 连接",
+      "headings": [
+        "前言#",
+        "安装并且配置 SSH#"
+      ],
+      "heroImage": "https://picr2.axi404.top/docker-ssh-zh.webp",
+      "heroImageSource": "https://www.pixiv.net/artworks/131518710",
+      "path": "blog/docker-ssh",
+      "publishDate": "2025-07-02",
+      "tags": [
+        "docker",
+        "ssh"
+      ],
+      "title": "Docker 设置 SSH",
+      "url": "https://axi404.top/blog/docker-ssh"
+    },
+    {
+      "category": "research",
+      "description": "Paper Reading 之后，重走 EAI。",
+      "headings": [
+        "前言#",
+        "VLA 模型#",
+        "VLM-VLA#",
+        "WM-VLA / WAM#",
+        "Embodied RL#",
+        "杂项#",
+        "Policy 模型#",
+        "Humanoid#",
+        "Benchmark#",
+        "数据采集#",
+        "UMI#",
+        "Ego Data#",
+        "仿真合成数据#"
+      ],
+      "heroImage": "https://picr2.axi404.top/134308706_p0.webp",
+      "heroImageSource": "https://www.pixiv.net/artworks/134308706",
+      "path": "blog/eai-papers",
+      "publishDate": "2026-06-08",
+      "tags": [
+        "paper reading",
+        "embodied ai"
+      ],
+      "title": "Embodied AI Paper List",
+      "url": "https://axi404.top/blog/eai-papers"
+    },
+    {
+      "category": "research",
+      "description": "数据是具身智能的基石，而基于各种方案生成的数据质量，决定了模型可以走多远。从数据入手，一窥仿真以及数据合成的体系，并探讨模型在其中的变化。",
+      "headings": [
+        "具身十日谈",
+        "前言#",
+        "Web Video#",
+        "数据采集#",
+        "Video Gen 与 World Model#",
+        "仿真平台与数据合成#",
+        "Rule-based 与 RL#",
+        "仿真的多样性#",
+        "小憩#",
+        "脚注#"
+      ],
+      "heroImage": "https://picr2.axi404.top/embodied-talk-1-zh.webp",
+      "heroImageSource": "https://www.pixiv.net/artworks/120653546",
+      "path": "blog/embodied-talk-1",
+      "publishDate": "2025-08-15",
+      "tags": [
+        "embodied ai",
+        "deep dive"
+      ],
+      "title": "具身十日谈：数据与仿真器",
+      "url": "https://axi404.top/blog/embodied-talk-1"
+    },
+    {
+      "category": "research",
+      "description": "VLA 相较于其他 Manipulation 模型，最显著的区别便是引入了 L(anguage) 作为 condition，主流的范式至今为止仍然 VLM 作为核心组件，而我们为什么需要 VLM，如何利用 VLM，这对应着一系列的思考。",
+      "headings": [
+        "具身十日谈",
+        "前言#",
+        "为什么我们需要 VLM#",
+        "VLM 的两种范式#",
+        "OpenVLA-like#",
+        "Pi-like#",
+        "总结#",
+        "脚注#"
+      ],
+      "heroImage": "https://picr2.axi404.top/template-10-zh.webp",
+      "heroImageSource": "https://www.pixiv.net/artworks/118553515",
+      "path": "blog/embodied-talk-2",
+      "publishDate": "2025-08-22",
+      "tags": [
+        "embodied ai",
+        "deep dive"
+      ],
+      "title": "具身十日谈：VLA 为什么需要 VLM",
+      "url": "https://axi404.top/blog/embodied-talk-2"
+    },
+    {
+      "category": "research",
+      "description": "GEN-0 出现的背后，我们可以从中学到什么。一些被改变，一些新的东西出现，研究还在继续。",
+      "headings": [
+        "具身十日谈",
+        "前言#",
+        "合成数据的挑战#",
+        "GEN-0 的启示#",
+        "结语#",
+        "脚注#"
+      ],
+      "heroImage": "https://picr2.axi404.top/e6fb15ff1c094b79736e83f905ed1cf2.webp",
+      "heroImageSource": "",
+      "path": "blog/embodied-talk-3",
+      "publishDate": "2025-11-19",
+      "tags": [
+        "embodied ai",
+        "deep dive"
+      ],
+      "title": "具身十日谈：GEN-0 以及后续的 VLA 发展的看法",
+      "url": "https://axi404.top/blog/embodied-talk-3"
+    },
+    {
+      "category": "research",
+      "description": "关于仿真以及 InternData A1",
+      "headings": [
+        "具身十日谈",
+        "前言#",
+        "关于 InternData A1#",
+        "预训练科学以及之后#",
+        "项目地址#",
+        "脚注#"
+      ],
+      "heroImage": "https://picr2.axi404.top/126327443_p0.webp",
+      "heroImageSource": "https://www.pixiv.net/artworks/126327443",
+      "path": "blog/embodied-talk-4",
+      "publishDate": "2025-11-23",
+      "tags": [
+        "embodied ai",
+        "deep dive"
+      ],
+      "title": "具身十日谈：关于仿真以及 InternData A1",
+      "url": "https://axi404.top/blog/embodied-talk-4"
+    },
+    {
+      "category": "tech",
+      "description": "Folo 是一个 RSS 订阅器，可以使用 Folo 订阅一切你的 RSS。而 RSSHub 则是一个 RSS 生成器，可以将任何网页的内容变为 RSS。",
+      "headings": [
+        "前言#",
+        "使用 Folo#",
+        "部署 RSSHub#",
+        "结语#"
+      ],
+      "heroImage": "https://picr2.axi404.top/template-13-zh.webp",
+      "heroImageSource": "https://www.pixiv.net/artworks/123232554",
+      "path": "blog/folo",
+      "publishDate": "2025-07-28",
+      "tags": [
+        "folo",
+        "rss",
+        "feeder"
+      ],
+      "title": "Hello, Folo and RSSHub!",
+      "url": "https://axi404.top/blog/folo"
+    },
+    {
+      "category": "tech",
+      "description": "日常使用的 Git 操作，丝滑小连招。",
+      "headings": [
+        "前言#",
+        "初始化 Github SSH#",
+        "详细步骤#",
+        "理解误区#",
+        "关联新建仓库#",
+        "废弃当前 Github 仓库分支并更新 main 分支#",
+        "总结#"
+      ],
+      "heroImage": "https://picr2.axi404.top/Git-Tutorial-zh.webp",
+      "heroImageSource": "https://www.pixiv.net/artworks/120854122",
+      "path": "blog/git-tutorial",
+      "publishDate": "2024-07-03",
+      "tags": [
+        "git"
+      ],
+      "title": "Git 的常见操作",
+      "url": "https://axi404.top/blog/git-tutorial"
+    },
+    {
+      "category": "tech",
+      "description": "关于 GitFlow 的讲解",
+      "headings": [
+        "前言#",
+        "核心分支介绍#",
+        "Gitflow 工作流程详解#"
+      ],
+      "heroImage": "https://picr2.axi404.top/gitflow-zh.webp",
+      "heroImageSource": "https://www.pixiv.net/artworks/128454999",
+      "path": "blog/gitflow",
+      "publishDate": "2025-04-02",
+      "tags": [
+        "git",
+        "gitflow"
+      ],
+      "title": "GitFlow 讲解",
+      "url": "https://axi404.top/blog/gitflow"
+    },
+    {
+      "category": "tech",
+      "description": "关于 Actions 与 Pages 的教程，暨 CSBAOYANDDL 技术分享。",
+      "headings": [
+        "前言#",
+        "关于 Github Pages#",
+        "关于 Github Actions#",
+        "部署你的第一个网站#",
+        "回顾#",
+        "实例#",
+        "完成你的第一个 Github Actions#",
+        "部署 vue 项目#",
+        "定时更新仓库文件#",
+        "结语#"
+      ],
+      "heroImage": "https://picr2.axi404.top/Github-Actions-and-Pages-Tutorials-zh.webp",
+      "heroImageSource": "https://www.pixiv.net/artworks/117495133",
+      "path": "blog/github-actions-and-pages-tutorials",
+      "publishDate": "2024-07-02",
+      "tags": [
+        "github action",
+        "github pages"
+      ],
+      "title": "Github Actions and Pages 教程",
+      "url": "https://axi404.top/blog/github-actions-and-pages-tutorials"
+    },
+    {
+      "category": "tech",
+      "description": "使用 NextChat 调用 GPT api key，并且无推广单纯记录一些 GPT 转发站。",
+      "headings": [
+        "为什么要使用 GPT 转发站#",
+        "如何使用 GPT 转发站#",
+        "NextChat#",
+        "GPT 转发站收集#"
+      ],
+      "heroImage": "https://picr2.axi404.top/gpt_collection-zh.webp",
+      "heroImageSource": "https://www.pixiv.net/artworks/95683451",
+      "path": "blog/gpt-collection",
+      "publishDate": "2024-11-24",
+      "tags": [
+        "gpt",
+        "nextchat"
+      ],
+      "title": "GPT 转发站使用与收集",
+      "url": "https://axi404.top/blog/gpt-collection"
+    },
+    {
+      "category": "tech",
+      "description": "仅需域名，无限空间，无限流量，国内快速访问，基于 vercel/PicX/webp。",
+      "headings": [
+        "前言#",
+        "图床现状#",
+        "解决方案#"
+      ],
+      "heroImage": "https://picr2.axi404.top/ImageBed-zh.webp",
+      "heroImageSource": "https://www.pixiv.net/artworks/121580810",
+      "path": "blog/image-hosting",
+      "publishDate": "2024-08-25",
+      "tags": [
+        "image hosting"
+      ],
+      "title": "一种优化后的免费图床解决方案",
+      "url": "https://axi404.top/blog/image-hosting"
+    },
+    {
+      "category": "tech",
+      "description": "关于安装 Linux（Ubuntu）双系统，一些基础的教程。",
+      "headings": [
+        "前言#",
+        "前情提要#",
+        "前置#",
+        "什么是Linux系统#",
+        "为什么选择Ubuntu系统#",
+        "什么样的电脑可以装上Ubuntu系统#",
+        "选择双系统而非虚拟机#",
+        "启动盘#",
+        "什么是启动盘#",
+        "制作流程#",
+        "安装系统#",
+        "准备空间#",
+        "关闭安全启动#",
+        "关闭 BitLocker#",
+        "安装系统#",
+        "更换软件源与语言#",
+        "Ubuntu基本终端操作#",
+        "sudo#",
+        "ls#",
+        "mv、cp与rm#",
+        "mkdir、gedit、torch 与 vim#",
+        "chmod#",
+        "额外#",
+        "安装显卡驱动#"
+      ],
+      "heroImage": "https://picr2.axi404.top/install-ubuntu-zh.webp",
+      "heroImageSource": "https://www.pixiv.net/artworks/120636270",
+      "path": "blog/install-ubuntu",
+      "publishDate": "2025-06-29",
+      "tags": [
+        "robomaster",
+        "linux",
+        "ubuntu"
+      ],
+      "title": "安装 Ubuntu 双系统",
+      "url": "https://axi404.top/blog/install-ubuntu"
+    },
+    {
+      "category": "research",
+      "description": "向大家介绍 InternDataEngine，一个新时代的具身仿真数据引擎。",
+      "headings": [
+        "前言#",
+        "“劣质”的预训练与“优质”的后训练#",
+        "经过验证的预训练数据#",
+        "数据合成的最佳实践#"
+      ],
+      "heroImage": "https://picr2.axi404.top/139388781_p0.webp",
+      "heroImageSource": "https://www.pixiv.net/artworks/139388781",
+      "path": "blog/interndataengine",
+      "publishDate": "2026-03-24",
+      "tags": [
+        "simulation",
+        "isaac sim",
+        "data engine"
+      ],
+      "title": "新时代的具身仿真数据引擎",
+      "url": "https://axi404.top/blog/interndataengine"
+    },
+    {
+      "category": "tech",
+      "description": "准备使用 InternManip 来构建我的模型，记录一下从搭建环境到训练模型过程中的问题",
+      "headings": [
+        "前言#",
+        "环境搭建#",
+        "训练模型#",
+        "模型加载#",
+        "数据加载#",
+        "训练#",
+        "Huggingface Style Trainer#"
+      ],
+      "heroImage": "https://picr2.axi404.top/template-8-zh.webp",
+      "heroImageSource": "https://www.pixiv.net/artworks/117491217",
+      "path": "blog/internmanip-code",
+      "publishDate": "2025-08-18",
+      "tags": [
+        "internmanip",
+        "robotics",
+        "embodied ai"
+      ],
+      "title": "InternManip 踩坑记录",
+      "url": "https://axi404.top/blog/internmanip-code"
+    },
+    {
+      "category": "tech",
+      "description": "从零开始的 Isaac Sim 之路，第一季开始！",
+      "headings": [
+        "Isaac 101",
+        "前言#",
+        "安装 Isaac Sim#",
+        "验证安装#",
+        "Notes#"
+      ],
+      "heroImage": "https://picr2.axi404.top/isaac-1-zh.webp",
+      "heroImageSource": "https://www.pixiv.net/artworks/125533736",
+      "path": "blog/isaac-1",
+      "publishDate": "2025-01-19",
+      "tags": [
+        "embodied ai",
+        "isaac 101"
+      ],
+      "title": "Isaac Sim 一百讲（1）：安装",
+      "url": "https://axi404.top/blog/isaac-1"
+    },
+    {
+      "category": "tech",
+      "description": "从零开始的 Isaac Sim 之路，第一季开始！",
+      "headings": [
+        "Isaac 101",
+        "前言#",
+        "万物皆 Prim#",
+        "Prim Path#",
+        "API 与 Attributes#",
+        "总结#"
+      ],
+      "heroImage": "https://picr2.axi404.top/isaac-2-zh.webp",
+      "heroImageSource": "https://www.pixiv.net/artworks/122728541",
+      "path": "blog/isaac-2",
+      "publishDate": "2025-01-19",
+      "tags": [
+        "embodied ai",
+        "isaac 101"
+      ],
+      "title": "Isaac Sim 一百讲（2）：万物皆 Prim",
+      "url": "https://axi404.top/blog/isaac-2"
+    },
+    {
+      "category": "tech",
+      "description": "从零开始的 Isaac Sim 之路，第一季开始！",
+      "headings": [
+        "Isaac 101",
+        "前言#",
+        "USD#",
+        "GLB To USD#",
+        "Objaverse#",
+        "转换脚本#",
+        "添加 USD#",
+        "总结#"
+      ],
+      "heroImage": "https://picr2.axi404.top/isaac-3-zh.webp",
+      "heroImageSource": "https://www.pixiv.net/artworks/124301359",
+      "path": "blog/isaac-3",
+      "publishDate": "2025-01-23",
+      "tags": [
+        "embodied ai",
+        "isaac 101"
+      ],
+      "title": "Isaac Sim 一百讲（3）：USD",
+      "url": "https://axi404.top/blog/isaac-3"
+    },
+    {
+      "category": "tech",
+      "description": "从零开始的 Isaac Sim 之路，第一季开始！",
+      "headings": [
+        "Isaac 101",
+        "前言#",
+        "三维刚体的空间表示#",
+        "平移#",
+        "旋转#",
+        "简要介绍 scipy#",
+        "World Frame 与 Local Frame#",
+        "Isaac Sim 的 API#",
+        "总结#"
+      ],
+      "heroImage": "https://picr2.axi404.top/isaac-4-zh.webp",
+      "heroImageSource": "https://www.pixiv.net/artworks/125817603",
+      "path": "blog/isaac-4",
+      "publishDate": "2025-02-02",
+      "tags": [
+        "embodied ai",
+        "isaac 101"
+      ],
+      "title": "Isaac Sim 一百讲（4）：Transformation",
+      "url": "https://axi404.top/blog/isaac-4"
+    },
+    {
+      "category": "tech",
+      "description": "从零开始的 Isaac Sim 之路，第一季开始！",
+      "headings": [
+        "Isaac 101",
+        "前言#",
+        "Rigid Prim#",
+        "Collision#",
+        "Collision 进阶#",
+        "休息一下#"
+      ],
+      "heroImage": "https://picr2.axi404.top/isaac-5-zh.webp",
+      "heroImageSource": "https://www.pixiv.net/artworks/125817603",
+      "path": "blog/isaac-5",
+      "publishDate": "2025-03-29",
+      "tags": [
+        "embodied ai",
+        "isaac 101"
+      ],
+      "title": "Isaac Sim 一百讲（5）：Rigid and Collision",
+      "url": "https://axi404.top/blog/isaac-5"
+    },
+    {
+      "category": "tech",
+      "description": "从零开始的 Isaac Sim 之路，第一季开始！",
+      "headings": [
+        "Isaac 101",
+        "前言#",
+        "现象描述#",
+        "解决方案#",
+        "One More Thing#",
+        "总结#"
+      ],
+      "heroImage": "https://picr2.axi404.top/template-6-zh.webp",
+      "heroImageSource": "https://www.pixiv.net/artworks/130989630",
+      "path": "blog/isaac-6",
+      "publishDate": "2025-08-17",
+      "tags": [
+        "embodied ai",
+        "isaac 101"
+      ],
+      "title": "Isaac Sim 一百讲（6）：Collision 进阶",
+      "url": "https://axi404.top/blog/isaac-6"
+    },
+    {
+      "category": "tech",
+      "description": "从零开始的 Isaac Sim 之路，第一季开始！",
+      "headings": [
+        "Isaac 101",
+        "前言#",
+        "创建相机#",
+        "渲染 RGB 图片#",
+        "更多参数#",
+        "其他表征的获取#",
+        "与现实相机对齐#",
+        "小结#"
+      ],
+      "heroImage": "https://picr2.axi404.top/1755456732964_104165485_p0.webp",
+      "heroImageSource": "https://www.pixiv.net/artworks/104165485",
+      "path": "blog/isaac-7",
+      "publishDate": "2025-10-09",
+      "tags": [
+        "embodied ai",
+        "isaac 101"
+      ],
+      "title": "Isaac Sim 一百讲（7）：Camera",
+      "url": "https://axi404.top/blog/isaac-7"
+    },
+    {
+      "category": "tech",
+      "description": "从零开始的 Isaac Sim 之路，第一季开始！",
+      "headings": [
+        "Isaac 101",
+        "前言#",
+        "机器人就是 Articulation#",
+        "直接控制机器人#",
+        "为什么需要运动规划#",
+        "cuRobo 的调用#",
+        "障碍物#",
+        "关节顺序#",
+        "规划一条轨迹#",
+        "坐标系#",
+        "执行轨迹#",
+        "用 AnyGrasp 获取抓取位姿#",
+        "用服务的方式调用#",
+        "从相机系到世界系#",
+        "一个抓取放置的完整流程#",
+        "小结#"
+      ],
+      "heroImage": "https://picr2.axi404.top/139694998_p0.webp",
+      "heroImageSource": "https://www.pixiv.net/artworks/139694998",
+      "path": "blog/isaac-8",
+      "publishDate": "2026-05-31",
+      "tags": [
+        "embodied ai",
+        "isaac 101"
+      ],
+      "title": "Isaac Sim 一百讲（8）：Robot",
+      "url": "https://axi404.top/blog/isaac-8"
+    },
+    {
+      "category": "tech",
+      "description": "从零开始的 Isaac Sim 之路，间章！",
+      "headings": [
+        "前言#",
+        "上手 Docker#",
+        "使用 Isaac Sim Docker#",
+        "手动上传#",
+        "Docker 快速上手#",
+        "Docker 的基本使用#",
+        "Docker 参数#",
+        "编辑你的 Docker 镜像#",
+        "Isaac Sim Docker 的一种运行逻辑#",
+        "在 Docker 中安装 CUDA#",
+        "总结#"
+      ],
+      "heroImage": "https://picr2.axi404.top/isaac-docker-zh.webp",
+      "heroImageSource": "https://www.pixiv.net/artworks/124321813",
+      "path": "blog/isaac-docker",
+      "publishDate": "2025-02-22",
+      "tags": [
+        "embodied ai",
+        "isaac 101"
+      ],
+      "title": "Isaac Sim 一百讲（a）：Docker 使用",
+      "url": "https://axi404.top/blog/isaac-docker"
+    },
+    {
+      "category": "tech",
+      "description": "关于 Isaac Sim，注定还有一段漫长的路。",
+      "headings": [
+        "前言#",
+        "安装 Isaac Sim#",
+        "环境概述#",
+        "下载 omniverse-launcher#",
+        "安装并启动 Isaac Sim#",
+        "Standalone Pick and Place 代码实现#",
+        "创建项目#",
+        "Hello World#",
+        "添加物体#",
+        "添加机械臂#",
+        "添加控制器#",
+        "总结#"
+      ],
+      "heroImage": "https://picr2.axi404.top/Isaac-Sim-Notes-zh.webp",
+      "heroImageSource": "https://www.pixiv.net/artworks/113658969",
+      "path": "blog/isaac-sim-notes",
+      "publishDate": "2025-01-18",
+      "tags": [
+        "embodied ai",
+        "isaac sim"
+      ],
+      "title": "Isaac Sim 踩坑日记",
+      "url": "https://axi404.top/blog/isaac-sim-notes"
+    },
+    {
+      "category": "journal",
+      "description": "2025-09-01 ~ 2025-09-30.",
+      "headings": [
+        "月记",
+        "2026 年",
+        "2025 年",
+        "前言#",
+        "保研季#",
+        "进一步的科研#",
+        "生活琐事#",
+        "结语#"
+      ],
+      "heroImage": "https://picr2.axi404.top/132620287_p0.webp",
+      "heroImageSource": "https://www.pixiv.net/artworks/132620287",
+      "path": "blog/journal-2509",
+      "publishDate": "2025-11-30",
+      "tags": [
+        "monthly journal"
+      ],
+      "title": "月记·二零二五·九月",
+      "url": "https://axi404.top/blog/journal-2509"
+    },
+    {
+      "category": "journal",
+      "description": "2025-10-01 ~ 2025-10-31.",
+      "headings": [
+        "月记",
+        "2026 年",
+        "2025 年",
+        "前言#",
+        "那些年我玩过的游戏#",
+        "「巡演」之旅#",
+        "科研#",
+        "日常的最后宁静#",
+        "总结#"
+      ],
+      "heroImage": "https://picr2.axi404.top/136849830_p0.webp",
+      "heroImageSource": "https://www.pixiv.net/artworks/136849830",
+      "path": "blog/journal-2510",
+      "publishDate": "2025-12-01",
+      "tags": [
+        "monthly journal"
+      ],
+      "title": "月记·二零二五·十月",
+      "url": "https://axi404.top/blog/journal-2510"
+    },
+    {
+      "category": "journal",
+      "description": "2025-11-01 ~ 2025-11-30.",
+      "headings": [
+        "月记",
+        "2026 年",
+        "2025 年",
+        "前言#",
+        "聚散#",
+        "科研#",
+        "生活#",
+        "结语#"
+      ],
+      "heroImage": "https://picr2.axi404.top/136347908_p0.webp",
+      "heroImageSource": "https://www.pixiv.net/artworks/136347908",
+      "path": "blog/journal-2511",
+      "publishDate": "2025-12-07",
+      "tags": [
+        "monthly journal"
+      ],
+      "title": "月记·二零二五·十一月",
+      "url": "https://axi404.top/blog/journal-2511"
+    },
+    {
+      "category": "journal",
+      "description": "2025-12-01 ~ 2025-12-31.",
+      "headings": [
+        "月记",
+        "2026 年",
+        "2025 年",
+        "前言#",
+        "收尾#",
+        "Lead 项目有感#",
+        "跨年#"
+      ],
+      "heroImage": "https://picr2.axi404.top/139775743_p0.webp",
+      "heroImageSource": "https://www.pixiv.net/artworks/139775743",
+      "path": "blog/journal-2512",
+      "publishDate": "2026-01-15",
+      "tags": [
+        "monthly journal"
+      ],
+      "title": "月记·二零二五·十二月",
+      "url": "https://axi404.top/blog/journal-2512"
+    },
+    {
+      "category": "journal",
+      "description": "2026-01-01 ~ 2026-01-31.",
+      "headings": [
+        "月记",
+        "2026 年",
+        "2025 年",
+        "前言#",
+        "Benchmark Platform#",
+        "关于 AI Infra#",
+        "公主梦#",
+        "结语#"
+      ],
+      "heroImage": "https://picr2.axi404.top/1768246382396_139521816_p0.webp",
+      "heroImageSource": "https://www.pixiv.net/artworks/139521816",
+      "path": "blog/journal-2601",
+      "publishDate": "2026-02-08",
+      "tags": [
+        "monthly journal"
+      ],
+      "title": "月记·二零二六·一月",
+      "url": "https://axi404.top/blog/journal-2601"
+    },
+    {
+      "category": "journal",
+      "description": "2026-02-01 ~ 2026-02-28.",
+      "headings": [
+        "月记",
+        "2026 年",
+        "2025 年",
+        "科研#",
+        "Agentic 的时代#",
+        "生活#",
+        "结语#"
+      ],
+      "heroImage": "https://picr2.axi404.top/255cfb13dd601029e5aea0d4f42981f8.webp",
+      "heroImageSource": "https://www.pixiv.net/artworks/137499724",
+      "path": "blog/journal-2602",
+      "publishDate": "2026-03-31",
+      "tags": [
+        "monthly journal"
+      ],
+      "title": "月记·二零二六·二月",
+      "url": "https://axi404.top/blog/journal-2602"
+    },
+    {
+      "category": "journal",
+      "description": "2026-03-01 ~ 2026-03-31.",
+      "headings": [
+        "月记",
+        "2026 年",
+        "2025 年",
+        "前言#",
+        "科研#",
+        "starVLA#",
+        "去留之间#",
+        "结语#"
+      ],
+      "heroImage": "https://picr2.axi404.top/135839794_p0.webp",
+      "heroImageSource": "https://www.pixiv.net/artworks/135839794",
+      "path": "blog/journal-2603",
+      "publishDate": "2026-05-02",
+      "tags": [
+        "monthly journal"
+      ],
+      "title": "月记·二零二六·三月",
+      "url": "https://axi404.top/blog/journal-2603"
+    },
+    {
+      "category": "journal",
+      "description": "2026-04-01 ~ 2026-04-30.",
+      "headings": [
+        "月记",
+        "2026 年",
+        "2025 年",
+        "科研#",
+        "返校#",
+        "小结#"
+      ],
+      "heroImage": "https://picr2.axi404.top/136336012_p0.webp",
+      "heroImageSource": "https://www.pixiv.net/artworks/136336012",
+      "path": "blog/journal-2604",
+      "publishDate": "2026-06-01",
+      "tags": [
+        "monthly journal"
+      ],
+      "title": "月记·二零二六·四月",
+      "url": "https://axi404.top/blog/journal-2604"
+    },
+    {
+      "category": "tech",
+      "description": "LeRobot 2.1 是目前最流行的数据集格式，创建 LeRobot 数据集的示例并不直观，在这里给出一些简单的指引。",
+      "headings": [
+        "前言#",
+        "安装#",
+        "创建数据集#",
+        "使用最新的 LeRobotDataset#",
+        "小结#"
+      ],
+      "heroImage": "https://picr2.axi404.top/113398570_p0.webp",
+      "heroImageSource": "https://www.pixiv.net/artworks/113398570",
+      "path": "blog/lerobot",
+      "publishDate": "2025-10-29",
+      "tags": [
+        "embodied ai",
+        "lerobot",
+        "dataset"
+      ],
+      "title": "创建 LeRobot 2.1 数据集",
+      "url": "https://axi404.top/blog/lerobot"
+    },
+    {
+      "category": "tech",
+      "description": "平时遇到的奇怪 CS 相关小技巧，记录并整理。",
+      "headings": [
+        "前言#",
+        "Github badges#"
+      ],
+      "heroImage": "https://picr2.axi404.top/LittleSkills-zh.webp",
+      "heroImageSource": "https://www.pixiv.net/artworks/121638152",
+      "path": "blog/little-skills",
+      "publishDate": "2024-09-10",
+      "tags": [
+        "bug-report"
+      ],
+      "title": "奇奇怪怪的 CS 小技巧",
+      "url": "https://axi404.top/blog/little-skills"
+    },
+    {
+      "category": "tech",
+      "description": "如何优雅地水一个医学影像项目，使用 nnUNet 吧！",
+      "headings": [
+        "前言#",
+        "标注数据#",
+        "下载 ITK-SNAP#",
+        "安装 ITK-SNAP#",
+        "ITK-SNAP 的使用#",
+        "数据处理#",
+        "训练模型#",
+        "结语#"
+      ],
+      "heroImage": "https://picr2.axi404.top/nnunet-zh.webp",
+      "heroImageSource": "https://www.pixiv.net/artworks/126922771",
+      "path": "blog/nnunet",
+      "publishDate": "2025-04-05",
+      "tags": [
+        "medical-image"
+      ],
+      "title": "如何优雅地水一个医学影像项目",
+      "url": "https://axi404.top/blog/nnunet"
+    },
+    {
+      "category": "tech",
+      "description": "Obsidian 快速上手，概念辨析 & 基础使用。",
+      "headings": [
+        "前言#",
+        "安装与下载#",
+        "仓库#",
+        "双向链接#",
+        "插件安装#",
+        "总结#"
+      ],
+      "heroImage": "https://picr2.axi404.top/Obsidian-Tutorial-zh.webp",
+      "heroImageSource": "https://www.pixiv.net/artworks/121740647",
+      "path": "blog/obsidian-tutorial",
+      "publishDate": "2024-07-06",
+      "tags": [
+        "obsidian"
+      ],
+      "title": "Obsidian 快速上手指南",
+      "url": "https://axi404.top/blog/obsidian-tutorial"
+    },
+    {
+      "category": "tech",
+      "description": "OpenVLA 纯小白代码阅读记录。",
+      "headings": [
+        "OpenVLA#",
+        "代码结构#",
+        "模型训练#",
+        "主文件#",
+        "prismatic-vlms#",
+        "run_vla_training#"
+      ],
+      "heroImage": "https://picr2.axi404.top/openvla-reading-zh.webp",
+      "heroImageSource": "https://www.pixiv.net/artworks/113600258",
+      "path": "blog/openvla-reading",
+      "publishDate": "2024-07-23",
+      "tags": [
+        "vla",
+        "code reading",
+        "embodied ai"
+      ],
+      "title": "OpenVLA 代码笔记",
+      "url": "https://axi404.top/blog/openvla-reading"
+    },
+    {
+      "category": "research",
+      "description": "在方向中探索之前，更加基础的一些内容，课程/书籍推荐以及基础论文阅读。",
+      "headings": [
+        "前言#",
+        "机器学习#",
+        "深度学习#"
+      ],
+      "heroImage": "https://picr2.axi404.top/Paper-reading-0-zh.webp",
+      "heroImageSource": "https://www.pixiv.net/artworks/109168028",
+      "path": "blog/paper-reading-0",
+      "publishDate": "2024-09-09",
+      "tags": [
+        "llm",
+        "vlm",
+        "embodied ai"
+      ],
+      "title": "Paper Reading 0",
+      "url": "https://axi404.top/blog/paper-reading-0"
+    },
+    {
+      "category": "research",
+      "description": "一些 3D Reconstruction 相关的论文阅读。",
+      "headings": [
+        "DUSt3R#",
+        "Fast3R#",
+        "MonST3R#",
+        "VGGT#",
+        "STream3R#",
+        "π3\\pi^3π3#"
+      ],
+      "heroImage": "https://picr2.axi404.top/1755456716559_102194214_p0.webp",
+      "heroImageSource": "https://www.pixiv.net/artworks/102194214",
+      "path": "blog/paper-reading-3r1",
+      "publishDate": "2025-09-08",
+      "tags": [
+        "paper reading",
+        "3d reconstruction"
+      ],
+      "title": "Paper Reading: 3D Reconstruction",
+      "url": "https://axi404.top/blog/paper-reading-3r1"
+    },
+    {
+      "category": "research",
+      "description": "一些和 Benchmark 相关的论文阅读。",
+      "headings": [
+        "前言#"
+      ],
+      "heroImage": "https://picr2.axi404.top/Paper-reading-Benchmark-zh.webp",
+      "heroImageSource": "https://www.pixiv.net/artworks/97234445",
+      "path": "blog/paper-reading-benchmark",
+      "publishDate": "2024-09-14",
+      "tags": [
+        "paper reading",
+        "benchmark"
+      ],
+      "title": "Paper Reading: Benchmark",
+      "url": "https://axi404.top/blog/paper-reading-benchmark"
+    },
+    {
+      "category": "research",
+      "description": "从一些 Embodied AI 相关工作中扫过。",
+      "headings": [
+        "Embodied AI Paper Reading",
+        "RT-1#",
+        "RT-2#",
+        "VIMA#",
+        "SayCan#",
+        "Language Models as Zero-Shot Planners#",
+        "PaLM-E#",
+        "ViLA#",
+        "CoPa#",
+        "PointLLM#",
+        "EmbodiedGPT#",
+        "RT-Trajectory#",
+        "Im2Flow2Act#",
+        "LLARVA#",
+        "ATM#",
+        "Track2Act#",
+        "Extreme Cross-Embodiment#",
+        "ECoT#",
+        "VoxPoser#",
+        "MOO#",
+        "ChatGPT for Robotics#",
+        "PIVOT#",
+        "Code As Policies#",
+        "MOKA#",
+        "RoboPoint#",
+        "GR-1#"
+      ],
+      "heroImage": "https://picr2.axi404.top/Paper-reading-EAI1-zh.webp",
+      "heroImageSource": "https://www.pixiv.net/artworks/122142508",
+      "path": "blog/paper-reading-eai1",
+      "publishDate": "2025-08-31",
+      "tags": [
+        "paper reading",
+        "embodied ai"
+      ],
+      "title": "Paper Reading: Embodied AI 1",
+      "url": "https://axi404.top/blog/paper-reading-eai1"
+    },
+    {
+      "category": "research",
+      "description": "从一些 Embodied AI 相关工作中扫过。",
+      "headings": [
+        "Embodied AI Paper Reading",
+        "前言#",
+        "HPT#",
+        "RoboDual#",
+        "GR-2#",
+        "Humanoid Manipulation#",
+        "Surfer#",
+        "ACT#",
+        "SceneVerse#",
+        "Robot See Robot Do#",
+        "ReKep#",
+        "OmniManip#",
+        "DiffuserLite#",
+        "SOFAR#",
+        "PIVOT-R#",
+        "ManipGen#",
+        "DemoGen#",
+        "ArticuBot#",
+        "LAPA#",
+        "GR00T#",
+        "RoboVerse#",
+        "AgiBot World Colosseo#",
+        "UniVLA#",
+        "Pi0#",
+        "Pi0.5#",
+        "GraspVLA#",
+        "GRAPE#"
+      ],
+      "heroImage": "https://picr2.axi404.top/Paper-reading-EAI2-zh.webp",
+      "heroImageSource": "https://www.pixiv.net/artworks/118143618",
+      "path": "blog/paper-reading-eai2",
+      "publishDate": "2025-08-31",
+      "tags": [
+        "paper reading",
+        "embodied ai"
+      ],
+      "title": "Paper Reading: Embodied AI 2",
+      "url": "https://axi404.top/blog/paper-reading-eai2"
+    },
+    {
+      "category": "research",
+      "description": "从一些 Embodied AI 相关工作中扫过。",
+      "headings": [
+        "Embodied AI Paper Reading",
+        "A_0#",
+        "OneTwoVLA#",
+        "Diffusion Policy#",
+        "RDT-1B#",
+        "Octo#",
+        "CogACT#",
+        "Helix#",
+        "FAST#",
+        "Magma#",
+        "ChatVLA#",
+        "ChatVLA-2#",
+        "RoboBrain#",
+        "CoT-VLA#",
+        "Interleave-VLA#",
+        "Knowledge Insulating Vision-Language-Action Models#",
+        "Hi Robot#",
+        "Scenethesis#",
+        "LBM#",
+        "UniVLA#",
+        "GR-3#",
+        "SmolVLA#",
+        "ThinkAct#",
+        "VIDAR#",
+        "DreamVLA#",
+        "Pi0.6#"
+      ],
+      "heroImage": "https://picr2.axi404.top/template-14-zh.webp",
+      "heroImageSource": "https://www.pixiv.net/artworks/125825600",
+      "path": "blog/paper-reading-eai3",
+      "publishDate": "2025-08-31",
+      "tags": [
+        "paper reading",
+        "embodied ai"
+      ],
+      "title": "Paper Reading: Embodied AI 3",
+      "url": "https://axi404.top/blog/paper-reading-eai3"
+    },
+    {
+      "category": "research",
+      "description": "从一些 Embodied AI 相关工作中扫过。",
+      "headings": [
+        "Embodied AI Paper Reading",
+        "4D-VLA#",
+        "D(R,O) Grasp#",
+        "InstructVLA#",
+        "Fast-in-Slow#",
+        "NavDP#",
+        "NavA3A^3A3#",
+        "Genie Envisioner#",
+        "StreamVLN#",
+        "V-JEPA 2#",
+        "MolmoAct#",
+        "MimicGen#",
+        "SpatialVLA#",
+        "TraceVLA#",
+        "Hume#",
+        "RICL#",
+        "OmniVTLA#",
+        "Spatial Traces#",
+        "Embodied-R1#",
+        "RynnEC#",
+        "TinyVLA#",
+        "RoboRefer#",
+        "HERMES#",
+        "Discrete Diffusion VLA#",
+        "G0#",
+        "InternScenes#"
+      ],
+      "heroImage": "https://picr2.axi404.top/template-12-zh.webp",
+      "heroImageSource": "https://www.pixiv.net/artworks/122005131",
+      "path": "blog/paper-reading-eai4",
+      "publishDate": "2025-10-19",
+      "tags": [
+        "paper reading",
+        "embodied ai"
+      ],
+      "title": "Paper Reading: Embodied AI 4",
+      "url": "https://axi404.top/blog/paper-reading-eai4"
+    },
+    {
+      "category": "research",
+      "description": "从一些 Embodied AI 相关工作中扫过。",
+      "headings": [
+        "Embodied AI Paper Reading",
+        "EO-1#",
+        "OpenVLA#",
+        "OpenVLA-OFT#",
+        "Robix#",
+        "FLOWER#",
+        "F1-VLA#",
+        "VLA-Adapter#",
+        "SimpleVLA-RL#",
+        "RynnVLA-001#",
+        "Evo-0#",
+        "Imagine2Act#",
+        "HDMI#",
+        "World4RL#",
+        "Universal Manipulation Interface#",
+        "FastUMI#",
+        "MV-UMI#",
+        "DexUMI#",
+        "PEEK#",
+        "VisualMimic#",
+        "villa-X#",
+        "RoLA#",
+        "InSpire#",
+        "dVLA#",
+        "RoboPilot#",
+        "Gemini Robotics 1.5#"
+      ],
+      "heroImage": "https://picr2.axi404.top/template-11-zh.webp",
+      "heroImageSource": "https://www.pixiv.net/artworks/118909071",
+      "path": "blog/paper-reading-eai5",
+      "publishDate": "2025-11-23",
+      "tags": [
+        "paper reading",
+        "embodied ai"
+      ],
+      "title": "Paper Reading: Embodied AI 5",
+      "url": "https://axi404.top/blog/paper-reading-eai5"
+    },
+    {
+      "category": "research",
+      "description": "从一些 Embodied AI 相关工作中扫过。",
+      "headings": [
+        "Embodied AI Paper Reading",
+        "VLA-RFT#",
+        "ContextVLA#",
+        "VLA-R1#",
+        "Best of Sim and Real#",
+        "NOTVLA#",
+        "FlowVLA#",
+        "RLinf-VLA#",
+        "IntentionVLA#",
+        "X-VLA#",
+        "Spatial Forcing#",
+        "BridgeVLA#",
+        "RoVer#",
+        "VLA-0#",
+        "InternVLA-M1#",
+        "QDepth-VLA#",
+        "WoW#",
+        "Goal-VLA#",
+        "MiMo-Embodied#",
+        "VLA-Cache#",
+        "GigaBrain-0#",
+        "RoboMemory#",
+        "LIBERO#",
+        "LIBERO-Plus#",
+        "Simpler Env#",
+        "RoboOmni#"
+      ],
+      "heroImage": "https://picr2.axi404.top/108249367_p0.webp",
+      "heroImageSource": "https://www.pixiv.net/artworks/108249367",
+      "path": "blog/paper-reading-eai6",
+      "publishDate": "2025-12-24",
+      "tags": [
+        "paper reading",
+        "embodied ai"
+      ],
+      "title": "Paper Reading: Embodied AI 6",
+      "url": "https://axi404.top/blog/paper-reading-eai6"
+    },
+    {
+      "category": "research",
+      "description": "从一些 Embodied AI 相关工作中扫过。",
+      "headings": [
+        "Embodied AI Paper Reading",
+        "VITA-E#",
+        "OmniDexGrasp#",
+        "Dexbotic#",
+        "RobotArena ∞\\infty∞#",
+        "World-Env#",
+        "DUST#",
+        "πRL\\pi_{RL}πRL​#",
+        "RobustVLA#",
+        "Cosmos-Predict 2.5#",
+        "PLD#",
+        "PixelVLA#",
+        "RL-100#",
+        "TWIST2#",
+        "iFlyBot-VLA#",
+        "Isaac Lab#",
+        "PhysWorld#",
+        "How Do VLAs Effectively Inherit from VLMs?#",
+        "UMIGen#",
+        "RoboCOIN#",
+        "AdaptPNP#",
+        "RynnVLA-002#",
+        "Motus#",
+        "WholeBodyVLA#",
+        "NORA-1.5#",
+        "InternData A1#"
+      ],
+      "heroImage": "https://picr2.axi404.top/117566115_p0.webp",
+      "heroImageSource": "https://www.pixiv.net/artworks/117566115",
+      "path": "blog/paper-reading-eai7",
+      "publishDate": "2026-01-28",
+      "tags": [
+        "paper reading",
+        "embodied ai"
+      ],
+      "title": "Paper Reading: Embodied AI 7",
+      "url": "https://axi404.top/blog/paper-reading-eai7"
+    },
+    {
+      "category": "research",
+      "description": "从一些 Embodied AI 相关工作中扫过。",
+      "headings": [
+        "Embodied AI Paper Reading",
+        "MergeVLA#",
+        "Compressor-VLA#",
+        "VIPA-VLA#",
+        "Openpi Comet#",
+        "Evaluating Gemini Robotics Policies in a Veo World Simulator#",
+        "VideoVLA#",
+        "Video2Act#",
+        "RealAppliance#",
+        "GR-RL#",
+        "ManualVLA#",
+        "MM-ACT#",
+        "VLA-Arena#",
+        "Robo-Dopamine#",
+        "Sim-and-Human Co-training#",
+        "DuoCore-FS#",
+        "Dream2Flow#",
+        "Genie Sim 3.0#",
+        "InternVLA-A1#",
+        "CLAP#",
+        "Fast-ThinkAct#",
+        "The Great March 100#",
+        "FRoM-W1#",
+        "Being-H0.5#",
+        "RoboBrain 2.5#",
+        "TwinBrainVLA#"
+      ],
+      "heroImage": "https://picr2.axi404.top/124590190_p0.webp",
+      "heroImageSource": "https://www.pixiv.net/artworks/124590190",
+      "path": "blog/paper-reading-eai8",
+      "publishDate": "2026-04-25",
+      "tags": [
+        "paper reading",
+        "embodied ai"
+      ],
+      "title": "Paper Reading: Embodied AI 8",
+      "url": "https://axi404.top/blog/paper-reading-eai8"
+    },
+    {
+      "category": "research",
+      "description": "从一些 Embodied AI 相关工作中扫过。",
+      "headings": [
+        "Embodied AI Paper Reading",
+        "Cosmos Policy#",
+        "BayesianVLA#",
+        "LingBot-VLA#",
+        "Shallow-π\\piπ#",
+        "LingBot-VA#",
+        "Green-VLA#",
+        "StreamVLA#",
+        "FD-VLA#",
+        "RDT2#",
+        "World-VLA-Loop#",
+        "Humanoid Manipulation Interface#",
+        "DreamDojo#",
+        "RLinf-USER#",
+        "BagelVLA#",
+        "VLA-JEPA#",
+        "EgoHumanoid#",
+        "ST4VLA#",
+        "LAP#",
+        "Vista-WM#",
+        "BeyondMimic#",
+        "SONIC#",
+        "HoloBrain-0#",
+        "LDA-1B#",
+        "RLinf-Co#",
+        "Xiaomi-Robotics-0#"
+      ],
+      "heroImage": "https://picr2.axi404.top/1767374040337_139268413_p0.webp",
+      "heroImageSource": "https://www.pixiv.net/artworks/139268413",
+      "path": "blog/paper-reading-eai9",
+      "publishDate": "2026-04-25",
+      "tags": [
+        "paper reading",
+        "embodied ai"
+      ],
+      "title": "Paper Reading: Embodied AI 9",
+      "url": "https://axi404.top/blog/paper-reading-eai9"
+    },
+    {
+      "category": "research",
+      "description": "从一些 Embodied AI 相关工作中扫过。",
+      "headings": [
+        "Embodied AI Paper Reading",
+        "ALOE#",
+        "DM0#",
+        "RynnBrain#",
+        "FUTURE-VLA#",
+        "DreamZero#",
+        "EgoScale#",
+        "HALO#",
+        "LeRobot#",
+        "WoG#",
+        "ACE-Brain-0#",
+        "MEM#",
+        "SkillVLA#",
+        "RoboCasa365#",
+        "UltraDexGrasp#",
+        "AtomicVLA#",
+        "AtomVLA#",
+        "PlayWorld#",
+        "CORAL#",
+        "DiT4DiT#",
+        "Ψ0\\Psi_0Ψ0​#",
+        "TacVLA#",
+        "ST-VLA#",
+        "ForceVLA2#",
+        "MolmoB0T#",
+        "OmniVTA#"
+      ],
+      "heroImage": "https://picr2.axi404.top/138492908_p0.webp",
+      "heroImageSource": "https://www.pixiv.net/artworks/138492908",
+      "path": "blog/paper-reading-eai10",
+      "publishDate": "2026-05-28",
+      "tags": [
+        "paper reading",
+        "embodied ai"
+      ],
+      "title": "Paper Reading: Embodied AI 10",
+      "url": "https://axi404.top/blog/paper-reading-eai10"
+    },
+    {
+      "category": "research",
+      "description": "从 BOW 到 GPT，一些 Paper Reading。",
+      "headings": [
+        "BOW#",
+        "TF-IDF#",
+        "Word 2 Vec#",
+        "Transformer#",
+        "GPT 1.0#",
+        "BERT#",
+        "GPT 2.0#",
+        "Megatron-LM#",
+        "T5#",
+        "ZeRO#",
+        "Scaling Law#",
+        "GPT 3.0#",
+        "Switch Transformers#",
+        "Codex#",
+        "COT#",
+        "InstructGPT#",
+        "PaLM#",
+        "LLaMA#",
+        "GPT 4#",
+        "DPO#",
+        "ToT#",
+        "LLaMA2#",
+        "Mistral 7B#",
+        "Mamba#",
+        "Mamba2#"
+      ],
+      "heroImage": "https://picr2.axi404.top/Paper-reading-LLM-zh.webp",
+      "heroImageSource": "https://www.pixiv.net/artworks/121363908",
+      "path": "blog/paper-reading-llm1",
+      "publishDate": "2025-08-11",
+      "tags": [
+        "paper reading",
+        "llm"
+      ],
+      "title": "Paper Reading: LLM 1",
+      "url": "https://axi404.top/blog/paper-reading-llm1"
+    },
+    {
+      "category": "research",
+      "description": "从 BOW 到 GPT，一些 Paper Reading。",
+      "headings": [
+        "Qwen2.5#",
+        "DeepSeek-V3#",
+        "DeepSeek-R1#",
+        "Kimi K2#",
+        "DFT#",
+        "MMaDA#"
+      ],
+      "heroImage": "https://picr2.axi404.top/template-4-zh.webp",
+      "heroImageSource": "https://www.pixiv.net/artworks/121363908",
+      "path": "blog/paper-reading-llm2",
+      "publishDate": "2025-08-11",
+      "tags": [
+        "paper reading",
+        "llm"
+      ],
+      "title": "Paper Reading: LLM 2",
+      "url": "https://axi404.top/blog/paper-reading-llm2"
+    },
+    {
+      "category": "research",
+      "description": "一些和多模态相关的论文阅读，从 CLIP 开始，向后延伸。",
+      "headings": [
+        "前言#",
+        "CLIP#",
+        "ViLT#",
+        "ALBEF#",
+        "VLMo#",
+        "BLIP#",
+        "CoCa#",
+        "BEiT V3#",
+        "BLIP2#",
+        "LLava#",
+        "Flamingo#",
+        "Visual Instruction Tuning#",
+        "Qwen-VL#",
+        "Gemini#",
+        "GPT-4V#",
+        "LISA#",
+        "Cambrian-1#",
+        "Qwen2-VL#",
+        "Qwen2.5-VL#",
+        "InstructBLIP#",
+        "LLaMA-Adapter#",
+        "VisionLLM#",
+        "SigLIP#",
+        "SigLIP 2#",
+        "LLaVA-OneVision#",
+        "GPT 5#"
+      ],
+      "heroImage": "https://picr2.axi404.top/Paper-reading-MLLM-zh.webp",
+      "heroImageSource": "https://www.pixiv.net/artworks/121653445",
+      "path": "blog/paper-reading-mllm",
+      "publishDate": "2025-08-11",
+      "tags": [
+        "paper reading",
+        "vlm"
+      ],
+      "title": "Paper Reading: MLLM",
+      "url": "https://axi404.top/blog/paper-reading-mllm"
+    },
+    {
+      "category": "research",
+      "description": "浅浅尝试读一下Unify MLLM。",
+      "headings": [
+        "前言#",
+        "SEED#",
+        "LaVIT#",
+        "SEED-X#",
+        "Emu#",
+        "Emu2#",
+        "Chameleon#",
+        "Transfusion#",
+        "Emu3#",
+        "MMAR#",
+        "Janus#",
+        "PUMA#",
+        "Show-o#",
+        "VILA-U#",
+        "MIO#",
+        "JanusFlow#",
+        "Orthus#",
+        "TokenFlow#",
+        "Liquid#",
+        "MUSE-VL#",
+        "SILMM#",
+        "ILLUME#",
+        "Visual Lexicon#",
+        "LatentLM#",
+        "SynerGen-VL#",
+        "MetaMorph#"
+      ],
+      "heroImage": "https://picr2.axi404.top/Paper-reading-Uni-zh.webp",
+      "heroImageSource": "https://www.pixiv.net/artworks/127192375",
+      "path": "blog/paper-reading-uni1",
+      "publishDate": "2025-08-11",
+      "tags": [
+        "paper reading",
+        "unified mllm"
+      ],
+      "title": "Paper Reading: Unify MLLM 1",
+      "url": "https://axi404.top/blog/paper-reading-uni1"
+    },
+    {
+      "category": "research",
+      "description": "浅浅尝试读一下Unify MLLM。",
+      "headings": [
+        "LMFusion#",
+        "UniToken#",
+        "VARGPT#",
+        "Janus-Pro#",
+        "BLIP3-o#",
+        "Show-o2#",
+        "Qwen-Image#"
+      ],
+      "heroImage": "https://picr2.axi404.top/template-5-zh.webp",
+      "heroImageSource": "https://www.pixiv.net/artworks/131043194",
+      "path": "blog/paper-reading-uni2",
+      "publishDate": "2025-08-11",
+      "tags": [
+        "paper reading",
+        "unified mllm"
+      ],
+      "title": "Paper Reading: Unify MLLM 2",
+      "url": "https://axi404.top/blog/paper-reading-uni2"
+    },
+    {
+      "category": "tech",
+      "description": "使用 PM2 持久化你的 Node 服务",
+      "headings": [
+        "前言#",
+        "PM2#"
+      ],
+      "heroImage": "https://picr2.axi404.top/template-1-zh.webp",
+      "heroImageSource": "https://www.pixiv.net/artworks/117293074",
+      "path": "blog/pm2",
+      "publishDate": "2025-08-04",
+      "tags": [
+        "pm2",
+        "node",
+        "server"
+      ],
+      "title": "使用 PM2 持久化你的 Node 服务",
+      "url": "https://axi404.top/blog/pm2"
+    },
+    {
+      "category": "daily",
+      "description": "本人 2025 年 10 月 12 日 AI 学组经验分享 PPT。",
+      "headings": [
+        "关于#"
+      ],
+      "heroImage": "https://picr2.axi404.top/2bja7WK.webp",
+      "heroImageSource": "https://www.pixiv.net/artworks/133054821",
+      "path": "blog/ppt-sharing",
+      "publishDate": "2025-10-14",
+      "tags": [
+        "ppt"
+      ],
+      "title": "经验分享 PPT",
+      "url": "https://axi404.top/blog/ppt-sharing"
+    },
+    {
+      "category": "tech",
+      "description": "使用 Cloudflare R2 搭建图床",
+      "headings": [
+        "前言#",
+        "项目选择#",
+        "部署#",
+        "环境变量#",
+        "结语#"
+      ],
+      "heroImage": "https://picr2.axi404.top/r2-image-host-zh.webp",
+      "heroImageSource": "https://www.pixiv.net/artworks/131611432",
+      "path": "blog/r2-image-host",
+      "publishDate": "2026-03-10",
+      "tags": [
+        "cloudlflare",
+        "r2",
+        "image host"
+      ],
+      "title": "Cloudflare R2 图床搭建",
+      "url": "https://axi404.top/blog/r2-image-host"
+    },
+    {
+      "category": "tech",
+      "description": "Rclone 是一个用于同步文件的工具，可以用于同步本地文件到云端，也可以用于同步云端文件到本地。",
+      "headings": [
+        "前言#",
+        "安装#",
+        "配置#",
+        "使用#",
+        "总结#"
+      ],
+      "heroImage": "https://picr2.axi404.top/133927048_p0.webp",
+      "heroImageSource": "https://www.pixiv.net/artworks/133927048",
+      "path": "blog/rclone",
+      "publishDate": "2025-10-20",
+      "tags": [
+        "rclone"
+      ],
+      "title": "Rclone 简易教程",
+      "url": "https://axi404.top/blog/rclone"
+    },
+    {
+      "category": "daily",
+      "description": "强化学习简介",
+      "headings": [
+        "RL Note",
+        "Basic Concepts",
+        "RL Methods",
+        "Policy-Based Methods",
+        "Miscs",
+        "什么是强化学习？#",
+        "学习与机器学习#",
+        "强化学习的核心思想与目标#",
+        "强化学习基本框架：智能体与环境交互#",
+        "交互过程#",
+        "序贯决策 (Sequential Decision Making)#",
+        "经历 (Experience) 与 轨迹 (Trajectory)#",
+        "关联任务 vs 非关联任务#",
+        "强化学习问题的关键要素#",
+        "历史 (History) 与 状态 (State)#",
+        "环境的可观测性 (Observability)#",
+        "奖励信号 (Reward Signal) RtR_tRt​#",
+        "回报 (Return) 与 折扣 (Discounting)#",
+        "环境模型 (Environment Model)#",
+        "随机性来源 (Randomness)#",
+        "强化学习智能体的核心组成#",
+        "策略 (Policy) π\\piπ#",
+        "价值函数 (Value Function) Vπ,QπV^{\\pi}, Q^{\\pi}Vπ,Qπ#",
+        "模型 (Model)#",
+        "强化学习的关键挑战与权衡#",
+        "探索 (Exploration) vs 利用 (Exploitation)#",
+        "预测 (Prediction) vs 控制 (Control)#",
+        "学习 (Learning) vs 规划 (Planning)#",
+        "强化学习方法分类#",
+        "深度强化学习 (Deep Reinforcement Learning, DRL)#",
+        "符号约定#"
+      ],
+      "heroImage": "https://picr2.axi404.top/rl-note-1-zh.webp",
+      "heroImageSource": "https://www.pixiv.net/artworks/128026590",
+      "path": "blog/rl-note-1",
+      "publishDate": "2025-04-21",
+      "tags": [
+        "rl"
+      ],
+      "title": "RL 学习笔记（1）：强化学习简介",
+      "url": "https://axi404.top/blog/rl-note-1"
+    },
+    {
+      "category": "daily",
+      "description": "赌博机问题",
+      "headings": [
+        "RL Note",
+        "Basic Concepts",
+        "RL Methods",
+        "Policy-Based Methods",
+        "Miscs",
+        "引言#",
+        "K 臂赌博机 (K-Armed Bandit, MAB) 问题#",
+        "问题定义#",
+        "遗憾 (Regret)#",
+        "动作价值估计方法 (Action-Value Methods)#",
+        "探索与利用策略#",
+        "梯度赌博机算法 (Gradient Bandit Algorithms)#"
+      ],
+      "heroImage": "https://picr2.axi404.top/rl-note-2-zh.webp",
+      "heroImageSource": "https://www.pixiv.net/artworks/128078802",
+      "path": "blog/rl-note-2",
+      "publishDate": "2025-04-21",
+      "tags": [
+        "rl"
+      ],
+      "title": "RL 学习笔记（2）：赌博机问题",
+      "url": "https://axi404.top/blog/rl-note-2"
+    },
+    {
+      "category": "daily",
+      "description": "马尔可夫决策过程",
+      "headings": [
+        "RL Note",
+        "Basic Concepts",
+        "RL Methods",
+        "Policy-Based Methods",
+        "Miscs",
+        "引言#",
+        "马尔可夫性质与过程 (Markov Property and Processes)#",
+        "马尔可夫性质 (Markov Property)#",
+        "马尔可夫过程 (Markov Process, MP) / 马尔可夫链 (Markov Chain)#",
+        "马尔可夫奖励过程 (Markov Reward Process, MRP)#",
+        "马尔可夫决策过程 (Markov Decision Process, MDP)#",
+        "策略与价值函数 (Policy and Value Functions in MDPs)#",
+        "最优性 (Optimality in MDPs)#"
+      ],
+      "heroImage": "https://picr2.axi404.top/rl-note-3-zh.webp",
+      "heroImageSource": "https://www.pixiv.net/artworks/127050217",
+      "path": "blog/rl-note-3",
+      "publishDate": "2025-04-21",
+      "tags": [
+        "rl"
+      ],
+      "title": "RL 学习笔记（3）：马尔可夫决策过程",
+      "url": "https://axi404.top/blog/rl-note-3"
+    },
+    {
+      "category": "daily",
+      "description": "动态规划",
+      "headings": [
+        "RL Note",
+        "Basic Concepts",
+        "RL Methods",
+        "Policy-Based Methods",
+        "Miscs",
+        "引言：什么是动态规划及其在 RL 中的作用？#",
+        "策略评估 (预测问题)#",
+        "寻找最优策略 (控制问题)#",
+        "策略迭代#",
+        "价值迭代#",
+        "DP 算法总结与比较#",
+        "异步动态规划#",
+        "DP 的局限性与展望#",
+        "小结 (Summary)#"
+      ],
+      "heroImage": "https://picr2.axi404.top/rl-note-4-zh.webp",
+      "heroImageSource": "https://www.pixiv.net/artworks/128247362",
+      "path": "blog/rl-note-4",
+      "publishDate": "2025-04-21",
+      "tags": [
+        "rl"
+      ],
+      "title": "RL 学习笔记（4）：动态规划",
+      "url": "https://axi404.top/blog/rl-note-4"
+    },
+    {
+      "category": "daily",
+      "description": "蒙特卡洛方法",
+      "headings": [
+        "RL Note",
+        "Basic Concepts",
+        "RL Methods",
+        "Policy-Based Methods",
+        "Miscs",
+        "引言#",
+        "蒙特卡洛预测 (MC Prediction)#",
+        "蒙特卡洛控制 (MC Control)#",
+        "离轨策略蒙特卡洛方法 (Off-Policy MC)#",
+        "总结与讨论#"
+      ],
+      "heroImage": "https://picr2.axi404.top/rl-note-5-zh.webp",
+      "heroImageSource": "https://www.pixiv.net/artworks/128327233",
+      "path": "blog/rl-note-5",
+      "publishDate": "2025-04-21",
+      "tags": [
+        "rl"
+      ],
+      "title": "RL 学习笔记（5）：蒙特卡洛方法",
+      "url": "https://axi404.top/blog/rl-note-5"
+    },
+    {
+      "category": "daily",
+      "description": "时序差分学习",
+      "headings": [
+        "RL Note",
+        "Basic Concepts",
+        "RL Methods",
+        "Policy-Based Methods",
+        "Miscs",
+        "时序差分（TD）学习概述#",
+        "TD 预测 (TD Prediction)#",
+        "TD 与 MC 的比较：性质与权衡#",
+        "同轨时序差分控制 (On-Policy TD Control)#",
+        "总结#"
+      ],
+      "heroImage": "https://picr2.axi404.top/rl-note-6-zh.webp",
+      "heroImageSource": "https://www.pixiv.net/artworks/128269435",
+      "path": "blog/rl-note-6",
+      "publishDate": "2025-04-21",
+      "tags": [
+        "rl"
+      ],
+      "title": "RL 学习笔记（6）：时序差分学习",
+      "url": "https://axi404.top/blog/rl-note-6"
+    },
+    {
+      "category": "daily",
+      "description": "Q 学习",
+      "headings": [
+        "RL Note",
+        "Basic Concepts",
+        "RL Methods",
+        "Policy-Based Methods",
+        "Miscs",
+        "离轨策略学习与 Q 学习#",
+        "离轨策略学习 (Off-Policy Learning) 回顾#",
+        "Q 学习 (Q-Learning)：离轨 TD 控制#",
+        "Q 学习相关问题与改进#",
+        "期望 Sarsa (Expected Sarsa)#",
+        "最大化偏差 (Maximization Bias)#",
+        "双 Q 学习 (Double Q-Learning)#",
+        "价值函数近似 (VFA) 与深度强化学习 (DRL) 简介#",
+        "价值函数近似 (VFA)#",
+        "深度强化学习 (DRL)#",
+        "深度 Q 网络 (Deep Q-Network, DQN) 及其改进#",
+        "DQN 核心思想#",
+        "经验回放 (Experience Replay)#",
+        "目标网络 (Target Network)#",
+        "双 DQN (Double DQN)#",
+        "优先经验回放 (Prioritized Experience Replay)#",
+        "对决 DQN (Dueling DQN)#",
+        "DQN 算法总结#",
+        "结论#"
+      ],
+      "heroImage": "https://picr2.axi404.top/rl-note-7-zh.webp",
+      "heroImageSource": "https://www.pixiv.net/artworks/129365688",
+      "path": "blog/rl-note-7",
+      "publishDate": "2025-04-21",
+      "tags": [
+        "rl"
+      ],
+      "title": "RL 学习笔记（7）：Q 学习、DQN 及相关改进",
+      "url": "https://axi404.top/blog/rl-note-7"
+    },
+    {
+      "category": "daily",
+      "description": "n 步自举法",
+      "headings": [
+        "RL Note",
+        "Basic Concepts",
+        "RL Methods",
+        "Policy-Based Methods",
+        "Miscs",
+        "引言#",
+        "n 步 TD 预测 (估计 VπV_\\piVπ​)#",
+        "n 步同轨策略控制 (On-Policy Control)#",
+        "n 步 Sarsa#",
+        "n 步期望 Sarsa (n-step Expected Sarsa)#",
+        "n 步离轨策略学习 (Off-Policy Learning)#",
+        "使用重要性采样 (Importance Sampling, IS)#",
+        "n 步树回溯算法 (n-step Tree Backup, TB)#",
+        "统一视角：n 步 Q(σ\\sigmaσ)#",
+        "总结与讨论#"
+      ],
+      "heroImage": "https://picr2.axi404.top/rl-note-8-zh.webp",
+      "heroImageSource": "https://www.pixiv.net/artworks/129400136",
+      "path": "blog/rl-note-8",
+      "publishDate": "2025-04-21",
+      "tags": [
+        "rl"
+      ],
+      "title": "RL 学习笔记（8）：n 步自举法",
+      "url": "https://axi404.top/blog/rl-note-8"
+    },
+    {
+      "category": "daily",
+      "description": "集成规划与学习",
+      "headings": [
+        "RL Note",
+        "Basic Concepts",
+        "RL Methods",
+        "Policy-Based Methods",
+        "Miscs",
+        "引言#",
+        "学习环境模型#",
+        "基于模型的规划#",
+        "Dyna 架构：集成学习与规划#",
+        "处理模型不准确性：Dyna-Q+#",
+        "总结#"
+      ],
+      "heroImage": "https://picr2.axi404.top/rl-note-9-zh.webp",
+      "heroImageSource": "https://www.pixiv.net/artworks/128383029",
+      "path": "blog/rl-note-9",
+      "publishDate": "2025-04-21",
+      "tags": [
+        "rl"
+      ],
+      "title": "RL 学习笔记（9）：集成规划与学习",
+      "url": "https://axi404.top/blog/rl-note-9"
+    },
+    {
+      "category": "daily",
+      "description": "策略梯度方法",
+      "headings": [
+        "RL Note",
+        "Basic Concepts",
+        "RL Methods",
+        "Policy-Based Methods",
+        "Miscs",
+        "引言#",
+        "策略梯度定理 (Policy Gradient Theorem)#",
+        "估算策略梯度：REINFORCE 算法#",
+        "降低方差：引入基线 (Baseline)#",
+        "带基线的 REINFORCE 算法 (一种简单的 Actor-Critic)#",
+        "总结#"
+      ],
+      "heroImage": "https://picr2.axi404.top/rl-note-10-zh.webp",
+      "heroImageSource": "https://www.pixiv.net/artworks/128440092",
+      "path": "blog/rl-note-10",
+      "publishDate": "2025-04-21",
+      "tags": [
+        "rl"
+      ],
+      "title": "RL 学习笔记（10）：策略梯度方法",
+      "url": "https://axi404.top/blog/rl-note-10"
+    },
+    {
+      "category": "daily",
+      "description": "Actor-Critic 方法",
+      "headings": [
+        "RL Note",
+        "Basic Concepts",
+        "RL Methods",
+        "Policy-Based Methods",
+        "Miscs",
+        "引言#",
+        "Actor-Critic 基础#",
+        "基于 Q 值的 Actor-Critic (QAC)#",
+        "引入基线：优势函数 (Advantage Function)#",
+        "基于 V 值的 Actor-Critic 与优势估计#",
+        "优势 Actor-Critic (A2C)#",
+        "扩展：n 步 A2C#",
+        "总结#"
+      ],
+      "heroImage": "https://picr2.axi404.top/rl-note-11-zh.webp",
+      "heroImageSource": "https://www.pixiv.net/artworks/128359772",
+      "path": "blog/rl-note-11",
+      "publishDate": "2025-04-21",
+      "tags": [
+        "rl"
+      ],
+      "title": "RL 学习笔记（11）：Actor-Critic 方法",
+      "url": "https://axi404.top/blog/rl-note-11"
+    },
+    {
+      "category": "daily",
+      "description": "置信域策略优化",
+      "headings": [
+        "RL Note",
+        "Basic Concepts",
+        "RL Methods",
+        "Policy-Based Methods",
+        "Miscs",
+        "策略梯度方法的挑战#",
+        "置信域优化方法 (Trust Region Methods) - 概念#",
+        "置信域策略优化 (TRPO) 算法#",
+        "讨论与总结#"
+      ],
+      "heroImage": "https://picr2.axi404.top/rl-note-12-zh.webp",
+      "heroImageSource": "https://www.pixiv.net/artworks/128446911",
+      "path": "blog/rl-note-12",
+      "publishDate": "2025-04-21",
+      "tags": [
+        "rl"
+      ],
+      "title": "RL 学习笔记（12）：置信域策略优化",
+      "url": "https://axi404.top/blog/rl-note-12"
+    },
+    {
+      "category": "daily",
+      "description": "近端策略优化 (PPO)",
+      "headings": [
+        "RL Note",
+        "Basic Concepts",
+        "RL Methods",
+        "Policy-Based Methods",
+        "Miscs",
+        "从 TRPO 到 PPO：追求简单与稳定#",
+        "PPO 核心思想：限制策略更新#",
+        "KL 惩罚 (PPO-Penalty)#",
+        "目标函数裁剪 (PPO-Clip)#",
+        "PPO 在 Actor-Critic 框架下的实现#",
+        "总结#"
+      ],
+      "heroImage": "https://picr2.axi404.top/rl-note-13-zh.webp",
+      "heroImageSource": "https://www.pixiv.net/artworks/129183437",
+      "path": "blog/rl-note-13",
+      "publishDate": "2025-04-21",
+      "tags": [
+        "rl"
+      ],
+      "title": "RL 学习笔记（13）：近端策略优化 (PPO)",
+      "url": "https://axi404.top/blog/rl-note-13"
+    },
+    {
+      "category": "daily",
+      "description": "基于人类反馈的强化学习 (RLHF)",
+      "headings": [
+        "RL Note",
+        "Basic Concepts",
+        "RL Methods",
+        "Policy-Based Methods",
+        "Miscs",
+        "背景：大型语言模型 (LLM) 与对齐挑战#",
+        "大型语言模型概述#",
+        "指令微调 (Instruction Fine-tuning / SFT)#",
+        "人类对齐 (Human Alignment)#",
+        "基于人类反馈的强化学习 (RLHF) 概述#",
+        "RLHF 实现流程：三阶段方法#",
+        "监督微调 (Supervised Fine-tuning, SFT)#",
+        "奖励模型训练 (Reward Model Training)#",
+        "强化学习微调 (RL Fine-tuning with PPO)#",
+        "RLAIF：从 AI 反馈中强化学习#",
+        "讨论：RLHF vs SFT#",
+        "总结#"
+      ],
+      "heroImage": "https://picr2.axi404.top/rl-note-14-zh.webp",
+      "heroImageSource": "https://www.pixiv.net/artworks/128090189",
+      "path": "blog/rl-note-14",
+      "publishDate": "2025-04-21",
+      "tags": [
+        "rl"
+      ],
+      "title": "RL 学习笔记（14）：基于人类反馈的强化学习 (RLHF)",
+      "url": "https://axi404.top/blog/rl-note-14"
+    },
+    {
+      "category": "tech",
+      "description": "伴随着事务的繁忙以及时间的紧张，RoboMaster 视觉组的教程已经再难亲力亲为，在这里汇总一条正确的路线，充分引用、复用已有内容，并给出一些建议。",
+      "headings": [
+        "前言#",
+        "基础知识#",
+        "Linux#",
+        "ChatGPT#",
+        "计算机视觉#",
+        "ROS#"
+      ],
+      "heroImage": "https://picr2.axi404.top/template-2-zh.webp",
+      "heroImageSource": "https://www.pixiv.net/artworks/132185381",
+      "path": "blog/rm-list",
+      "publishDate": "2025-08-07",
+      "tags": [
+        "robomaster",
+        "computer vision",
+        "linux",
+        "ros"
+      ],
+      "title": "RM 教程列表",
+      "url": "https://axi404.top/blog/rm-list"
+    },
+    {
+      "category": "daily",
+      "description": "我的 RM 故事。",
+      "headings": [
+        "高中概况#",
+        "初识 RM#",
+        "冠军之路#",
+        "大学概况#",
+        "视觉梯队#",
+        "正式队员#",
+        "组长之路#",
+        "结语#"
+      ],
+      "heroImage": "https://picr2.axi404.top/RM-Memoir-zh.webp",
+      "heroImageSource": "",
+      "path": "blog/rm-memoir",
+      "publishDate": "2024-08-03",
+      "tags": [
+        "robomaster",
+        "memoir"
+      ],
+      "title": "RoboMaster 回忆录",
+      "url": "https://axi404.top/blog/rm-memoir"
+    },
+    {
+      "category": "tech",
+      "description": "关于 C++ 的快速入门以及基础概念讲解。",
+      "headings": [
+        "欢迎来到视觉组#",
+        "格式#",
+        "变量#",
+        "逻辑语句#",
+        "条件语句 - if#",
+        "条件语句 - if-else#",
+        "多重条件语句 - if-(else if)-else#",
+        "循环语句 - while#",
+        "循环语句 - for#",
+        "循环语句 - do-while#",
+        "break 与 continue#",
+        "地址与指针#",
+        "地址与指针#",
+        "数组与指针#",
+        "引用#",
+        "new 与 delete#",
+        "函数#",
+        "什么是函数？#",
+        "函数的声明与定义#",
+        "函数的参数与返回值#",
+        "形参与实参#",
+        "调用函数#",
+        "函数重载#",
+        "默认参数#",
+        "函数返回多个值#",
+        "局部变量与作用域#",
+        "结构体#",
+        "定义结构体#",
+        "创建结构体对象并访问结构体成员#",
+        "结构体作为函数参数#",
+        "结构体初始化#",
+        "结构体嵌套#",
+        "结构体指针#",
+        "类#",
+        "什么是类？#",
+        "定义类#",
+        "成员函数和成员变量#",
+        "创建对象#",
+        "构造函数和析构函数#",
+        "访问控制#",
+        "类的声明和定义分离#",
+        "初始化列表#",
+        "this 指针#",
+        "封装、继承与多态#",
+        "封装#",
+        "继承#",
+        "多态#",
+        "VOB#",
+        "虚、纯虚与抽象#",
+        "总结#"
+      ],
+      "heroImage": "https://picr2.axi404.top/RM-Tutorial-Section-1-zh.webp",
+      "heroImageSource": "https://www.pixiv.net/artworks/120560837",
+      "path": "blog/rm-tutorial-section-1",
+      "publishDate": "2024-07-10",
+      "tags": [
+        "robomaster",
+        "c++"
+      ],
+      "title": "RoboMaster 视觉组第一次培训",
+      "url": "https://axi404.top/blog/rm-tutorial-section-1"
+    },
+    {
+      "category": "tech",
+      "description": "关于 SSH 以及 CMake 的基础讲解。",
+      "headings": [
+        "前言#",
+        "Markdown#",
+        "安装 VSCode#",
+        "SSH#",
+        "Linux#",
+        "配置 C++ 开发环境#",
+        "配置 Clang 环境#",
+        "CMake & CMakeList#"
+      ],
+      "heroImage": "https://picr2.axi404.top/RM-Tutorial-Section-2-zh.webp",
+      "heroImageSource": "https://www.pixiv.net/artworks/95323733",
+      "path": "blog/rm-tutorial-section-2",
+      "publishDate": "2025-08-07",
+      "tags": [
+        "robomaster",
+        "c++"
+      ],
+      "title": "RoboMaster 视觉组第二次培训",
+      "url": "https://axi404.top/blog/rm-tutorial-section-2"
+    },
+    {
+      "category": "tech",
+      "description": "关于 OpenCV 的安装以及使用",
+      "headings": [
+        "前言#",
+        "安装 OpenCV#",
+        "OpenCV 基础#",
+        "图像的本质#",
+        "OpenCV 基本操作#",
+        "图像预处理#",
+        "图像特征获取#"
+      ],
+      "heroImage": "https://picr2.axi404.top/template-3-zh.webp",
+      "heroImageSource": "https://www.pixiv.net/artworks/132166323",
+      "path": "blog/rm-tutorial-section-3",
+      "publishDate": "2025-08-07",
+      "tags": [
+        "robomaster",
+        "computer vision",
+        "opencv"
+      ],
+      "title": "RoboMaster 视觉组第三次培训",
+      "url": "https://axi404.top/blog/rm-tutorial-section-3"
+    },
+    {
+      "category": "tech",
+      "description": "使用 Sealos 部署 RustDesk 服务器",
+      "headings": [
+        "前言#",
+        "部署#",
+        "自部署#"
+      ],
+      "heroImage": "https://picr2.axi404.top/template-9-zh.webp",
+      "heroImageSource": "https://www.pixiv.net/artworks/118303835",
+      "path": "blog/sealos-rustdesk",
+      "publishDate": "2025-08-20",
+      "tags": [
+        "rustdesk",
+        "sealos"
+      ],
+      "title": "傻瓜也可以部署的 RustDesk 教程",
+      "url": "https://axi404.top/blog/sealos-rustdesk"
+    },
+    {
+      "category": "tech",
+      "description": "在 Ubuntu 22.04 中安装搜狗输入法。",
+      "headings": [
+        "安装#",
+        "安装依赖#",
+        "Chrome / Edge 的输入法无效问题#"
+      ],
+      "heroImage": "https://picr2.axi404.top/sogou-install-zh.webp",
+      "heroImageSource": "https://www.pixiv.net/artworks/91110244",
+      "path": "blog/sogou-install",
+      "publishDate": "2025-06-28",
+      "tags": [
+        "bug-report",
+        "sogou"
+      ],
+      "title": "Ubuntu 22.04 安装搜狗输入法",
+      "url": "https://axi404.top/blog/sogou-install"
+    },
+    {
+      "category": "daily",
+      "description": "在老师的邀请下，我在大一新生入学的典礼上作为本科生代表进行了发言，这里是发言稿。",
+      "headings": [
+        "前言#",
+        "正文#"
+      ],
+      "heroImage": "https://picr2.axi404.top/1755457065338_107799122_p0.webp",
+      "heroImageSource": "https://www.pixiv.net/artworks/107799122",
+      "path": "blog/speech-undergraduate",
+      "publishDate": "2025-09-25",
+      "tags": [
+        "speech"
+      ],
+      "title": "本科生代表致新生发言",
+      "url": "https://axi404.top/blog/speech-undergraduate"
+    },
+    {
+      "category": "research",
+      "description": "starVLA 的初版技术报告",
+      "headings": [
+        "前言#",
+        "统一的巴别塔#",
+        "未来的事#"
+      ],
+      "heroImage": "https://picr2.axi404.top/139758688_p0.webp",
+      "heroImageSource": "https://www.pixiv.net/artworks/139758688",
+      "path": "blog/starvla-v1",
+      "publishDate": "2026-04-22",
+      "tags": [
+        "starvla",
+        "vla",
+        "embodied ai"
+      ],
+      "title": "再次来到 VLA 的巴别塔/StarVLA 初版技术报告",
+      "url": "https://axi404.top/blog/starvla-v1"
+    },
+    {
+      "category": "tech",
+      "description": "平时遇到的奇怪代码问题，记录并整理。",
+      "headings": [
+        "前言#",
+        "博客渲染超时#",
+        "GPT API 调用显示 Unknown scheme for proxy URL#",
+        "EndeavorOS 安装导致的多系统不兼容问题#",
+        "Windows 新电脑配置#",
+        "SSH 登录实验室堡垒机报错#",
+        "Pip/Conda 安装空间不够#"
+      ],
+      "heroImage": "https://picr2.axi404.top/Strange-Bugs-zh.webp",
+      "heroImageSource": "https://www.pixiv.net/artworks/117648512",
+      "path": "blog/strange-bugs",
+      "publishDate": "2024-12-20",
+      "tags": [
+        "bug report"
+      ],
+      "title": "奇奇怪怪的 Bug 集散地",
+      "url": "https://axi404.top/blog/strange-bugs"
+    },
+    {
+      "category": "tech",
+      "description": "给女朋友的教程，所以从计算机完全零基础出发，教授一些学习生活中常用的技能。",
+      "headings": [
+        "GPT 使用指南#",
+        "安装软件#",
+        "配置 NextChat#",
+        "开始聊天#",
+        "录播下载#"
+      ],
+      "heroImage": "https://picr2.axi404.top/tech4girlfriend-zh.webp",
+      "heroImageSource": "https://www.pixiv.net/artworks/120378889",
+      "path": "blog/tech4girlfriend",
+      "publishDate": "2024-10-28",
+      "tags": [
+        "bug report"
+      ],
+      "title": "给乐小姐的教程",
+      "url": "https://axi404.top/blog/tech4girlfriend"
+    },
+    {
+      "category": "research",
+      "description": "从一些 Embodied AI 相关工作中扫过。",
+      "headings": [
+        "Embodied AI Paper Reading",
+        "A1#",
+        "BiDexGrasp#",
+        "EgoVerse#",
+        "HEX#",
+        "ViVa#",
+        "Sumo#",
+        "SIM1#",
+        "VAG#",
+        "ProGAL-VLA#",
+        "OmniUMI#",
+        "AIM#",
+        "StarVLA-α#",
+        "XRZero-G0#",
+        "HTD#",
+        "WAV#",
+        "OmniVLA-RL#",
+        "ReFineVLA#",
+        "ST-π#",
+        "MaskWorldModel#",
+        "VLA Foundry#",
+        "UniT#",
+        "JoyAI-RA#",
+        "PokeVLA#",
+        "Open-H-Embodiment#",
+        "dWorldEval#",
+        "LeHome#",
+        "RedVLA#",
+        "GazeVLA#",
+        "EgoLive#",
+        "M²-VLA#",
+        "Libra-VLA#",
+        "DiscreteRTC#",
+        "GS-Playground#",
+        "MotuBrain#",
+        "LaST-R1#",
+        "Being-H0.7#",
+        "Lucid-XR#",
+        "LearningWhileDeploying#",
+        "VLA-ATTC#",
+        "LatentBridge#",
+        "MolmoAct2#",
+        "RLDX-1#",
+        "RoboAlign-R1#",
+        "VLA-GSE#",
+        "CKT-WAM#",
+        "AT-VLA#",
+        "RePO-VLA#",
+        "ALAM#",
+        "RoboMemArena / PrediMem#",
+        "HarmoWAM#",
+        "PriorVLA#",
+        "ForceFlow#",
+        "TouchAnything / EgoTouch#",
+        "BlockVLA#",
+        "PhysBrain 1.0#",
+        "HoloMotion-1#",
+        "RoboFlow4D#",
+        "WorldArena 2.0#",
+        "Dexora#",
+        "Active Spatial Brain + Action Cerebellum#"
+      ],
+      "heroImage": "https://picr2.axi404.top/124590190_p0.webp",
+      "heroImageSource": "https://www.pixiv.net/artworks/124590190",
+      "path": "blog/tmp",
+      "publishDate": "2026-06-15",
+      "tags": [
+        "paper reading",
+        "embodied ai"
+      ],
+      "title": "临时 Paper Reading",
+      "url": "https://axi404.top/blog/tmp"
+    },
+    {
+      "category": "tech",
+      "description": "在 Ubuntu 22.04 安装 CUDA & CUDNN & Pytorch。",
+      "headings": [
+        "安装 CUDA 与 CUDNN#",
+        "安装 Pytorch#"
+      ],
+      "heroImage": "https://picr2.axi404.top/torch-zh.webp",
+      "heroImageSource": "https://www.pixiv.net/artworks/90515771",
+      "path": "blog/torch",
+      "publishDate": "2024-10-03",
+      "tags": [
+        "bug report",
+        "cuda",
+        "cudnn",
+        "pytorch"
+      ],
+      "title": "CUDA & CUDNN & Pytorch 安装",
+      "url": "https://axi404.top/blog/torch"
+    },
+    {
+      "category": "tech",
+      "description": "在已有 Ubuntu 20.04 以及 Windows 的时候安装 Ubuntu 22.04 双系统并且修复一些 Bugs。",
+      "headings": [
+        "切换 Grub#",
+        "无线网卡恢复#"
+      ],
+      "heroImage": "https://picr2.axi404.top/ubuntu-install-zh.webp",
+      "heroImageSource": "https://www.pixiv.net/artworks/110373783",
+      "path": "blog/ubuntu-install",
+      "publishDate": "2024-12-19",
+      "tags": [
+        "bug-report",
+        "ubuntu",
+        "gpu-driver"
+      ],
+      "title": "Ubuntu 22.04 三系统安装以及安装显卡驱动后无线网卡恢复",
+      "url": "https://axi404.top/blog/ubuntu-install"
+    },
+    {
+      "category": "daily",
+      "description": "我的大一生活。",
+      "headings": [
+        "回忆录",
+        "大学",
+        "高考出分#",
+        "孽缘纠葛#",
+        "报考西交#",
+        "水群之旅#",
+        "开学伊始#",
+        "初入 RM#",
+        "学习小记#",
+        "RM 之旅#",
+        "学期之中#",
+        "疫情与转折#",
+        "下半年开始#",
+        "结尾#"
+      ],
+      "heroImage": "https://picr2.axi404.top/Uni-Memoir1-zh.webp",
+      "heroImageSource": "https://www.pixiv.net/artworks/79517973",
+      "path": "blog/uni-memoir1",
+      "publishDate": "2024-10-03",
+      "tags": [
+        "university",
+        "memoir"
+      ],
+      "title": "大一回忆录",
+      "url": "https://axi404.top/blog/uni-memoir1"
+    },
+    {
+      "category": "daily",
+      "description": "我的大二生活。",
+      "headings": [
+        "回忆录",
+        "大学",
+        "前路茫茫#",
+        "RM 组长#",
+        "科研之二#",
+        "平淡生活#",
+        "大二下生活#",
+        "轻舟已过万重山#",
+        "绿群往事#",
+        "上海实习#",
+        "尾声#"
+      ],
+      "heroImage": "https://picr2.axi404.top/Uni-Memoir2-zh.webp",
+      "heroImageSource": "https://www.pixiv.net/artworks/123626311",
+      "path": "blog/uni-memoir2",
+      "publishDate": "2025-01-05",
+      "tags": [
+        "university",
+        "memoir"
+      ],
+      "title": "大二回忆录",
+      "url": "https://axi404.top/blog/uni-memoir2"
+    },
+    {
+      "category": "daily",
+      "description": "我的大三生活。",
+      "headings": [
+        "回忆录",
+        "大学",
+        "前言#",
+        "保持聚焦#",
+        "ECCV 参会，小憩#",
+        "新的科研#",
+        "WAIC 风云#",
+        "琐事若干#",
+        "总结#"
+      ],
+      "heroImage": "https://picr2.axi404.top/128444349_p0.webp",
+      "heroImageSource": "https://www.pixiv.net/artworks/128444349",
+      "path": "blog/uni-memoir3",
+      "publishDate": "2026-01-01",
+      "tags": [
+        "university",
+        "memoir"
+      ],
+      "title": "大三回忆录",
+      "url": "https://axi404.top/blog/uni-memoir3"
+    },
+    {
+      "category": "tech",
+      "description": "如何对于 VitePress 项目进行贡献，快速看懂项目结构，并构建自己的项目。",
+      "headings": [
+        "前言#",
+        "什么是 VitePress#",
+        "项目结构#",
+        "贡献流程#",
+        "注册 Github 账号#",
+        "初始化本地 Git 并配置 SSH#",
+        "Fork 本仓库#",
+        "克隆仓库#",
+        "仓库文件结构#",
+        "撰写文档#",
+        "修改 Sidebar#",
+        "提交更改#",
+        "发起 Pull Request#",
+        "VitePress 快速建站#",
+        "安装初始化#",
+        "Github 部署#",
+        "结语#"
+      ],
+      "heroImage": "https://picr2.axi404.top/VitePress-Tutorial-zh.webp",
+      "heroImageSource": "https://www.pixiv.net/artworks/118946648",
+      "path": "blog/vitepress-tutorial",
+      "publishDate": "2024-08-23",
+      "tags": [
+        "vitepress"
+      ],
+      "title": "VitePress 贡献指南 & 建站指南",
+      "url": "https://axi404.top/blog/vitepress-tutorial"
+    },
+    {
+      "category": "tech",
+      "description": "EasyConnect + SSH 校外链接服务器。",
+      "headings": [
+        "前言#",
+        "下载 Easy Connect#",
+        "SSH#",
+        "二次 SSH#",
+        "结语#",
+        "Updates#"
+      ],
+      "heroImage": "https://picr2.axi404.top/vpn-setting-zh.webp",
+      "heroImageSource": "https://www.pixiv.net/artworks/101011762",
+      "path": "blog/vpn-setting",
+      "publishDate": "2024-08-16",
+      "tags": [
+        "vpn"
+      ],
+      "title": "校园 VPN 连接实录",
+      "url": "https://axi404.top/blog/vpn-setting"
+    },
+    {
+      "category": "tech",
+      "description": "Waline 是一个博客评论系统，本文将介绍如何在 Astro 中使用 Waline。",
+      "headings": [
+        "前言#",
+        "在 Astro 中集成 Waline#",
+        "核心原理#",
+        "实现#",
+        "评论支持邮件提醒#",
+        "后记#"
+      ],
+      "heroImage": "https://picr2.axi404.top/template-16-zh.webp",
+      "heroImageSource": "https://www.pixiv.net/artworks/130254688",
+      "path": "blog/waline-install",
+      "publishDate": "2025-08-06",
+      "tags": [
+        "waline",
+        "astro"
+      ],
+      "title": "在 Astro 中使用 Waline",
+      "url": "https://axi404.top/blog/waline-install"
+    },
+    {
+      "category": "tech",
+      "description": "一个简单的博客部署方案",
+      "headings": [
+        "前言#",
+        "Part 1: 现代网站搭建的基本逻辑#",
+        "什么是静态网站？#",
+        "为什么选择静态网站搭建个人主页？#",
+        "拥抱现代前端框架#",
+        "Part 2: 动手！从零到一的建站实战#",
+        "步骤一：准备本地开发环境 (Node.js)#",
+        "步骤二：选择并下载一个模板#",
+        "步骤三：在本地运行你的网站#",
+        "步骤四：个性化你的内容#",
+        "步骤五：将你的成果推送到 GitHub#",
+        "步骤六：使用 Vercel 一键部署#",
+        "步骤七（可选）：绑定你的专属域名#",
+        "小结#"
+      ],
+      "heroImage": "https://picr2.axi404.top/website-vercel-zh.webp",
+      "heroImageSource": "https://www.pixiv.net/artworks/127096476",
+      "path": "blog/website-vercel",
+      "publishDate": "2025-07-09",
+      "tags": [
+        "blog-deployment",
+        "vercel",
+        "cloudflare"
+      ],
+      "title": "博客上手指南",
+      "url": "https://axi404.top/blog/website-vercel"
+    },
+    {
+      "category": "tech",
+      "description": "绝大多数的 Coding Agent 均熟悉 Linux 的命令行环境，而 WSL 提供了一个在双系统与易用性之间较为平衡的解决方案。",
+      "headings": [
+        "前言#",
+        "配置#",
+        "安装 WSL#",
+        "WSL 脚手架#",
+        "Coding Agent#",
+        "小结#"
+      ],
+      "heroImage": "https://picr2.axi404.top/1768246393967_139839082_p0.webp",
+      "heroImageSource": "https://www.pixiv.net/artworks/139839082",
+      "path": "blog/wsl-coding",
+      "publishDate": "2026-02-15",
+      "tags": [
+        "wsl",
+        "vibe coding",
+        "claude code"
+      ],
+      "title": "在 Windows 上使用 WSL 进行 Vibe Coding",
+      "url": "https://axi404.top/blog/wsl-coding"
+    }
+  ],
+  "tags": [
+    {
+      "path": "tags/3d%20reconstruction",
+      "url": "https://axi404.top/tags/3d%20reconstruction"
+    },
+    {
+      "path": "tags/admission-guide",
+      "url": "https://axi404.top/tags/admission-guide"
+    },
+    {
+      "path": "tags/anygrasp",
+      "url": "https://axi404.top/tags/anygrasp"
+    },
+    {
+      "path": "tags/archlinux",
+      "url": "https://axi404.top/tags/archlinux"
+    },
+    {
+      "path": "tags/astro",
+      "url": "https://axi404.top/tags/astro"
+    },
+    {
+      "path": "tags/benchmark",
+      "url": "https://axi404.top/tags/benchmark"
+    },
+    {
+      "path": "tags/blog-deployment",
+      "url": "https://axi404.top/tags/blog-deployment"
+    },
+    {
+      "path": "tags/browser",
+      "url": "https://axi404.top/tags/browser"
+    },
+    {
+      "path": "tags/bug-report",
+      "url": "https://axi404.top/tags/bug-report"
+    },
+    {
+      "path": "tags/bug%20report",
+      "url": "https://axi404.top/tags/bug%20report"
+    },
+    {
+      "path": "tags/c++",
+      "url": "https://axi404.top/tags/c++"
+    },
+    {
+      "path": "tags/ceres",
+      "url": "https://axi404.top/tags/ceres"
+    },
+    {
+      "path": "tags/checklist",
+      "url": "https://axi404.top/tags/checklist"
+    },
+    {
+      "path": "tags/chrome",
+      "url": "https://axi404.top/tags/chrome"
+    },
+    {
+      "path": "tags/claude-code",
+      "url": "https://axi404.top/tags/claude-code"
+    },
+    {
+      "path": "tags/claude%20code",
+      "url": "https://axi404.top/tags/claude%20code"
+    },
+    {
+      "path": "tags/cloudflare",
+      "url": "https://axi404.top/tags/cloudflare"
+    },
+    {
+      "path": "tags/cloudlflare",
+      "url": "https://axi404.top/tags/cloudlflare"
+    },
+    {
+      "path": "tags/code%20reading",
+      "url": "https://axi404.top/tags/code%20reading"
+    },
+    {
+      "path": "tags/computer%20vision",
+      "url": "https://axi404.top/tags/computer%20vision"
+    },
+    {
+      "path": "tags/cuda",
+      "url": "https://axi404.top/tags/cuda"
+    },
+    {
+      "path": "tags/cudnn",
+      "url": "https://axi404.top/tags/cudnn"
+    },
+    {
+      "path": "tags/cursor",
+      "url": "https://axi404.top/tags/cursor"
+    },
+    {
+      "path": "tags/data%20engine",
+      "url": "https://axi404.top/tags/data%20engine"
+    },
+    {
+      "path": "tags/dataset",
+      "url": "https://axi404.top/tags/dataset"
+    },
+    {
+      "path": "tags/deep%20dive",
+      "url": "https://axi404.top/tags/deep%20dive"
+    },
+    {
+      "path": "tags/deployment",
+      "url": "https://axi404.top/tags/deployment"
+    },
+    {
+      "path": "tags/docker",
+      "url": "https://axi404.top/tags/docker"
+    },
+    {
+      "path": "tags/embodied%20ai",
+      "url": "https://axi404.top/tags/embodied%20ai"
+    },
+    {
+      "path": "tags/embodied%20ai/2",
+      "url": "https://axi404.top/tags/embodied%20ai/2"
+    },
+    {
+      "path": "tags/embodied%20ai/3",
+      "url": "https://axi404.top/tags/embodied%20ai/3"
+    },
+    {
+      "path": "tags/endeavouros",
+      "url": "https://axi404.top/tags/endeavouros"
+    },
+    {
+      "path": "tags/feeder",
+      "url": "https://axi404.top/tags/feeder"
+    },
+    {
+      "path": "tags/folo",
+      "url": "https://axi404.top/tags/folo"
+    },
+    {
+      "path": "tags/footnote",
+      "url": "https://axi404.top/tags/footnote"
+    },
+    {
+      "path": "tags/git",
+      "url": "https://axi404.top/tags/git"
+    },
+    {
+      "path": "tags/gitflow",
+      "url": "https://axi404.top/tags/gitflow"
+    },
+    {
+      "path": "tags/github%20action",
+      "url": "https://axi404.top/tags/github%20action"
+    },
+    {
+      "path": "tags/github%20pages",
+      "url": "https://axi404.top/tags/github%20pages"
+    },
+    {
+      "path": "tags/gpt",
+      "url": "https://axi404.top/tags/gpt"
+    },
+    {
+      "path": "tags/gpu-driver",
+      "url": "https://axi404.top/tags/gpu-driver"
+    },
+    {
+      "path": "tags/guidance",
+      "url": "https://axi404.top/tags/guidance"
+    },
+    {
+      "path": "tags/image%20host",
+      "url": "https://axi404.top/tags/image%20host"
+    },
+    {
+      "path": "tags/image%20hosting",
+      "url": "https://axi404.top/tags/image%20hosting"
+    },
+    {
+      "path": "tags/internmanip",
+      "url": "https://axi404.top/tags/internmanip"
+    },
+    {
+      "path": "tags/isaac-sim",
+      "url": "https://axi404.top/tags/isaac-sim"
+    },
+    {
+      "path": "tags/isaac%20sim",
+      "url": "https://axi404.top/tags/isaac%20sim"
+    },
+    {
+      "path": "tags/isaac%20101",
+      "url": "https://axi404.top/tags/isaac%20101"
+    },
+    {
+      "path": "tags/lerobot",
+      "url": "https://axi404.top/tags/lerobot"
+    },
+    {
+      "path": "tags/linux",
+      "url": "https://axi404.top/tags/linux"
+    },
+    {
+      "path": "tags/llm",
+      "url": "https://axi404.top/tags/llm"
+    },
+    {
+      "path": "tags/markdown",
+      "url": "https://axi404.top/tags/markdown"
+    },
+    {
+      "path": "tags/medical-image",
+      "url": "https://axi404.top/tags/medical-image"
+    },
+    {
+      "path": "tags/memoir",
+      "url": "https://axi404.top/tags/memoir"
+    },
+    {
+      "path": "tags/monthly%20journal",
+      "url": "https://axi404.top/tags/monthly%20journal"
+    },
+    {
+      "path": "tags/nextchat",
+      "url": "https://axi404.top/tags/nextchat"
+    },
+    {
+      "path": "tags/node",
+      "url": "https://axi404.top/tags/node"
+    },
+    {
+      "path": "tags/nvidia",
+      "url": "https://axi404.top/tags/nvidia"
+    },
+    {
+      "path": "tags/obsidian",
+      "url": "https://axi404.top/tags/obsidian"
+    },
+    {
+      "path": "tags/opencv",
+      "url": "https://axi404.top/tags/opencv"
+    },
+    {
+      "path": "tags/paper%20reading",
+      "url": "https://axi404.top/tags/paper%20reading"
+    },
+    {
+      "path": "tags/paper%20reading/2",
+      "url": "https://axi404.top/tags/paper%20reading/2"
+    },
+    {
+      "path": "tags/pm2",
+      "url": "https://axi404.top/tags/pm2"
+    },
+    {
+      "path": "tags/ppt",
+      "url": "https://axi404.top/tags/ppt"
+    },
+    {
+      "path": "tags/pytorch",
+      "url": "https://axi404.top/tags/pytorch"
+    },
+    {
+      "path": "tags/r2",
+      "url": "https://axi404.top/tags/r2"
+    },
+    {
+      "path": "tags/rclone",
+      "url": "https://axi404.top/tags/rclone"
+    },
+    {
+      "path": "tags/rl",
+      "url": "https://axi404.top/tags/rl"
+    },
+    {
+      "path": "tags/robomaster",
+      "url": "https://axi404.top/tags/robomaster"
+    },
+    {
+      "path": "tags/robotics",
+      "url": "https://axi404.top/tags/robotics"
+    },
+    {
+      "path": "tags/ros",
+      "url": "https://axi404.top/tags/ros"
+    },
+    {
+      "path": "tags/rss",
+      "url": "https://axi404.top/tags/rss"
+    },
+    {
+      "path": "tags/rustdesk",
+      "url": "https://axi404.top/tags/rustdesk"
+    },
+    {
+      "path": "tags/sealos",
+      "url": "https://axi404.top/tags/sealos"
+    },
+    {
+      "path": "tags/self-study",
+      "url": "https://axi404.top/tags/self-study"
+    },
+    {
+      "path": "tags/server",
+      "url": "https://axi404.top/tags/server"
+    },
+    {
+      "path": "tags/simulation",
+      "url": "https://axi404.top/tags/simulation"
+    },
+    {
+      "path": "tags/sogou",
+      "url": "https://axi404.top/tags/sogou"
+    },
+    {
+      "path": "tags/speech",
+      "url": "https://axi404.top/tags/speech"
+    },
+    {
+      "path": "tags/ssh",
+      "url": "https://axi404.top/tags/ssh"
+    },
+    {
+      "path": "tags/starvla",
+      "url": "https://axi404.top/tags/starvla"
+    },
+    {
+      "path": "tags/tech",
+      "url": "https://axi404.top/tags/tech"
+    },
+    {
+      "path": "tags/thoughts",
+      "url": "https://axi404.top/tags/thoughts"
+    },
+    {
+      "path": "tags/ubuntu",
+      "url": "https://axi404.top/tags/ubuntu"
+    },
+    {
+      "path": "tags/unified%20mllm",
+      "url": "https://axi404.top/tags/unified%20mllm"
+    },
+    {
+      "path": "tags/university",
+      "url": "https://axi404.top/tags/university"
+    },
+    {
+      "path": "tags/vercel",
+      "url": "https://axi404.top/tags/vercel"
+    },
+    {
+      "path": "tags/vibe-coding",
+      "url": "https://axi404.top/tags/vibe-coding"
+    },
+    {
+      "path": "tags/vibe%20coding",
+      "url": "https://axi404.top/tags/vibe%20coding"
+    },
+    {
+      "path": "tags/vitepress",
+      "url": "https://axi404.top/tags/vitepress"
+    },
+    {
+      "path": "tags/vla",
+      "url": "https://axi404.top/tags/vla"
+    },
+    {
+      "path": "tags/vlm",
+      "url": "https://axi404.top/tags/vlm"
+    },
+    {
+      "path": "tags/vpn",
+      "url": "https://axi404.top/tags/vpn"
+    },
+    {
+      "path": "tags/waline",
+      "url": "https://axi404.top/tags/waline"
+    },
+    {
+      "path": "tags/web-cache",
+      "url": "https://axi404.top/tags/web-cache"
+    },
+    {
+      "path": "tags/wsl",
+      "url": "https://axi404.top/tags/wsl"
+    }
+  ]
+}
