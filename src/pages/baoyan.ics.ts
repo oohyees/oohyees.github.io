@@ -103,9 +103,9 @@ const getStageName = (key: string) => {
   return `${year}${stageNames[stage] ?? stage}`;
 };
 
-const getTitle = (event: BaoyanEvent, stage: string) => {
+const getTitle = (event: BaoyanEvent, _stage: string) => {
   const institute = event.institute ? ` ${event.institute}` : "";
-  return `【${stage}截止】${event.name ?? "未知学校"}${institute}`;
+  return `【${event.name ?? "未知学校"}】${institute.trim()}`;
 };
 
 const getDescription = (event: BaoyanEvent, stage: string) => {
